@@ -1,6 +1,5 @@
 @import "settings.css";
 
-
 :root {
     /*Color font*/
     --h2-color-style: #DC9D23;
@@ -8,50 +7,95 @@
 
     /*Font*/
     --font-family-lato: "Lato", Helvetica, Arial, Roboto, "Open Sans", sans-serif;
+    --font-family-marcellus: "Marcellus", Helvetica, Arial, Roboto, "Open Sans", sans-serif;
 }
 
-html {
-    width: 100%;
-}
+/*Tablette*/
+@media screen and (max-width: 1024px) and (min-width: 375px) {
+    h2 {
+        font-family: var(--font-family-marcellus);
+        font-size: 43px;
+        color: var(--h2-color-style);
+        line-height: 47px;
+        letter-spacing: -0.1px;
+        text-align: center;
+    }
 
-body {
-    max-width: 100vh;
+    p {
+        font-size: 22px;
+        color: var(--p-color-style);
+        line-height: 27px;
+        text-align: center;
+    }
+
+    section {
+        padding: 24px;
+        margin: 20.5px;
+        border: 1px #d9d9d9 solid;
+        border-radius: 24px;
+        max-width: inherit;
+    }
+
+    button {
+        border-radius: 30px;
+        border: 1px #DC9D23 solid;
+        background-color: white;
+        padding: 7px 16px 8px 16px;
+        font-size: 14px;
+        color: #333333;
+    }
 }
 
 /*Portable*/
-h2 {
-    font-size: 36.1px;
-    color: var(--h2-color-style);
-    line-height: 40px;
-    letter-spacing: -0.72px;
-    text-align: center;
+@media screen and (max-width: 375px) {
+    h2 {
+        font-family: var(--font-family-marcellus);
+        font-size: 36px;
+        color: var(--h2-color-style);
+        line-height: 40px;
+        letter-spacing: -0.70px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+        color: var(--p-color-style);
+        line-height: 24px;
+        text-align: center;
+    }
+
+
+    section {
+        padding: 24px;
+        margin: 20.5px;
+        border: 1px #d9d9d9 solid;
+        border-radius: 24px;
+        max-width: inherit;
+    }
+
+    button {
+        border-radius: 30px;
+        border: 1px #DC9D23 solid;
+        background-color: white;
+        padding: 7px 16px 8px 16px;
+        font-size: 14px;
+        color: #333333;
+    }
+
+
+
+    body {
+        font-family: var(--font-family-lato);
+    }
 
 }
 
-section {
-    padding: 24px;
-    margin: 20.5px;
-    border: 1px #d9d9d9 solid;
-    border-radius: 24px;
-    max-width: inherit;
-}
 
-button {
-    border-radius: 30px;
-    border: 1px #DC9D23 solid;
-    background-color: white;
-    padding: 7px 16px 8px 16px;
-    font-size: 14px;
-    color: #333333;
-}
 
-img {
-    max-width: 100%;
-}
 
-body {
-    font-family: var(--font-family-lato);
-}
+
+
+
 
 /*------------------------------Carousel------------------------------*/
 .carousel {
@@ -75,6 +119,7 @@ body {
     max-inline-size: 100%;
     flex-shrink: 0;
 }
+
 @keyframes spin {
     to {
         transform: translateX(-50%);
