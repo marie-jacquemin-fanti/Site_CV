@@ -118,6 +118,10 @@
 .image_carousel {
     max-inline-size: 100%;
     flex-shrink: 0;
+    max-height: 625px;
+    max-width: 15%;
+    height: auto;
+    object-fit: cover;
 }
 
 @keyframes spin {
