@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/carrousel.css">
+
+    <link rel="stylesheet" href="./CSS/portable.css">
 
     <script defer src="./JS/script.js"></script>
 
@@ -49,68 +52,81 @@
 </header>
 
 <main>
-    <section>
+    <section class="titre">
         <h2>Que la montagne est Belle</h2>
         <p>
             Je vais vous raconter qui il est et vous donner envie de le rencontrer à votre tour !
         </p>
     </section>
 
-    <section>
+    <section class="presentation">
         <div>
             <!--TODO : Changer l'image pour une plus adapter-->
-            <img src="" alt="">
+            <img src="images/image_GSM/1000020525.jpg" alt="">
             <div>
-                <h2>Ce qu’il aime faire de son temps libre ? </h2>
-                <p>Que la Montagne est Belle adore raconter des histoires ! Le plus souvent, ce sont des récits qui font frissonner : des histoires qui nous plongent dans des univers à la fois effrayants, oppressants et étrangement magnifiques. Chaque récit nous enveloppe d’une atmosphère mystérieuse, où la peur se mêle à la fascination, et où chaque détail semble chargé d’une beauté sombre qui captive autant qu’elle inquiète.</p>
+                <h3>Ce qu’il aime faire de son temps libre ? </h3>
+                <p>Que la Montagne est Belle adore raconter des histoires ! Le plus souvent, ce sont des récits qui font
+                    frissonner : des histoires qui nous plongent dans des univers à la fois effrayants, oppressants et
+                    étrangement magnifiques. Chaque récit nous enveloppe d’une atmosphère mystérieuse, où la peur se
+                    mêle à la fascination, et où chaque détail semble chargé d’une beauté sombre qui captive autant
+                    qu’elle inquiète.</p>
                 <button>En savoir plus !</button>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="presentation">
         <div>
-            <img src="" alt="">
+            <img src="images/image_GSM/1768996763085.jpg" alt="">
             <div>
-                <h2>Depuis combien de temps es ce que je le connais ?</h2>
-                <p>Cela fait maintenant deux ans que je l’ai rencontré, et je le vois presque tous les jours. La première fois, c’était dans une petite librairie de Liège. Il était devant le rayon des thrillers, concentré, en train de chercher de l’inspiration pour une nouvelle histoire. Je me souviens qu’il fronçait légèrement les sourcils en lisant les résumés, vraiment absorbé par ce qu’il faisait.
-                    Depuis, on se croise régulièrement. On ne parle pas beaucoup : en général, on s’échange simplement un “bonjour”. C’est bref, c’est simple, mais ça suffit à me mettre de bonne humeur. C’est un peu étrange, mais cette petite habitude est devenue rassurante pour moi. Et moi, ça me suffit.</p>
+                <h3>Depuis combien de temps es ce que je le connais ?</h3>
+                <p>Cela fait maintenant deux ans que je l’ai rencontré, et je le vois presque tous les jours. La
+                    première fois, c’était dans une petite librairie de Liège. Il était devant le rayon des thrillers,
+                    concentré, en train de chercher de l’inspiration pour une nouvelle histoire. Je me souviens qu’il
+                    fronçait légèrement les sourcils en lisant les résumés, vraiment absorbé par ce qu’il faisait.
+                    Depuis, on se croise régulièrement. On ne parle pas beaucoup : en général, on s’échange simplement
+                    un “bonjour”. C’est bref, c’est simple, mais ça suffit à me mettre de bonne humeur. C’est un peu
+                    étrange, mais cette petite habitude est devenue rassurante pour moi. Et moi, ça me suffit.</p>
                 <button>En savoir plus !</button>
             </div>
         </div>
     </section>
 
-    <section>
+    <section id="carrousel">
         <div>
             <!--TODO : Changer les images avec de la qualité !-->
 
-            <div class="carousel">
+            <div class="carrousel">
                 <div class="track">
                     <div class="group">
-                        <img class="image_carousel" src="images/capture_1.png" alt="">
-                        <img class="image_carousel" src="images/capture_2.png" alt="">
-                        <img class="image_carousel" src="images/capture_3.png" alt="">
-                        <img class="image_carousel" src="images/capture_4.png" alt="">
-                        <img class="image_carousel" src="images/capture_5.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_1.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_2.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_3.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_4.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_5.png" alt="">
                     </div>
                     <div class="group" aria-hidden="true">
-                        <img class="image_carousel" src="images/capture_1.png" alt="">
-                        <img class="image_carousel" src="images/capture_2.png" alt="">
-                        <img class="image_carousel" src="images/capture_3.png" alt="">
-                        <img class="image_carousel" src="images/capture_4.png" alt="">
-                        <img class="image_carousel" src="images/capture_5.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_1.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_2.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_3.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_4.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_5.png" alt="">
                     </div>
                 </div>
             </div>
             <div>
-                <h2>Le cite original</h2>
-                <p>Dans le cadre scolaire, j’ai dû choisir un site existant et le reproduire à l’identique, tout en adaptant son contenu à un autre sujet. L’ensemble de la structure HTML, CSS et JavaScript devait respecter les bonnes pratiques de développement.
-                    J’ai donc choisi le site de Pairi Daiza, un zoo, car il m’inspirait particulièrement par rapport au contenu que je souhaitais intégrer au projet.
+                <h3>Le cite original</h3>
+                <p>Dans le cadre scolaire, j’ai dû choisir un site existant et le reproduire à l’identique, tout en
+                    adaptant son contenu à un autre sujet. L’ensemble de la structure HTML, CSS et JavaScript devait
+                    respecter les bonnes pratiques de développement.
+                    J’ai donc choisi le site de Pairi Daiza, un zoo, car il m’inspirait particulièrement par rapport au
+                    contenu que je souhaitais intégrer au projet.
                 </p>
                 <p>
-                    Vous trouverez toutes les informations concernant le site original en cliquant sur le bouton ci-dessous
+                    Vous trouverez toutes les informations concernant le site original en cliquant sur le bouton
+                    ci-dessous
                 </p>
-                <button>Le site Original</button>
+                <button class="carrousel">Le site Original</button>
             </div>
         </div>
     </section>
@@ -118,20 +134,49 @@
     <section>
         <div>
             <!--TODO : Faire un carouselle-->
-            <img src="" alt="">
+            <div class="carrousel">
+                <div class="track">
+                    <div class="group">
+                        <img class="image_carousel" src="images/image_GSM/capture_1.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_2.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_3.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_4.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_5.png" alt="">
+                    </div>
+                    <div class="group" aria-hidden="true">
+                        <img class="image_carousel" src="images/image_GSM/capture_1.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_2.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_3.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_4.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_5.png" alt="">
+                    </div>
+                </div>
+            </div>
             <div>
-                <h2>Ma version</h2>
-                <p>J’ai donc choisi un livre que j’aime particulièrement et je lui ai donné une personnalité, le présentant comme un ami. Le site raconte alors le temps passé ensemble, en remplaçant toutes les images et les textes d’origine par nos propres aventures.</p>
+                <h3>Ma version</h3>
+                <p>J’ai donc choisi un livre que j’aime particulièrement et je lui ai donné une personnalité, le
+                    présentant comme un ami. Le site raconte alors le temps passé ensemble, en remplaçant toutes les
+                    images et les textes d’origine par nos propres aventures.</p>
             </div>
         </div>
     </section>
 
     <section>
         <h2>Comment tout à commencer et ce qu’il ma apporter dans la vie ?</h2>
-        <p>Souvent, quand je ne sais pas quoi faire, je m’ennuie, et j’ai vraiment du mal à choisir quoi faire. Mais lui, il m’a attirée directement. Il m’a donné envie de passer du temps avec lui sans que ça devienne compliqué, sans que je me pose mille questions. Alors on restait simplement là, assis sur le canapé, et je l’écoutais me raconter des histoires. Il s’amusait toujours du fait que j’essayais de deviner ce qui allait se passer avant qu’il ne le dise, un petit sourire aux lèvres dès qu’il voyait que je commençais à réfléchir trop fort. J’ai réussi à trouver certaines choses, mais pas tout. Tout au long de son récit, je n’ai cessé d’être surprise par ses retournements de situation, par la manière dont il arrivait à me perdre pour ensuite complètement me rattraper.
+        <p>Souvent, quand je ne sais pas quoi faire, je m’ennuie, et j’ai vraiment du mal à choisir quoi faire. Mais
+            lui, il m’a attirée directement. Il m’a donné envie de passer du temps avec lui sans que ça devienne
+            compliqué, sans que je me pose mille questions. Alors on restait simplement là, assis sur le canapé, et je
+            l’écoutais me raconter des histoires. Il s’amusait toujours du fait que j’essayais de deviner ce qui allait
+            se passer avant qu’il ne le dise, un petit sourire aux lèvres dès qu’il voyait que je commençais à réfléchir
+            trop fort. J’ai réussi à trouver certaines choses, mais pas tout. Tout au long de son récit, je n’ai cessé
+            d’être surprise par ses retournements de situation, par la manière dont il arrivait à me perdre pour ensuite
+            complètement me rattraper.
         </p>
         <p>
-            On a fait plusieurs pauses au cours de cette aventure, ne serait-ce que pour manger, dormir, souffler un peu… vivre, en un mot. Mais à chaque fois que j’avais un moment devant moi, il reprenait son récit exactement là où on s’était arrêtés, comme si l’histoire avait continué à exister entre nous, même pendant les pauses.
+            On a fait plusieurs pauses au cours de cette aventure, ne serait-ce que pour manger, dormir, souffler un
+            peu… vivre, en un mot. Mais à chaque fois que j’avais un moment devant moi, il reprenait son récit
+            exactement là où on s’était arrêtés, comme si l’histoire avait continué à exister entre nous, même pendant
+            les pauses.
         </p>
     </section>
 

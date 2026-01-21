@@ -1,0 +1,106 @@
+@media screen and (max-width: 375px) {
+    body {
+        font-family: var(--font-family-lato);
+    }
+
+    h2 {
+        font-family: var(--font-family-marcellus);
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.70px;
+        color: var(--h2-color-style);
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Marcellus';
+        font-size: 24px;
+        line-height: 26px;
+        color: #333333;
+        padding: 24px;
+    }
+
+    button {
+        font-family: Marcellus;
+        border-radius: 30px;
+        border: 1px #DC9D23 solid;
+        background-color: white;
+        padding: 7px 31px 8px 16px;
+        margin: 0 130px 24px 32px;
+        font-size: 16px;
+        color: #333333;
+
+    }
+
+    /*-------------Section Titre-------------*/
+    section.titre p {
+        font-family: 'Marcellus';
+        font-size: 20px;
+        color: var(--p-color-style);
+        line-height: 24px;
+        text-align: left;
+        padding: 0 24px 24px 24px;
+    }
+
+    section.titre {
+        padding: 24px 24px 0 24px;
+        margin: 20.5px;
+        border: 1px #d9d9d9 solid;
+        border-radius: 24px;
+        max-width: inherit;
+    }
+
+    /*-------------Section Presentation 1 et 2-------------*/
+    section.presentation {
+        padding: 8px 8px 0 8px;
+        margin: 20.5px;
+        border: 1px #d9d9d9 solid;
+        border-radius: 24px;
+        max-width: inherit;
+    }
+
+    section.presentation img {
+        max-height: 319px;
+        border-radius: 16px;
+        height: auto;
+    }
+
+    section.presentation p {
+        font-family: 'Lato';
+        font-size: 16px;
+        color: var(--p-color-style);
+        line-height: 24px;
+        text-align: left;
+        padding: 0 24px 16px 24px;
+    }
+
+    /*-------------div carrousel-------------*/
+    #carrousel {
+        padding: 8px 8px 0 8px;
+        margin: 20.5px;
+        border: 1px #d9d9d9 solid;
+        border-radius: 24px;
+        max-width: inherit;
+    }
+
+    #carrousel p {
+        font-family: 'Lato';
+        font-size: 16px;
+        color: var(--p-color-style);
+        line-height: 24px;
+        text-align: left;
+        padding: 0 24px 16px 24px;
+    }
+
+    button.carrousel{
+        font-family: Marcellus;
+        border-radius: 30px;
+        border: 1px #DC9D23 solid;
+        background-color: white;
+        padding: 7px 31px 8px 16px;
+        margin: 0 127px 24px 32px;
+        font-size: 16px;
+        color: #333333;
+
+    }
+}
