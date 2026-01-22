@@ -65,6 +65,10 @@
         height: auto;
     }
 
+    img.tablette {
+        display: none;
+    }
+
     section.presentation p {
         font-family: 'Lato';
         font-size: 16px;
@@ -92,7 +96,7 @@
         padding: 0 24px 16px 24px;
     }
 
-    button.carrousel{
+    button.carrousel {
         font-family: Marcellus;
         border-radius: 30px;
         border: 1px #DC9D23 solid;
@@ -103,6 +107,7 @@
         color: #333333;
 
     }
+
     /*-------------div carrousel ma version-------------*/
     #carrousel_maVersion {
         padding: 8px 8px 0 8px;
@@ -121,7 +126,7 @@
         padding: 0 24px 16px 24px;
     }
 
-    button.carrousel{
+    button.carrousel {
         font-family: Marcellus;
         border-radius: 30px;
         border: 1px #DC9D23 solid;
@@ -130,6 +135,76 @@
         margin: 0 127px 24px 32px;
         font-size: 16px;
         color: #333333;
-
     }
+
+    /*-------------section comment ça à commencer-------------*/
+    p.p14 {
+        font-family: 'Lato';
+        font-size: 14px;
+        color: var(--p-color-style);
+        line-height: 21px;
+        text-align: left;
+        padding: 0 24px 16px 24px;
+    }
+
+    h2.someWords {
+        font-family: 'Marcellus';
+        font-size: 36px;
+        color: #333333;
+        padding: 24px;
+    }
+
+    h3.theWords {
+        font-family: var(--font-family-marcellus);
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -0.70px;
+        color: var(--h2-color-style);
+        text-align: center;
+        padding: 0 0 11px 0;
+    }
+
+    h3.theWordsh3 {
+        font-family: 'Marcellus';
+        font-size: 36px;
+        color: #333333;
+        padding: 24px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    h3.someWords {
+        font-family: 'Marcellus';
+        font-size: 36px;
+        line-height: 39px;
+        color: #333333;
+        padding: 24px;
+    }
+
+    p.theWords {
+        font-family: 'Lato';
+        font-size: 14px;
+        color: var(--p-color-style);
+        line-height: 21px;
+        text-align: center;
+        padding: 0 14px 24px 14px;
+        border-bottom: solid 1px #d9d9d9;
+        margin: 0 10px 10px 10px;
+    }
+
+    p.lastP {
+        border-bottom: none;
+    }
+
+    /*-------------Section Quelque photo-------------*/
+    img.someImg {
+        max-height: 333px;
+        border-radius: 16px;
+        height: auto;
+    }
+
+    div.someImg{
+        display: flex;
+    }
+
 }

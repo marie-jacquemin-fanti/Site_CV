@@ -68,9 +68,13 @@
     }
 
     section.presentation img {
-        max-height: 400px;
+        max-height: 482px;
         border-radius: 16px;
         height: auto;
+    }
+
+    img.phone {
+        display: none;
     }
 
     section.presentation p {
