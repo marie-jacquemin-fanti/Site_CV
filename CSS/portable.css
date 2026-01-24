@@ -13,7 +13,7 @@
     }
 
     h3 {
-        font-family: 'Marcellus';
+        font-family: var(--font-family-marcellus);
         font-size: 24px;
         line-height: 26px;
         color: #333333;
@@ -21,24 +21,86 @@
     }
 
     button {
-        font-family: Marcellus;
+        font-family: var(--font-family-marcellus);
         border-radius: 30px;
         border: 1px #DC9D23 solid;
         background-color: white;
-        padding: 7px 31px 8px 16px;
+        padding: 7px 0 8px 14px;
         margin: 0 130px 24px 32px;
         font-size: 16px;
         color: #333333;
+        display: flex;
 
     }
 
+    /*-------------Boutton-------------*/
+    svg.svgButton {
+        margin-right: 12px;
+        margin-left: 5px;
+    }
+
+    p {
+        color: var(--p-color-style);
+        text-align: left;
+        font-family: var(--font-family-lato);
+        padding: 0 24px 16px 24px;
+    }
+
+
+
+    /*-------------En tête-------------*/
+    .img-1, .img-2, .img-3 {
+        height: auto;
+        max-height: 448px;
+        width: 100%;
+    }
+
+    .slides {
+        height: 70vh;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slide {
+        position: absolute;
+        height: 100%;
+        opacity: 0;
+        inset: 0;
+        animation: slide-show 12s infinite;
+    }
+
+    .slide-2 {
+        animation-delay: 4s;
+    }
+
+    .slide-3 {
+        animation-delay: 8s;
+    }
+
+    .slide img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    @keyframes slide-show {
+        0% {
+            opacity: 0;
+        }
+        10%, 20%, 30% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+
+
+
     /*-------------Section Titre-------------*/
     section.titre p {
-        font-family: 'Marcellus';
+        font-family: var(--font-family-marcellus);
         font-size: 20px;
-        color: var(--p-color-style);
         line-height: 24px;
-        text-align: left;
         padding: 0 24px 24px 24px;
     }
 
@@ -70,12 +132,8 @@
     }
 
     section.presentation p {
-        font-family: 'Lato';
         font-size: 16px;
-        color: var(--p-color-style);
         line-height: 24px;
-        text-align: left;
-        padding: 0 24px 16px 24px;
     }
 
     /*-------------div carrousel-------------*/
@@ -88,16 +146,12 @@
     }
 
     #carrousel p {
-        font-family: 'Lato';
         font-size: 16px;
-        color: var(--p-color-style);
         line-height: 24px;
-        text-align: left;
-        padding: 0 24px 16px 24px;
     }
 
     button.carrousel {
-        font-family: Marcellus;
+        font-family: var(--font-family-marcellus);
         border-radius: 30px;
         border: 1px #DC9D23 solid;
         background-color: white;
@@ -118,16 +172,13 @@
     }
 
     #carrousel_maVersion p {
-        font-family: 'Lato';
         font-size: 16px;
-        color: var(--p-color-style);
         line-height: 24px;
-        text-align: left;
         padding: 0 24px 16px 24px;
     }
 
     button.carrousel {
-        font-family: Marcellus;
+        font-family: var(--font-family-marcellus);
         border-radius: 30px;
         border: 1px #DC9D23 solid;
         background-color: white;
@@ -139,16 +190,13 @@
 
     /*-------------section comment ça à commencer-------------*/
     p.p14 {
-        font-family: 'Lato';
         font-size: 14px;
-        color: var(--p-color-style);
         line-height: 21px;
-        text-align: left;
         padding: 0 24px 16px 24px;
     }
 
     h2.someWords {
-        font-family: 'Marcellus';
+        font-family: var(--font-family-marcellus);
         font-size: 36px;
         color: #333333;
         padding: 24px;
@@ -165,7 +213,7 @@
     }
 
     h3.theWordsh3 {
-        font-family: 'Marcellus';
+        font-family: var(--font-family-marcellus);
         font-size: 36px;
         color: #333333;
         padding: 24px;
@@ -174,7 +222,7 @@
     }
 
     h3.someWords {
-        font-family: 'Marcellus';
+        font-family: var(--font-family-marcellus);
         font-size: 36px;
         line-height: 39px;
         color: #333333;
@@ -182,9 +230,7 @@
     }
 
     p.theWords {
-        font-family: 'Lato';
         font-size: 14px;
-        color: var(--p-color-style);
         line-height: 21px;
         text-align: center;
         padding: 0 14px 24px 14px;
@@ -203,8 +249,28 @@
         height: auto;
     }
 
-    div.someImg{
+    div.someImg {
         display: flex;
+        overflow: auto;
+    }
+
+
+    footer {
+        background-color: #d9d9d9;
+    }
+
+    .socialMedia {
+        display: flex;
+    }
+
+    li.adresse, li.phone, li.email {
+        font-family: var(--font-family-marcellus);
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #808080;
+        text-decoration: none;
+
     }
 
 }
