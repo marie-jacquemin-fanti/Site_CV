@@ -7,8 +7,9 @@
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Je ne sais pas encore ce que ça fait-->
 
-   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marcellus"> &lt;!&ndash;J'ai essayer  différente façons de faire, mais seul celle si à fonctionnée&ndash;&gt;
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marcellus">
+    <!--J'ai essayer  différente façons de faire, mais seul celle si à fonctionnée-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
 
@@ -310,7 +311,8 @@
             <p class="p-rencontre-1">Je ne vous en voudrais pas de me le laisser, bien sûr.
             </p>
             <div>
-                <p class="p-rencontre-2">Mais si jamais vous voulez quand même apprendre à le connaître vous le pouvez, je pense que vous
+                <p class="p-rencontre-2">Mais si jamais vous voulez quand même apprendre à le connaître vous le pouvez,
+                    je pense que vous
                     serez agréablement surpris en apprenant à le connaître !
                     Venez et faites sa connaissance.</p>
                 <button>En savoir plus !
@@ -355,82 +357,88 @@
             <li><a href="#"><p>POUR LE</p> comportement</a></li>
         </ul>
     </nav>
-    <div>
-        <section itemscope itemtype="https://schema.org/Person">
-            <h2 role="heading" aria-level="2" class="information-title">Informations</h2>
+    <div class="allContent">
+        <div class="informationContent">
+            <section itemscope itemtype="https://schema.org/Person">
+                <h2 role="heading" aria-level="2" class="information-title">Informations</h2>
 
-            <article itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                <h3 role="heading" aria-level="3" class="sr-only">Adresse</h3>
-                <ul class="address">
-                    <li itemprop="address">Rue du petit chat</li>
-                    <li itemprop="address">46872 Arbre</li>
-                    <li itemprop="address">France</li>
-                </ul>
-            </article>
+                <article itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <h3 role="heading" aria-level="3" class="sr-only">Adresse</h3>
+                    <ul class="address">
+                        <li itemprop="address">Rue du petit chat</li>
+                        <li itemprop="address">46872 Arbre</li>
+                        <li itemprop="address">France</li>
+                    </ul>
+                </article>
 
-            <article>
-                <h3 role="heading" aria-level="3" class="sr-only">Teléphone</h3>
-                <ul>
-                    <li itemprop="telephone" class="phone">+33 6 78 29 65 37</li>
-                </ul>
-            </article>
+                <article>
+                    <h3 role="heading" aria-level="3" class="sr-only">Teléphone</h3>
+                    <ul>
+                        <li itemprop="telephone" class="phone">+33 6 78 29 65 37</li>
+                    </ul>
+                </article>
 
-            <article>
-                <h3 role="heading" aria-level="3" class="sr-only">Email</h3>
-                <ul>
-                    <li itemprop="email" class="email">quelamonatgneesbelle@gmail.com</li>
-                </ul>
-            </article>
-        </section>
-
-        <section>
-            <h3 role="heading" aria-level="3">Application du site originel</h3>
-            <article class="dlApplication">
-                <div class="appStore">
-                    <a href="https://apps.apple.com/be/app/pairi-daiza/id1100730159?l=fr-FR">
-                        <img src="images/icone/app store.png" alt="">
-                    </a>
-                </div>
-                <div class="googlePlay">
-                    <a href="https://play.google.com/store/apps/details?id=eu.pairidaiza.app&hl=fr">
-                        <img src="images/icone/Google_Play_Store_badge_EN.png" alt="">
-                    </a>
-                </div>
-            </article>
-        </section>
-
-        <div>
-            <h3 role="heading" aria-level="3" class="socialMedia">Réseau Sociaux du Site Originel</h3>
-            <div class="socialMedias">
-                <p class="socialMedia">
-                    <a href="https://www.facebook.com/JardinDesMondes/">
-                        <img src="images/icone/facebook.png" alt="">
-                    </a>
-                </p>
-                <p class="socialMedia">
-                    <a href="https://www.instagram.com/pairidaizaofficial">
-                        <img src="images/icone/instagram.png" alt="">
-                    </a>
-                </p>
-                <p class="socialMedia">
-                    <a
-                            href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F1787793"><img
-                            src="images/icone/linkedin.png" alt="">
-                    </a>
-                </p>
-                <p class="socialMedia">
-                    <a href="https://www.youtube.com/channel/UCos9QVdxjj5SWIO9dbg9ARg">
-                        <img src="images/icone/youtube.png" alt="">
-                    </a>
-                </p>
-            </div>
+                <article>
+                    <h3 role="heading" aria-level="3" class="sr-only">Email</h3>
+                    <ul>
+                        <li itemprop="email" class="email">quelamonatgneesbelle@gmail.com</li>
+                    </ul>
+                </article>
+            </section>
         </div>
 
+        <div class="socialMediaApllication">
+            <section>
+                <h3 class="application" role="heading" aria-level="3">Application du site originel</h3>
+                <article class="dlApplication">
+                    <div class="appStore">
+                        <a href="https://apps.apple.com/be/app/pairi-daiza/id1100730159?l=fr-FR">
+                            <img src="images/icone/app store.png" alt="">
+                        </a>
+                    </div>
+                    <div class="googlePlay">
+                        <a href="https://play.google.com/store/apps/details?id=eu.pairidaiza.app&hl=fr">
+                            <img src="images/icone/Google_Play_Store_badge_EN.png" alt="">
+                        </a>
+                    </div>
+                </article>
+            </section>
+
+            <div>
+                <h3 role="heading" aria-level="3" class="socialMedia">Réseau Sociaux du Site Originel</h3>
+                <div class="socialMedias">
+                    <p class="socialMedia">
+                        <a href="https://www.facebook.com/JardinDesMondes/">
+                            <img src="images/icone/facebook.png" alt="">
+                        </a>
+                    </p>
+                    <p class="socialMedia">
+                        <a href="https://www.instagram.com/pairidaizaofficial">
+                            <img src="images/icone/instagram.png" alt="">
+                        </a>
+                    </p>
+                    <p class="socialMedia">
+                        <a
+                                href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F1787793"><img
+                                src="images/icone/linkedin.png" alt="">
+                        </a>
+                    </p>
+                    <p class="socialMedia">
+                        <a href="https://www.youtube.com/channel/UCos9QVdxjj5SWIO9dbg9ARg">
+                            <img src="images/icone/youtube.png" alt="">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
+
     <div class="authorDroit">
-        <p class="droit regle">Règleament d'ordre intérieur</p>
-        <p class="droit">Politique générale de protection des données personnelles</p>
-        <p class="droit">Politique de cookies</p>
+        <div class="divAuthorDroit">
+            <p class="droit regle">Règleament d'ordre intérieur</p>
+            <p class="droit">Politique générale de protection des données personnelles</p>
+            <p class="droit">Politique de cookies</p>
+        </div>
         <p class="droit copyright">Copyright © JF Marie 2025</p>
     </div>
 </footer>

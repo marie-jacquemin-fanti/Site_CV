@@ -118,28 +118,48 @@
         height: 100%;
     }
 
-    /*-------------en tête button lien-------------*/
-    .links {
-        margin: 24px 24px 66px;
-        filter: drop-shadow(0px 30px 40px rgba(217, 217, 217, 0.25));
+    .order1 {
+        margin: 10px 26px 0;
+    }
 
+    /*-------------en tête button lien-------------*/
+    section.links {
+        margin: 1.5em 1.5em 4.125em;
+        filter: drop-shadow(0em 1.875em 2.5em rgba(217, 217, 217, 0.25));
+        position: absolute;
+        bottom: -9rem;
+        z-index: 2;
+        display: flex;
+    }
+
+    .q {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.q > img {
+        padding-bottom: 16px;
+    }
+
+    main {
+        padding-top: 300px;
     }
 
     h3.link-1, h3.link-2 {
         font-family: var(--font-family-lato), sans-serif;
         font-weight: 700;
-        font-size: 11px;
-        line-height: 16px;
+        font-size: 0.6875em;
+        line-height: 1em;
         color: var(--p-color-style);
-        padding-bottom: 4px;
+        padding-bottom: 0.25em;
     }
 
     img.link-1, img.link-2 {
         background-color: #d9d9d9;
-        width: 60px;
-        height: 60px;
-        border-radius: 30px;
-        margin: 8px 0 18px 12px;
+        width: 3.75em;
+        height: 3.75em;
+        border-radius: 1.875em;
+        margin: 0.5em 0 1.125em 0.75em;
     }
 
     div.link-1, div.link-2 {
@@ -148,11 +168,9 @@
 
     p.link-1, p.link-2 {
         font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 19px;
-        line-height: 20px;
+        font-size: 1.1875em;
+        line-height: 1.25em;
         color: #DC9D23;
-
-
     }
 
     .link-1 {
@@ -375,6 +393,7 @@
     }
 
 
+    /* --------------------------- Footer --------------------------- */
     footer {
         background-color: #f2f2f2;
     }
@@ -386,28 +405,48 @@
     }
 
     p.socialMedia {
-        padding: 0 8px 8px;
+        padding: 0 0.5em 0.5em;
     }
 
     h3.socialMedia {
         text-align: center;
-        font-size: 51px;
-        line-height: 57px;
+        font-size: 1.25em;
+        line-height: 1.5em;
     }
 
-    .information-title {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        padding-bottom: 24px;
-        color: var(--p-color-style)
+    .display-1-1, .display-2-2{
+        display: flex;
+        justify-content: center;
     }
+
+    .display-1-1 p, .display-2-2 p{
+        font-family: var(--font-family-lato), sans-serif;
+        font-size: 10px;
+        line-height: 17px;
+        padding: 48px 94px 0 0;
+        color: #777777;
+    }
+
+    .display-1-1 a, .display-2-2 a{
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 18px;
+        line-height: 21px;
+        color: #333333;
+        text-decoration: none;
+        pointer-events: none
+    }
+
+    .display-2-2{
+        padding-bottom: 40px;
+        border-bottom: solid 0.0625em #d9d9d9;
+    }
+
+
 
     li.adresse, li.phone, li.email {
         font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 1.125em;
+        line-height: 1.5625em;
         text-align: center;
         color: #808080;
         text-decoration: none;
@@ -417,64 +456,102 @@
     li a.information {
         font-family: var(--font-family-marcellus), sans-serif;
         text-decoration: none;
-        max-height: 24px;
+        max-height: 1.5em;
+        font-size: 1.25em;
+        line-height: 1.5em;
+        color: var(--p-color-style);
+        padding: 1.5em 0 1.5em;
+        margin: 0 1.0625em;
+        display: block;
+        border-bottom: solid 0.0625em #d9d9d9;
+
+    }
+
+    .h3-rencontre {
+        font-style: normal;
+        font-size: 36px;
+        line-height: 40px;
+
+    }
+
+    .p-rencontre-1 {
+        font-family: var(--font-family-marcellus), sans-serif;
         font-size: 20px;
         line-height: 24px;
-        color: var(--p-color-style);
-        padding: 24px 0 24px;
-        margin: 0 17px;
-        display: block;
-        border-bottom: solid 1px #d9d9d9;
-
+        padding: 0 24px;
     }
 
-    /*Quelque chose sur lui*/
-
-    div.images{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 0px;
-        gap: 99px;
-
-
-
-
-    }
-
-    .image-1, .image-2, .image-3{
-        height: auto;
-        max-height: 1665px;
-        width: 100%;
-
-        position: absolute;
-        width: 1665px;
-        height: 747px;
-        left: calc(50% - 1665px/2 - 0.5px);
-        top: 4876px;
+    .p-rencontre-2 {
+        font-size: 16px;
+        line-height: 24px;
     }
 
 
-
-    /*droit d'auteur*/
     .authorDroit {
         padding: 24px 24px 71px;
     }
 
-    .droit {
+
+
+
+
+    .dlApplication {
+        display: flex;
+        justify-content: center;
+    }
+
+    .appStore, .googlePlay {
+        padding: 8px;
+    }
+
+    .address li {
+        text-align: center;
+        color: #808080;
+    }
+
+    .information-title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.25em;
+        line-height: 1.5em;
+        text-align: center;
+        padding-top: 48px;
+        padding-bottom: 1.5em;
+        color: var(--p-color-style)
+    }
+
+    .allContent{
+        display: flex;
+        justify-content: center;
+        column-gap: 100px;
+        padding: 69px 0;
+    }
+
+    h3.application{
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 26px;
+        line-height: 31px;
+        text-align: center;
+    }
+
+    p.droit{
         font-family: var(--font-family-lato), sans-serif;
         font-size: 13px;
         line-height: 21px;
         text-align: center;
-        padding: 8px 0;
-
+        padding: 8px 33px;
         color: #808080;
-
+        column-gap: 10px;
     }
 
-    .droit.regle {
+    .divAuthorDroit{
+        display: flex;
         border-top: solid 1px #d9d9d9;
         padding-top: 24px;
+        justify-content: center;
+    }
+
+    ul.address:last-child {
+        padding-bottom: 24px;
     }
 
     .droit.copyright {
@@ -486,14 +563,5 @@
         color: #808080;
         border-bottom: solid 1px #d9d9d9;
         padding-bottom: 24px;
-    }
-
-    .dlApplication {
-        display: flex;
-        justify-content: center;
-    }
-
-    .appStore, .googlePlay {
-        padding: 8px;
     }
 }

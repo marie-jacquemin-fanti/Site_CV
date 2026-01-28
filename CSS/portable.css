@@ -164,8 +164,6 @@
         font-size: 1.1875em;
         line-height: 1.25em;
         color: #DC9D23;
-
-
     }
 
     .link-1 {
@@ -362,6 +360,10 @@
         line-height: 21px;
     }
 
+
+
+
+    /* --------------------------- Footer --------------------------- */
     footer {
         background-color: #f2f2f2;
     }
@@ -382,8 +384,6 @@
         line-height: 1.5em;
     }
 
-
-    /* --------------------------- Footer --------------------------- */
     .display-1-1, .display-2-2{
         display: flex;
         justify-content: center;
