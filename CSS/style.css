@@ -1,13 +1,20 @@
-@import "settings.css";
+@import "font.css";
+@import "portable.css";
+@import "tablette.css";
+@import "ordinateur.css";
+@import "carousel.css";
 
-:root {
-    /*Color font*/
-    --h2-color-style: #DC9D23;
-    --p-color-style: #333333;
-
-    /*Font*/
-    --font-family-lato: "Lato", Helvetica, Arial, Roboto, "Open Sans", sans-serif;
-    --font-family-marcellus: "Marcellus", Helvetica, Arial, Roboto, "Open Sans", sans-serif;
+.sr-only {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
 }
 
 

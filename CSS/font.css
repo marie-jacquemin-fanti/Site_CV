@@ -1,0 +1,16 @@
+:root {
+    /*Color font*/
+    --h2-color-style: #DC9D23;
+    --p-color-style: #333333;
+    --white-color-style: #ffffff;
+
+    /*Font*/
+    --font-family-lato: "Lato", Helvetica, Arial, Roboto, "Open Sans";
+    --font-family-marcellus: "Marcellus", Helvetica, Arial, Roboto, "True type";
+}
+
+/*@font-face {*/
+/*    font-family: 'Marcellus';*/
+/*    src: url("fonts/Marcellus/Marcellus-Regular.ttf") format("truetype");*/
+/*}*/
+

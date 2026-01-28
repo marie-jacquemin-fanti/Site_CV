@@ -7,13 +7,11 @@
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Je ne sais pas encore ce que ça fait-->
 
-
+   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marcellus"> &lt;!&ndash;J'ai essayer  différente façons de faire, mais seul celle si à fonctionnée&ndash;&gt;
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">-->
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/carrousel.css">
 
-    <link rel="stylesheet" href="./CSS/portable.css">
-    <link rel="stylesheet" href="./CSS/tablette.css">
 
     <script defer src="./JS/script.js"></script>
 
@@ -23,116 +21,100 @@
 <body>
 <header>
 
-    <h1></h1>
-    <!--TODO : Le SVG fait l'animation, il ne faut pas !-->
-    <div class="svg">
-        <svg class="order1" width="323" height="76" viewBox="0 0 323 76" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M38 55.9997C38 55.9997 32.4682 55.2461 28.954 55.2461C27.969 55.2461 26.8327 55.3053 25.7073 55.3905C22.6817 55.6196 20 53.2935 20 50.2592V30.617C20 28.6382 21.1621 26.7825 23.1035 26.3994C23.3755 26.3457 23.654 26.2999 23.9339 26.2661M38 55.9997C38 55.9997 43.3479 55.2461 46.8621 55.2461C47.8967 55.2461 49.1142 55.3114 50.3173 55.4035C53.3337 55.6347 56 53.3102 56 50.2849V30.4726C56 28.5681 54.9139 26.7721 53.0392 26.4363C52.838 26.4002 52.6306 26.3686 52.4184 26.343M38 55.9997V51.4717M38 51.4717C38 51.4717 33.3114 50.7243 30.5 50.7243C30.269 50.7243 30.0303 50.7294 29.7869 50.7387C26.6384 50.8588 23.7714 48.5387 23.7944 45.388L23.9339 26.2661M38 51.4717C38 51.4717 42.4438 50.7243 45.2552 50.7243C45.5763 50.7243 45.9153 50.7351 46.2639 50.7542C49.3957 50.9256 52.2694 48.6445 52.2904 45.5081L52.4184 26.343M38 51.4717V22.0866M23.9339 26.2661C23.9339 23.8488 25.6685 21.7617 28.0729 21.5118C29.0665 21.4086 30.0924 21.333 30.967 21.333C33.7291 21.333 38 22.0866 38 22.0866M52.4184 26.343V26.2996C52.4184 23.8654 50.6662 21.7677 48.2448 21.5189C47.2048 21.412 46.1258 21.333 45.2092 21.333C42.3786 21.333 38 22.0866 38 22.0866" stroke="white" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="38" cy="38" r="37" stroke="white" stroke-width="2"/>
-            <g clip-path="url(#clip0_2045_24)">
-                <path d="M218.958 50.0837L222.583 33.167H215.484L210.499 25.917L205.515 33.167H198.416L202.041 50.0837H218.958ZM214.848 34.3753H221.088L217.981 48.8753H203.018L199.911 34.3753H206.151H214.848ZM210.499 28.0497L214.017 33.167H206.981L210.499 28.0497Z" fill="white"/>
-                <path d="M208.687 38.6045H207.479V44.6462H208.687V38.6045Z" fill="white"/>
-                <path d="M213.521 38.6045H212.312V44.6462H213.521V38.6045Z" fill="white"/>
-            </g>
-            <g clip-path="url(#clip1_2045_24)">
-                <path d="M170.575 38.4516C172.696 37.3412 174.146 35.1233 174.146 32.5628C174.146 28.8925 171.171 25.917 167.501 25.917C163.83 25.917 160.855 28.8925 160.855 32.5628C160.855 35.1233 162.305 37.3412 164.426 38.4516C159.58 39.8672 156.021 44.5308 156.021 50.0837H178.98C178.98 44.5308 175.421 39.8672 170.575 38.4516ZM162.063 32.5628C162.063 29.5643 164.502 27.1253 167.501 27.1253C170.499 27.1253 172.938 29.5643 172.938 32.5628C172.938 35.5613 170.499 38.0003 167.501 38.0003C164.502 38.0003 162.063 35.5613 162.063 32.5628ZM167.501 39.2087C172.778 39.2087 177.139 43.4457 177.709 48.8753H157.293C157.862 43.4457 162.223 39.2087 167.501 39.2087Z" fill="white"/>
-            </g>
-            <path d="M255.534 43.5V34.14H260.91V35.0955H256.49V38.3455H260.13V39.2945H256.49V43.5H255.534ZM262.085 43.5V34.14H265.699C265.79 34.14 265.892 34.1443 266.004 34.153C266.121 34.1573 266.238 34.1703 266.355 34.192C266.845 34.2657 267.259 34.4368 267.597 34.7055C267.939 34.9698 268.197 35.3035 268.37 35.7065C268.548 36.1095 268.637 36.5558 268.637 37.0455C268.637 37.7518 268.45 38.365 268.078 38.885C267.705 39.405 267.172 39.7322 266.479 39.8665L266.147 39.9445H263.04V43.5H262.085ZM267.753 43.5L265.907 39.691L266.823 39.34L268.851 43.5H267.753ZM263.04 39.0345H265.673C265.751 39.0345 265.842 39.0302 265.946 39.0215C266.05 39.0128 266.152 38.9977 266.251 38.976C266.572 38.9067 266.834 38.7745 267.038 38.5795C267.246 38.3845 267.4 38.1527 267.499 37.884C267.603 37.6153 267.655 37.3358 267.655 37.0455C267.655 36.7552 267.603 36.4757 267.499 36.207C267.4 35.934 267.246 35.7 267.038 35.505C266.834 35.31 266.572 35.1778 266.251 35.1085C266.152 35.0868 266.05 35.0738 265.946 35.0695C265.842 35.0608 265.751 35.0565 265.673 35.0565H263.04V39.0345Z" fill="white"/>
-            <g clip-path="url(#clip2_2045_24)">
-                <path d="M115.874 42.8337C117.993 42.8337 119.924 42.0494 121.408 40.7632L129.166 48.5213L130.02 47.667L122.262 39.9089C123.548 38.4251 124.333 36.4935 124.333 34.3753C124.333 29.7039 120.546 25.917 115.874 25.917C111.203 25.917 107.416 29.7039 107.416 34.3753C107.416 39.0467 111.203 42.8337 115.874 42.8337ZM115.874 27.1253C119.872 27.1253 123.124 30.3776 123.124 34.3753C123.124 38.3731 119.872 41.6253 115.874 41.6253C111.877 41.6253 108.624 38.3731 108.624 34.3753C108.624 30.3776 111.877 27.1253 115.874 27.1253Z" fill="white"/>
-            </g>
-            <line x1="323" y1="41.5" x2="303" y2="41.5" stroke="white" stroke-width="2"/>
-            <line x1="323" y1="35.5" x2="313" y2="35.5" stroke="white" stroke-width="2"/>
-            <defs>
-                <clipPath id="clip0_2045_24">
-                    <rect width="29" height="29" fill="white" transform="translate(196 23.5)"/>
-                </clipPath>
-                <clipPath id="clip1_2045_24">
-                    <rect width="29" height="29" fill="white" transform="translate(153 23.5)"/>
-                </clipPath>
-                <clipPath id="clip2_2045_24">
-                    <rect width="29" height="29" fill="white" transform="translate(105 23.5)"/>
-                </clipPath>
-            </defs>
-        </svg>
-    </div>
+    <h1 role="heading" aria-level="1" class="sr-only">Reproduction du site Pairi Daiza avec comme objet principal un
+        livre</h1>
+
+    <div class="deux-div">
+        <div class="svg-entete">
+            <img class="order1" src="images/icone/accueil.png" alt="">
+        </div>
+
         <div class="slides">
             <div class="slide slide-1">
-                <img class="img-1" src="images/image_GSM/1000020525.jpg" alt="">
+                <img class="img-1" src="images/image_GSM/1000020525.jpg" alt="Livre posé dans un jardin enneigé">
             </div>
             <div class="slide slide-2">
-                <img class="img-2" src="images/image_GSM/1768996763085.jpg" alt="">
+                <img class="img-2" src="images/image_GSM/1768996763085.jpg" alt="Livre posé devant un sapin de Noël">
             </div>
             <div class="slide slide-3">
-                <img class="img-3" src="images/image_GSM/1769094978010.jpg" alt="">
+                <img class="img-3" src="images/image_GSM/1769094978010.jpg"
+                     alt="Livre posé sur une table avec des citrouilles">
             </div>
         </div>
+    </div>
 
+    <section class="links">
+        <h2 role="heading" aria-level="2" class="sr-only">Un peu sur nous</h2>
+        <div class="link-1">
+            <img class="link-1" src="images/image_GSM/1768996763085.jpg" alt="Livre posé devant un sapin de Noël">
+            <article>
+                <h3 role="heading" aria-level="3" class="link-1">Où est-ce que je l’ai rencontré ?</h3>
+                <p class="link-1">Voir l’endroit !
+                    <img src="images/icone/arrow-gold.png" alt="">
+                </p>
 
-    <article>
-        <div>
-            <img src="" alt="">
-            <div>
-                <h2></h2>
-                <p></p>
-            </div>
+            </article>
         </div>
-        <div>
-            <img src="" alt="">
-            <div>
-                <h2></h2>
-                <p></p>
-            </div>
+        <div class="link-2">
+            <img class="link-2" src="images/image_GSM/1769094978010.jpg"
+                 alt="Livre posé sur une table avec des citrouilles">
+            <article>
+                <h3 role="heading" aria-level="3" class="link-2">Combien ai-je dépensé avec lui ?</h3>
+                <p class="link-2">Regardez le prix !
+                    <img src="images/icone/arrow-gold.png" alt="">
+                </p>
+
+            </article>
         </div>
-        <div>
-            <img src="" alt="">
-            <div>
-                <h2></h2>
-                <p></p>
-            </div>
+        <div class="link-3">
+            <img class="link-3" src="" alt="">
+            <article>
+                <h3 role="heading" aria-level="3" class="link-3">Nos aventures</h3>
+                <p class="link-3">Les lieux visités ensemble</p>
+                <div class="q">
+                    <img src="images/icone/arrow-gold.png" alt="">
+                </div>
+            </article>
         </div>
-    </article>
+    </section>
 
 </header>
 
+<!-- --------------------------- Main --------------------------- -->
 <main>
     <section class="titre">
-        <h2>Que la montagne est Belle</h2>
+        <h2 role="heading" aria-level="2">Que la montagne est Belle</h2>
         <p>
             Je vais vous raconter qui il est et vous donner envie de le rencontrer à votre tour !
         </p>
     </section>
 
     <section class="presentation">
-        <div>
-            <img class="phone" src="images/image_GSM/1000020525.jpg" alt="">
-            <img class="tablette" src="images/image_tablette/1769004232561.jpg" alt="">
+        <div class="pc">
+            <img class="phone" src="images/image_GSM/1000020525.jpg" alt="Livre posé dans un jardin enneigé">
+            <img class="tablette" src="images/image_tablette/1769004232561.jpg" alt="Livre posé dans un jardin enneigé">
             <div>
-                <h3>Ce qu’il aime faire de son temps libre ? </h3>
+                <h3 role="heading" aria-level="3">Ce qu’il aime faire de son temps libre
+                    ? </h3>
                 <p>Que la Montagne est Belle adore raconter des histoires ! Le plus souvent, ce sont des récits qui font
                     frissonner : des histoires qui nous plongent dans des univers à la fois effrayants, oppressants et
                     étrangement magnifiques. Chaque récit nous enveloppe d’une atmosphère mystérieuse, où la peur se
                     mêle à la fascination, et où chaque détail semble chargé d’une beauté sombre qui captive autant
                     qu’elle inquiète.</p>
                 <button>En savoir plus !
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                         stroke="#DC9D23"
-                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                         class="svgButton">
-
-                        <path d="m9 23 6-6-6-6"/>
-                    </svg>
+                    <img src="images/icone/arrow-gold-2.png" alt="Une flèche qui pointe vers la droite">
                 </button>
             </div>
         </div>
     </section>
 
     <section class="presentation">
-        <div>
-            <img class="phone" src="images/image_GSM/1768996763085.jpg" alt="">
-            <img class="tablette" src="images/image_tablette/1769004431576.jpg" alt="">
+        <div class="pc">
+            <img class="phone" src="images/image_GSM/1768996763085.jpg" alt="Livre posé devant un sapin de Noël">
+            <img class="tablette" src="images/image_tablette/1769004431576.jpg"
+                 alt="Livre posé devant un sapin de Noël">
             <div>
-                <h3>Depuis combien de temps es ce que je le connais ?</h3>
+                <h3 role="heading" aria-level="3">Depuis combien de temps es ce que je le connais ?</h3>
                 <p>Cela fait maintenant deux ans que je l’ai rencontré, et je le vois presque tous les jours. La
                     première fois, c’était dans une petite librairie de Liège. Il était devant le rayon des thrillers,
                     concentré, en train de chercher de l’inspiration pour une nouvelle histoire. Je me souviens qu’il
@@ -141,23 +123,17 @@
                     un “bonjour”. C’est bref, c’est simple, mais ça suffit à me mettre de bonne humeur. C’est un peu
                     étrange, mais cette petite habitude est devenue rassurante pour moi. Et moi, ça me suffit.</p>
                 <button>En savoir plus !
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                         stroke="#DC9D23"
-                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                         class="svgButton">
-
-                        <path d="m9 23 6-6-6-6"/>
-                    </svg>
+                    <img src="images/icone/arrow-gold-2.png" alt="Une flèche qui pointe vers la droite">
                 </button>
             </div>
         </div>
     </section>
 
-    <section id="carrousel">
+    <section id="carousel">
         <div>
             <!--TODO : Changer les images avec de la qualité !-->
 
-            <div class="carrousel">
+            <div class="carousel">
                 <div class="track">
                     <div class="group">
                         <img class="image_carousel" src="images/image_GSM/capture_1_original.png" alt="">
@@ -176,7 +152,7 @@
                 </div>
             </div>
             <div>
-                <h3>Le site original</h3>
+                <h3 role="heading" aria-level="3">Le site original</h3>
                 <p>Dans le cadre scolaire, j’ai dû choisir un site existant et le reproduire à l’identique, tout en
                     adaptant son contenu à un autre sujet. L’ensemble de la structure HTML, CSS et JavaScript devait
                     respecter les bonnes pratiques de développement.
@@ -187,51 +163,47 @@
                     Vous trouverez toutes les informations concernant le site original en cliquant sur le bouton
                     ci-dessous
                 </p>
-                <button class="carrousel">Site original
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                         stroke="#DC9D23"
-                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                         class="lucide lucide-chevron-right-icon lucide-chevron-right">
 
-                        <path d="m9 23 6-6-6-6"/>
-                    </svg>
+                <button class="carousel">Site original
+                    <img src="images/icone/arrow-gold-2.png" alt="Une flèche qui pointe vers la droite">
                 </button>
             </div>
         </div>
     </section>
 
-    <section id="carrousel_maVersion">
+    <section id="carousel_maVersion">
         <div>
             <!--TODO : Faire un carouselle-->
-            <div class="carrousel">
+            <div class="carousel">
                 <div class="track">
                     <div class="group">
-                        <img class="image_carousel" src="images/image_GSM/capture_1.png" alt="">
-                        <img class="image_carousel" src="images/image_GSM/capture_2.png" alt="">
-                        <img class="image_carousel" src="images/image_GSM/capture_3.png" alt="">
-                        <img class="image_carousel" src="images/image_GSM/capture_4.png" alt="">
-                        <img class="image_carousel" src="images/image_GSM/capture_5.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_1_ma_version.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_2_ma_version.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_3_ma_version.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_4_ma_version.png" alt="">
                     </div>
                     <div class="group" aria-hidden="true">
-                        <img class="image_carousel" src="images/image_GSM/capture_1.png" alt="">
-                        <img class="image_carousel" src="images/image_GSM/capture_2.png" alt="">
-                        <img class="image_carousel" src="images/image_GSM/capture_3.png" alt="">
-                        <img class="image_carousel" src="images/image_GSM/capture_4.png" alt="">
-                        <img class="image_carousel" src="images/image_GSM/capture_5.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_1_ma_version.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_2_ma_version.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_3_ma_version.png" alt="">
+                        <img class="image_carousel" src="images/image_GSM/capture_4_ma_version.png" alt="">
                     </div>
                 </div>
             </div>
             <div>
-                <h3>Ma version</h3>
-                <p>J’ai donc choisi un livre que j’aime particulièrement et je lui ai donné une personnalité, le
+                <h3 role="heading" aria-level="3">Ma version</h3>
+                <p>
+                    J’ai donc choisi un livre que j’aime particulièrement et je lui ai donné une personnalité, le
                     présentant comme un ami. Le site raconte alors le temps passé ensemble, en remplaçant toutes les
-                    images et les textes d’origine par nos propres aventures.</p>
+                    images et les textes d’origine par nos propres aventures.
+                </p>
             </div>
         </div>
     </section>
 
-    <section>
-        <h3 class="someWords">Comment tout à commencer et ce qu’il ma apporter dans la vie ?</h3>
+    <section class="someWords">
+        <h3 role="heading" aria-level="3" class="someWords">Comment tout à commencer et ce qu’il ma apporter dans la vie
+            ?</h3>
         <p class="p14">Souvent, quand je ne sais pas quoi faire, je m’ennuie, et j’ai vraiment du mal à choisir quoi
             faire. Mais
             lui, il m’a attirée directement. Il m’a donné envie de passer du temps avec lui sans que ça devienne
@@ -250,45 +222,49 @@
         </p>
     </section>
 
-    <section>
-        <h2 class="someWords">En quelques mots</h2>
-        <div>
-            <div>
-                <h3 class="theWords">Caractaire</h3>
-                <p class="theWords">Téméraire</p>
+    <section class="tropLoin">
+        <h2 role="heading" aria-level="2" class="someWords">En quelques mots</h2>
+        <div class="display">
+            <div class="display-1">
+                <div class="border">
+                    <h3 role="heading" aria-level="3" class="theWords border-r">Caractaire</h3>
+                    <p class="theWords">Téméraire</p>
+                </div>
+                <div>
+                    <h3 role="heading" aria-level="3" class="theWords border-l">Physique</h3>
+                    <p class="theWords">Grand</p>
+                </div>
             </div>
-            <div>
-                <h3 class="theWords">Physique</h3>
-                <p class="theWords">Grand</p>
-            </div>
-        </div>
-        <div>
-            <div>
-                <h3 class="theWords">Mentalité</h3>
-                <p class="theWords">Solitaire</p>
-            </div>
-            <div>
-                <h3 class="theWords">Comportement</h3>
-                <p class="theWords lastP">Taquin</p>
+            <div class="display-2">
+                <div class="border">
+                    <h3 role="heading" aria-level="3" class="theWords border-r">Mentalité</h3>
+                    <p class="theWords">Solitaire</p>
+                </div>
+                <div>
+                    <h3 role="heading" aria-level="3" class="theWords border-l">Comportement</h3>
+                    <p class="theWords lastP">Taquin</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section>
         <div>
-            <h3 class="theWordsh3">Quelques photos</h3>
+            <h3 role="heading" aria-level="3" class="theWordsh3">Quelques photos</h3>
             <!--TODO : Ici je doit faire le suivie de curseur en JS, donc les ilmages sont navigable seulement au clic-->
             <div class="someImg">
                 <div>
-                    <img class="someImg" src="images/image_GSM/1000020525.jpg" alt="">
+                    <img class="someImg" src="images/image_GSM/1000020525.jpg" alt="Livre posé dans un jardin enneigé">
                     <p></p>
                 </div>
                 <div>
-                    <img class="someImg" src="images/image_GSM/1768996763085.jpg" alt="">
+                    <img class="someImg" src="images/image_GSM/1768996763085.jpg"
+                         alt="Livre posé devant un sapin de Noël">
                     <p></p>
                 </div>
                 <div>
-                    <img class="someImg" src="images/image_GSM/1769094978010.jpg" alt="">
+                    <img class="someImg" src="images/image_GSM/1769094978010.jpg"
+                         alt="Livre posé sur une table avec des citrouilles">
                     <p></p>
                 </div>
             </div>
@@ -297,8 +273,10 @@
 
     <section>
         <div>
-            <h3>Quelques petites choses sur lui !</h3>
-            <p>Il a toujours été très créatif, et ce depuis tout petit. Dès qu’il a su parler, il s’est mis à inventer
+            <h3 class="h3-QuelquesPetitesChosesSurLui" role="heading" aria-level="3">Quelques petites choses sur lui
+                !</h3>
+            <p class="quelquesPetitesChosesSurLui">Il a toujours été très créatif, et ce depuis tout petit. Dès qu’il a
+                su parler, il s’est mis à inventer
                 des mondes entiers, comme si son imagination débordante avait toujours été là, prête à s’exprimer.
                 Enfant, il transformait chaque objet du quotidien en personnage ou en élément d’une aventure fantastique
                 : une simple branche devenait une épée magique, une couverture se transformait en portail vers un autre
@@ -307,7 +285,8 @@
                 proches se souviennent encore de ces soirées où, les yeux brillants d’enthousiasme, il captivait tout le
                 monde avec ses inventions improvisées, comme s’il vivait réellement ce qu’il racontait.
             </p>
-            <p>Ce qui frappait le plus, c’était sa capacité à créer des ambiances : il modulait sa voix, décrivait les
+            <p class="quelquesPetitesChosesSurLui">Ce qui frappait le plus, c’était sa capacité à créer des ambiances :
+                il modulait sa voix, décrivait les
                 lieux avec précision, ajoutait des détails inattendus qui donnaient vie à ses histoires. On aurait dit
                 qu’il voyait dans son esprit chaque scène avant de la décrire. Cette imagination sans limite faisait
                 déjà de lui un véritable conteur en herbe, doté d’une sensibilité particulière aux émotions, aux
@@ -318,50 +297,24 @@
                 chance d’écouter son univers prendre vie.</p>
 
             <button>En savoir plus !
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                     stroke="#DC9D23"
-                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                     class="svgButton">
-
-                    <path d="m9 23 6-6-6-6"/>
-                </svg>
+                <img src="images/icone/arrow-gold-2.png" alt="Une flèche qui pointe vers la droite">
             </button>
-            <!--TODO : Ici on à le groupe de trois image avec du texte dessus, qui sont navigable que avec une bare de scrolle horrizontale-->
-            <div>
-                <img src="" alt="">
-                <p>Où est-ce que je l'ai rencontré ?</p>
-                <img src="" alt="">
-                <p>Combien ai-je dépensé avec lui ?</p>
-                <img src="" alt="">
-                <p>Nos aventures</p>
-            </div>
         </div>
-    </section>
 
-    <!--TODO : Ici on à un grand carrousel damier, qui bouge tout seul, avec toute les images du site, car il faut bien mêtre quelque chose dedans. Attention, il s'arrête quand on passe dessus.-->
-    <div>
-        <div></div>
-        <img src="" alt="">
-        <p></p>
-    </div>
+
+    </section>
 
     <section>
         <div>
-            <h3>Avez-vous envie de le rencontrer ?</h3>
-            <p>Je ne vous en voudrais pas de me le laisser, bien sûr.
+            <h3 class="h3-rencontre" role="heading" aria-level="3">Avez-vous envie de le rencontrer ?</h3>
+            <p class="p-rencontre-1">Je ne vous en voudrais pas de me le laisser, bien sûr.
             </p>
             <div>
-                <p>Mais si jamais vous voulez quand même apprendre à le connaître vous le pouvez, je pense que vous
+                <p class="p-rencontre-2">Mais si jamais vous voulez quand même apprendre à le connaître vous le pouvez, je pense que vous
                     serez agréablement surpris en apprenant à le connaître !
                     Venez et faites sa connaissance.</p>
                 <button>En savoir plus !
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                         stroke="#DC9D23"
-                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                         class="svgButton">
-
-                        <path d="m9 23 6-6-6-6"/>
-                    </svg>
+                    <img src="images/icone/arrow-gold-2.png" alt="Une flèche qui pointe vers la droite">
                 </button>
             </div>
 
@@ -369,156 +322,118 @@
     </section>
 </main>
 
-
+<!-- --------------------------- Footer --------------------------- -->
 <footer>
     <nav>
         <!--TODO : Je pense que l'on à un titre cacher juste en dessous-->
-        <h2></h2>
+        <h2 role="heading" aria-level="2" class="sr-only">En savoir plus sur lui ?</h2>
         <!--TODO : Un menu déroulant-->
-        <ul>
-            <li><a href="#">A PROPOS DE LUI</a></li>
-            <li><a href="#">SES EXPÉRIENCE </a></li>
-            <li><a href="#">CE QU’IL AIME</a></li>
-            <li><a href="#">SES ENVIES</a></li>
+        <ul class="informations">
+            <li><a class="information" href="#">A PROPOS DE LUI
+                <img src="images/icone/arrow.png" alt="Une flèche qui pointe vers la droite">
+            </a></li>
+            <li><a class="information" href="#">SES EXPÉRIENCE
+                <img src="images/icone/arrow.png" alt="Une flèche qui pointe vers la droite">
+            </a></li>
+            <li><a class="information" href="#">CE QU’IL AIME
+                <img src="images/icone/arrow.png" alt="Une flèche qui pointe vers la droite">
+            </a></li>
+            <li><a class="information" href="#">SES ENVIES
+                <img src="images/icone/arrow.png" alt="Une flèche qui pointe vers la droite">
+            </a></li>
         </ul>
     </nav>
 
     <nav>
-        <!--TODO : Je pense que l'on à un titre cacher juste en dessous-->
-        <h2>Titre cacher</h2>
-        <ul>
-            <li><a href="#">POUR LE caractaire</a></li>
-            <li><a href="#">POUR LE physique</a></li>
-            <li><a href="#">POUR LE mentalité</a></li>
-            <li><a href="#">POUR LE comportement</a></li>
+        <h2 role="heading" aria-level="2" class="sr-only">En quelques mots</h2>
+        <ul class="display-1-1">
+            <li><a href="#"><p>POUR LE</p> caractaire</a></li>
+            <li><a href="#"><p>POUR LE</p> physique</a></li>
+        </ul>
+        <ul class="display-2-2">
+            <li><a href="#"><p>POUR LE</p> mentalité</a></li>
+            <li><a href="#"><p>POUR LE</p> comportement</a></li>
         </ul>
     </nav>
     <div>
-        <section>
-            <h2>Informations</h2>
-            <article>
-                <!--TODO : Je pense que l'on à un titre cacher juste en dessous-->
-                <h3>Adresse</h3>
-                <ul>
-                    <li class="adresse">Rue du petit chat <br>
-                        46872 Arbre <br>
-                        France
-                    </li>
+        <section itemscope itemtype="https://schema.org/Person">
+            <h2 role="heading" aria-level="2" class="information-title">Informations</h2>
+
+            <article itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <h3 role="heading" aria-level="3" class="sr-only">Adresse</h3>
+                <ul class="address">
+                    <li itemprop="address">Rue du petit chat</li>
+                    <li itemprop="address">46872 Arbre</li>
+                    <li itemprop="address">France</li>
                 </ul>
             </article>
 
             <article>
-                <!--TODO : Je pense que l'on à un titre cacher juste en dessous-->
-                <h3>Teléphone</h3>
+                <h3 role="heading" aria-level="3" class="sr-only">Teléphone</h3>
                 <ul>
-                    <li class="phone">+33 6 78 29 65 37</li>
+                    <li itemprop="telephone" class="phone">+33 6 78 29 65 37</li>
                 </ul>
             </article>
 
             <article>
-                <!--TODO : Je pense que l'on à un titre cacher juste en dessous-->
-                <h3>Email</h3>
+                <h3 role="heading" aria-level="3" class="sr-only">Email</h3>
                 <ul>
-                    <li class="email">quelamonatgneesbelle@gmail.com</li>
+                    <li itemprop="email" class="email">quelamonatgneesbelle@gmail.com</li>
                 </ul>
             </article>
-
         </section>
 
         <section>
-            <h2>Télécharger l'application du site originel</h2>
-            <article>
-                <h3></h3>
-                <p></p>
+            <h3 role="heading" aria-level="3">Application du site originel</h3>
+            <article class="dlApplication">
+                <div class="appStore">
+                    <a href="https://apps.apple.com/be/app/pairi-daiza/id1100730159?l=fr-FR">
+                        <img src="images/icone/app store.png" alt="">
+                    </a>
+                </div>
+                <div class="googlePlay">
+                    <a href="https://play.google.com/store/apps/details?id=eu.pairidaiza.app&hl=fr">
+                        <img src="images/icone/Google_Play_Store_badge_EN.png" alt="">
+                    </a>
+                </div>
             </article>
         </section>
 
         <div>
-            <h3>Réseau Sociaux du Site Originel</h3>
-            <p></p>
-            <div class="socialMedia">
-                <p><a href="https://www.facebook.com/JardinDesMondes/">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                         width="36" height="36"
-                         viewBox="0 0 36 36"
-                         aria-label="Facebook logo">
-
-                        <!-- Fond -->
-                        <circle cx="18" cy="18" r="18" fill="#1877F2"/>
-
-                        <!-- Rectangle blanc -->
-                        <rect x="7" y="7" width="22" height="22" rx="4" fill="#FFFFFF"/>
-
-                        <!-- Icône -->
-                        <path d="M20.5 12h-2c-.8 0-1 .4-1 1v2h3l-.4 3h-2.6v7h-3v-7h-2v-3h2v-2.5
-           c0-2.2 1.3-3.5 3.4-3.5h2.6z"
-                              fill="#1877F2"/>
-                    </svg>
-                </a></p>
-                <p><a href="https://www.instagram.com/pairidaizaofficial">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                         width="36" height="36"
-                         viewBox="0 0 36 36"
-                         aria-label="Instagram logo">
-
-                        <!-- Fond -->
-                        <circle cx="18" cy="18" r="18" fill="#F00073"/>
-
-                        <!-- Rectangle blanc -->
-                        <rect x="7" y="7" width="22" height="22" rx="6" fill="#FFFFFF"/>
-
-                        <!-- Icône caméra -->
-                        <rect x="11" y="11" width="14" height="14" rx="4"
-                              fill="none" stroke="#F00073" stroke-width="2"/>
-                        <circle cx="18" cy="18" r="3.5"
-                                fill="none" stroke="#F00073" stroke-width="2"/>
-                        <circle cx="22.5" cy="13.5" r="1.2" fill="#F00073"/>
-                    </svg>
-                </a></p>
-                <p><a href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F1787793">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                         width="36" height="36"
-                         viewBox="0 0 36 36"
-                         aria-label="LinkedIn logo">
-
-                        <!-- Fond -->
-                        <circle cx="18" cy="18" r="18" fill="#0A66C2"/>
-
-                        <!-- Rectangle blanc -->
-                        <rect x="7" y="7" width="22" height="22" rx="4" fill="#FFFFFF"/>
-
-                        <!-- Icône -->
-                        <circle cx="12" cy="14" r="1.6" fill="#0A66C2"/>
-                        <rect x="10.8" y="16.5" width="2.4" height="8" fill="#0A66C2"/>
-                        <path d="M16 16.5h2.2v1.1c.3-.6 1.4-1.3 2.9-1.3
-           3 0 3.6 2 3.6 4.6v3.6h-2.4v-3.2
-           c0-1.5 0-2.5-1.6-2.5s-1.9 1.2-1.9 2.4v3.3H16z"
-                              fill="#0A66C2"/>
-                    </svg>
-                </a></p>
-                <p><a href="https://www.youtube.com/channel/UCos9QVdxjj5SWIO9dbg9ARg">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                         width="36" height="36"
-                         viewBox="0 0 36 36"
-                         aria-label="YouTube logo">
-                        <circle cx="18" cy="18" r="18" fill="#FF0000"/>
-                        <rect x="7" y="11"
-                              width="22" height="14"
-                              rx="4" ry="4"
-                              fill="#FFFFFF"/>
-                        <polygon points="16,14 16,22 23,18"
-                                 fill="#FF0000"/>
-                    </svg>
-                </a></p>
+            <h3 role="heading" aria-level="3" class="socialMedia">Réseau Sociaux du Site Originel</h3>
+            <div class="socialMedias">
+                <p class="socialMedia">
+                    <a href="https://www.facebook.com/JardinDesMondes/">
+                        <img src="images/icone/facebook.png" alt="">
+                    </a>
+                </p>
+                <p class="socialMedia">
+                    <a href="https://www.instagram.com/pairidaizaofficial">
+                        <img src="images/icone/instagram.png" alt="">
+                    </a>
+                </p>
+                <p class="socialMedia">
+                    <a
+                            href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F1787793"><img
+                            src="images/icone/linkedin.png" alt="">
+                    </a>
+                </p>
+                <p class="socialMedia">
+                    <a href="https://www.youtube.com/channel/UCos9QVdxjj5SWIO9dbg9ARg">
+                        <img src="images/icone/youtube.png" alt="">
+                    </a>
+                </p>
             </div>
         </div>
 
-
-        <p></p>
-
+    </div>
+    <div class="authorDroit">
+        <p class="droit regle">Règleament d'ordre intérieur</p>
+        <p class="droit">Politique générale de protection des données personnelles</p>
+        <p class="droit">Politique de cookies</p>
+        <p class="droit copyright">Copyright © JF Marie 2025</p>
     </div>
 </footer>
+
 </body>
 </html>
-
-
