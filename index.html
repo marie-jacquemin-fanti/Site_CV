@@ -21,7 +21,6 @@
 
 <body>
 <header>
-
     <h1 role="heading" aria-level="1" class="sr-only">Reproduction du site Pairi Daiza avec comme objet principal un
         livre</h1>
 
@@ -45,7 +44,6 @@
                     </clipPath>
                 </defs>
             </svg>
-
         </div>
         <div>
             <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +57,6 @@
                     </clipPath>
                 </defs>
             </svg>
-
         </div>
         <div>
             <svg width="29" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,11 +70,13 @@
                     </clipPath>
                 </defs>
             </svg>
-
-
         </div>
-        <div></div>
-        <div></div>
+        <div>
+            <!--TODO : ADD next SVG-->
+        </div>
+        <div>
+            <!--TODO : ADD next SVG-->
+        </div>
 
         <div class="slides">
             <div class="slide slide-1">
@@ -180,18 +179,18 @@
 
     <section class="presentation">
         <div class="pc">
-            <img class="phone" src="images/image_GSM/livre_1600.jpg"
+            <img class="phone" src="images/image_GSM/book_phone_1600.jpg"
                  srcset="images/image_GSM/book_phone_320.jpg 320w,
-                            images/image_GSM/livre_768.jpg 768w,
-                            images/image_GSM/livre_1600.jpg 1600w"
+                            images/image_GSM/book_phone_768.jpg 768w,
+                            images/image_GSM/book_phone_1600.jpg 1600w"
                  sizes="(max-width: 768px) 100vw, 600px"
                  width="1600"
                  height="1601"
                  alt="Livre posé dans un jardin enneigé avec une écharpe autour du cou">
-            <img class="tablette" src="images/image_GSM/livre_1600.jpg"
+            <img class="tablette" src="images/image_GSM/book_phone_1600.jpg"
                  srcset="images/image_GSM/book_phone_320.jpg 320w,
-                            images/image_GSM/livre_768.jpg 768w,
-                            images/image_GSM/livre_1600.jpg 1600w"
+                            images/image_GSM/book_phone_768.jpg 768w,
+                            images/image_GSM/book_phone_1600.jpg 1600w"
                  sizes="(max-width: 768px) 100vw, 600px"
                  width="1600"
                  height="1601"
@@ -459,10 +458,12 @@
             <li><a href="#"><p>POUR LE</p> comportement</a></li>
         </ul>
     </nav>
+
+    <!--TODO : Demander aide pour BEM-->
     <div class="allContent">
-        <div class="informationContent">
+        <div class="footer__info">
             <section itemscope itemtype="https://schema.org/Person">
-                <h2 role="heading" aria-level="2" class="information-title">Informations</h2>
+                <h2 role="heading" aria-level="2" class="footer__info-title">Informations</h2>
 
                 <article itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                     <h3 role="heading" aria-level="3" class="sr-only">Adresse</h3>
@@ -489,16 +490,16 @@
             </section>
         </div>
 
-        <div class="socialMediaApllication">
+        <div class="footer__app">
             <section>
-                <h3 class="application" role="heading" aria-level="3">Application du site originel</h3>
-                <article class="dlApplication">
-                    <div class="appStore">
+                <h3 class="footer__app-title" role="heading" aria-level="3">Application du site originel</h3>
+                <article class="footer__app-items">
+                    <div class="footer__app-item">
                         <a href="https://apps.apple.com/be/app/pairi-daiza/id1100730159?l=fr-FR">
                             <img src="images/icone/app store.png" alt="">
                         </a>
                     </div>
-                    <div class="googlePlay">
+                    <div class="footer__app-item">
                         <a href="https://play.google.com/store/apps/details?id=eu.pairidaiza.app&hl=fr">
                             <img src="images/icone/Google_Play_Store_badge_EN.png" alt="">
                         </a>
@@ -506,26 +507,26 @@
                 </article>
             </section>
 
-            <div>
-                <h3 role="heading" aria-level="3" class="socialMedia">Réseau Sociaux du Site Originel</h3>
-                <div class="socialMedias">
-                    <p class="socialMedia">
+            <div class="footer__social">
+                <h3 role="heading" aria-level="3" class="footer__social-title">Réseau Sociaux du Site Originel</h3>
+                <div class="footer__social-items">
+                    <p class="footer__social-item">
                         <a href="https://www.facebook.com/JardinDesMondes/">
                             <img src="images/icone/facebook.png" alt="">
                         </a>
                     </p>
-                    <p class="socialMedia">
+                    <p class="footer__social-item">
                         <a href="https://www.instagram.com/pairidaizaofficial">
                             <img src="images/icone/instagram.png" alt="">
                         </a>
                     </p>
-                    <p class="socialMedia">
+                    <p class="footer__social-item">
                         <a
                                 href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F1787793"><img
                                 src="images/icone/linkedin.png" alt="">
                         </a>
                     </p>
-                    <p class="socialMedia">
+                    <p class="footer__social-item">
                         <a href="https://www.youtube.com/channel/UCos9QVdxjj5SWIO9dbg9ARg">
                             <img src="images/icone/youtube.png" alt="">
                         </a>
@@ -535,13 +536,13 @@
         </div>
     </div>
 
-    <div class="authorDroit">
-        <div class="divAuthorDroit">
-            <p class="droit regle">Règleament d'ordre intérieur</p>
-            <p class="droit">Politique générale de protection des données personnelles</p>
-            <p class="droit">Politique de cookies</p>
+    <div class="footer">
+        <div class="footer__items">
+            <p class="footer__item">Règleament d'ordre intérieur</p>
+            <p class="footer__item">Politique générale de protection des données personnelles</p>
+            <p class="footer__item">Politique de cookies</p>
         </div>
-        <p class="droit copyright">Copyright © JF Marie 2025</p>
+        <p class="footer__copyright">Copyright © JF Marie 2025</p>
     </div>
 </footer>
 

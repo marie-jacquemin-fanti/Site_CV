@@ -368,17 +368,17 @@
         background-color: #f2f2f2;
     }
 
-    .socialMedias {
+    .footer__social-items {
         display: flex;
         justify-content: center;
 
     }
 
-    p.socialMedia {
+    .footer__social-item {
         padding: 0 0.5em 0.5em;
     }
 
-    h3.socialMedia {
+    .footer__social-title {
         text-align: center;
         font-size: 1.25em;
         line-height: 1.5em;
@@ -411,7 +411,7 @@
     border-bottom: solid 0.0625em #d9d9d9;
 }
 
-    .information-title {
+    .footer__info-title {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 1.25em;
         line-height: 1.5em;
@@ -465,11 +465,16 @@
     }
 
 
-    .authorDroit {
+    .footer {
         padding: 24px 24px 71px;
     }
 
-    .droit {
+    .footer__items{
+        border-top: solid 1px #d9d9d9;
+        padding-top: 24px;
+    }
+
+    .footer__item {
         font-family: var(--font-family-lato), sans-serif;
         font-size: 13px;
         line-height: 21px;
@@ -479,12 +484,7 @@
 
     }
 
-    .droit.regle {
-        border-top: solid 1px #d9d9d9;
-        padding-top: 24px;
-    }
-
-    .droit.copyright {
+    .footer__copyright {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 20px;
         line-height: 24px;
@@ -500,7 +500,7 @@
         justify-content: center;
     }
 
-    .appStore, .googlePlay {
+    .footer__app-item {
         padding: 8px;
     }
 
