@@ -1,5 +1,5 @@
 @media screen and (min-width: 1024px) {
-        body {
+    body {
         font-family: var(--font-family-lato), sans-serif;
     }
 
@@ -209,21 +209,27 @@
     }
 
     /*-------------Section Titre-------------*/
-    section.titre p {
+
+    .section__title {
+        min-width: 62.75rem;
+        padding: 2.188em;
+        margin: 28.625em;
+        border: 1px #d9d9d9 solid;
+        border-radius: 24px;
+    }
+
+    .section__title-title {
+        font-size: 3.188rem;
+    }
+
+    .section__title-p {
         font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 25px;
+        font-size: 1.563rem;
         line-height: 30px;
         padding: 16px 35px 35px 35px;
         text-align: center;
     }
 
-    section.titre {
-        padding: 24px 24px 0 24px;
-        margin: 129px 28.625em 200px;
-        border: 1px #d9d9d9 solid;
-        border-radius: 24px;
-        max-width: inherit;
-    }
 
     /*-------------Section Presentation 1 et 2-------------*/
     section.presentation {
@@ -414,12 +420,12 @@
         line-height: 1.5em;
     }
 
-    .display-1-1, .display-2-2{
+    .display-1-1, .display-2-2 {
         display: flex;
         justify-content: center;
     }
 
-    .display-1-1 p, .display-2-2 p{
+    .display-1-1 p, .display-2-2 p {
         font-family: var(--font-family-lato), sans-serif;
         font-size: 10px;
         line-height: 17px;
@@ -427,7 +433,7 @@
         color: #777777;
     }
 
-    .display-1-1 a, .display-2-2 a{
+    .display-1-1 a, .display-2-2 a {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 18px;
         line-height: 21px;
@@ -436,11 +442,10 @@
         pointer-events: none
     }
 
-    .display-2-2{
+    .display-2-2 {
         padding-bottom: 40px;
         border-bottom: solid 0.0625em #d9d9d9;
     }
-
 
 
     li.adresse, li.phone, li.email {
@@ -492,9 +497,6 @@
     }
 
 
-
-
-
     .dlApplication {
         display: flex;
         justify-content: center;
@@ -519,21 +521,21 @@
         color: var(--p-color-style)
     }
 
-    .allContent{
+    .allContent {
         display: flex;
         justify-content: center;
         column-gap: 100px;
         padding: 69px 0;
     }
 
-    h3.application{
+    h3.application {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 26px;
         line-height: 31px;
         text-align: center;
     }
 
-    p.droit{
+    p.droit {
         font-family: var(--font-family-lato), sans-serif;
         font-size: 13px;
         line-height: 21px;
@@ -543,7 +545,7 @@
         column-gap: 10px;
     }
 
-    .divAuthorDroit{
+    .divAuthorDroit {
         display: flex;
         border-top: solid 1px #d9d9d9;
         padding-top: 24px;
