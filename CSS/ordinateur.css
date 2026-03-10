@@ -2,6 +2,12 @@
     body {
         font-family: var(--font-family-lato), sans-serif;
     }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
 
     .hidden {
         display: none;
@@ -9,18 +15,13 @@
 
     h2 {
         font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 51px;
-        line-height: 56px;
         color: var(--h2-color-style);
         text-align: center;
     }
 
     h3 {
         font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 39px;
-        line-height: 43px;
         color: var(--p-color-style);
-        padding: 24px;
     }
 
     div.pc {
@@ -208,25 +209,25 @@
         padding: 0;
     }
 
-    /*-------------Section Titre-------------*/
-
-    .section__title {
-        min-width: 62.75rem;
-        padding: 2.188em;
-        margin: 28.625em;
+    /*-------------Main Section Titre-------------*/
+        .section__title {
+        max-width: 70%;
+        margin: 0 auto 12.5rem auto;
+        padding: 2.188rem;
         border: 1px #d9d9d9 solid;
-        border-radius: 24px;
+        border-radius: 1.5rem;
     }
 
     .section__title-title {
         font-size: 3.188rem;
+        line-height: 3.563rem;
     }
 
     .section__title-p {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 1.563rem;
-        line-height: 30px;
-        padding: 16px 35px 35px 35px;
+        line-height: 1.875em;
+        padding-top: 1rem;
         text-align: center;
     }
 
