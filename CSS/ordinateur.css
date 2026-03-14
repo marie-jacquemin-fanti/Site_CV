@@ -57,56 +57,11 @@
 
 
     /*-------------En tête-------------*/
-    .img-1, .img-2, .img-3 {
+    .header__image {
+        max-width: 100%;
         height: auto;
-        max-height: 448px;
-        width: 100%;
     }
 
-    .slides {
-        background: url("images/image_GSM/1000020525.jpg"), url("images/image_GSM/1768996763085.jpg"), url("images/image_GSM/1769094978010.jpg");
-    }
-
-    .slides {
-        height: 70vh;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .slide {
-        position: absolute;
-        height: 100%;
-        opacity: 0;
-        inset: 0;
-        animation: slide-show 15s infinite;
-    }
-
-    .slide-2 {
-        animation-delay: 4s;
-    }
-
-    .slide-3 {
-        animation-delay: 8s;
-    }
-
-    .slide img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        display: block;
-    }
-
-    @keyframes slide-show {
-        0% {
-            opacity: 1;
-        }
-        10%, 20%, 30% {
-            opacity: 1;
-        }
-        50% {
-            opacity: 1;
-        }
-    }
 
     .svg-entete {
         position: absolute;
