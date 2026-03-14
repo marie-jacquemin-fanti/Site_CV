@@ -47,72 +47,27 @@
     /*}*/
 
 
-    /*!*-------------En tête-------------*!*/
-    /*.img-1, .img-2, .img-3 {*/
-    /*    height: auto;*/
-    /*    !*max-height: 448px;*!*/
-    /*    width: 100%;*/
-    /*}*/
+    /*-------------En tête-------------*/
+    .header__image {
+        max-width: 100%;
+        height: auto;
+    }
 
-    /*.slides {*/
-    /*    background: url("images/image_GSM/1000020525.jpg"), url("images/image_GSM/1768996763085.jpg"), url("images/image_GSM/1769094978010.jpg");*/
-    /*}*/
 
-    /*.slides {*/
-    /*    height: 70vh;*/
-    /*    overflow: hidden;*/
-    /*    position: relative;*/
-    /*}*/
+    .svg-entete {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+    }
 
-    /*.slide {*/
-    /*    position: absolute;*/
-    /*    height: 100%;*/
-    /*    opacity: 0;*/
-    /*    inset: 0;*/
-    /*    animation: slide-show 15s infinite;*/
-    /*}*/
+    .deux-div {
+        position: relative;
+        height: 100%;
+    }
 
-    /*.slide-2 {*/
-    /*    animation-delay: 4s;*/
-    /*}*/
-
-    /*.slide-3 {*/
-    /*    animation-delay: 8s;*/
-    /*}*/
-
-    /*.slide img {*/
-    /*    height: 100%;*/
-    /*    width: 100%;*/
-    /*    object-fit: cover;*/
-    /*    display: block;*/
-    /*}*/
-
-    /*@keyframes slide-show {*/
-    /*    0% {*/
-    /*        opacity: 1;*/
-    /*    }*/
-    /*    10%, 20%, 30% {*/
-    /*        opacity: 1;*/
-    /*    }*/
-    /*    50% {*/
-    /*        opacity: 1;*/
-    /*    }*/
-    /*}*/
-
-    /*.svg-entete {*/
-    /*    position: absolute;*/
-    /*    inset: 0;*/
-    /*    z-index: 2;*/
-    /*}*/
-
-    /*.deux-div {*/
-    /*    position: relative;*/
-    /*    height: 100%;*/
-    /*}*/
-
-    /*.order1 {*/
-    /*    margin: 10px 26px 0;*/
-    /*}*/
+    .order1 {
+        margin: 10px 26px 0;
+    }
 
 
     /*!*-------------en tête button lien-------------*!*/
