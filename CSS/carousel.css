@@ -9,7 +9,7 @@
     animation: spin 30s linear infinite;
 }
 
-.group{
+.group {
     display: flex;
     gap: 80px;
 }
@@ -17,11 +17,11 @@
 .image_carousel {
     margin-right: 1em;
     flex-shrink: 0;
-    max-height: 400px;
+    max-height: 25rem;
     max-width: 15%;
     height: auto;
     object-fit: cover;
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 
 @keyframes spin {
