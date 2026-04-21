@@ -2,11 +2,11 @@
     body {
         font-family: var(--font-family-lato), sans-serif;
     }
+
     main {
         display: flex;
         flex-direction: column;
         justify-content: center;
-
     }
 
     .hidden {
@@ -21,35 +21,42 @@
 
     h3 {
         font-family: var(--font-family-marcellus), sans-serif;
-        color: var(--p-color-style);
+        color: var(--color-black);
     }
 
-    div.pc {
+    .presentation__container {
         display: flex;
         flex-direction: row-reverse;
     }
 
-    button {
-        font-family: var(--font-family-marcellus), sans-serif;
-        border-radius: 30px;
-        border: 1px #DC9D23 solid;
-        background-color: white;
-        padding: 7px 0 8px 14px;
-        margin: 0 130px 24px 32px;
-        font-size: 16px;
-        color: var(--p-color-style);
-        display: flex;
-
-    }
 
     /*-------------Boutton-------------*/
-    svg.svgButton {
-        margin-right: 12px;
-        margin-left: 5px;
+    .buttons {
+        font-family: var(--font-family-marcellus), sans-serif;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 1.875rem;
+        border: 1px solid var(--button-color);
+        background-color: #fff;
+        font-size: 1rem;
+        color: var(--color-black);
+        max-width: fit-content;
+        margin: 0 0 1.5rem 2rem;
+        transition: all 0.2s ease;
+        cursor: pointer;
     }
-
+    .buttons::after {
+        content: "";
+        display: inline-block;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-right: 0.125rem solid currentColor;
+        border-bottom: 0.125rem solid currentColor;
+        transform: rotate(-45deg);
+        margin-left: 0.5rem;
+        color: var(--button-color);
+    }
     p {
-        color: var(--p-color-style);
         text-align: left;
         font-family: var(--font-family-marcellus), sans-serif;
         padding: 0 24px 16px 24px;
@@ -106,7 +113,7 @@
         font-weight: 700;
         font-size: 0.6875em;
         line-height: 1em;
-        color: var(--p-color-style);
+        color: var(--color-black);
         padding-bottom: 0.25em;
     }
 
@@ -164,8 +171,8 @@
         padding: 0;
     }
 
-    /*-------------Main Section Titre-------------*/
-        .section__title {
+    /*-------------Section titre -------------*/
+    .section__title {
         max-width: 70%;
         margin: 0 auto 12.5rem auto;
         padding: 2.188rem;
@@ -186,29 +193,34 @@
         text-align: center;
     }
 
-
-    /*-------------Section Presentation 1 et 2-------------*/
-    section.presentation {
-        padding: 8px 8px 0 8px;
-        margin: 0 316px 53px;
+    /*------------- Ce qu’il aime faire de son temps libre ? -------------*/
+    .presentation__container {
+        padding: 0.5rem 0.5rem 0 0.5rem;
+        border-radius: 1.5rem;
         border: 1px #d9d9d9 solid;
-        border-radius: 24px;
-        max-width: inherit;
+        max-width: 80%;
+        margin: 0 auto 3.313rem auto;
     }
 
-    section.presentation img {
-        max-height: 319px;
-        border-radius: 16px;
+    .presentation__title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 2.5rem;
+        line-height: 2.725rem;
+        padding: 4.625rem 0 1.375rem 3.563rem;
+    }
+
+    .presentation__text {
+        font-family: var(--font-family-lato), sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.744rem;
+    }
+
+    .presentation__image {
+        border-radius: 1.25rem;
+        aspect-ratio: 1 / 1;
+        max-width: 100%;
         height: auto;
-    }
-
-    img.tablette {
-        display: none;
-    }
-
-    section.presentation p {
-        font-size: 18px;
-        line-height: 28px;
+        object-fit: contain;
     }
 
     /*-------------div carousel-------------*/
@@ -233,7 +245,7 @@
         padding: 7px 31px 8px 16px;
         margin: 0 127px 24px 32px;
         font-size: 16px;
-        color: var(--p-color-style)
+        color: var(--color-black)
 
     }
 
@@ -260,7 +272,7 @@
         padding: 7px 31px 8px 16px;
         margin: 0 127px 24px 32px;
         font-size: 16px;
-        color: var(--p-color-style)
+        color: var(--color-black)
     }
 
     /*-------------section comment ça à commencer-------------*/
@@ -278,7 +290,7 @@
     h2.someWords {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 36px;
-        color: var(--p-color-style);
+        color: var(--color-black);
         padding: 24px;
     }
 
@@ -295,7 +307,7 @@
     h3.theWordsh3 {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 36px;
-        color: var(--p-color-style);
+        color: var(--color-black);
         padding: 24px;
         line-height: 39px;
         text-align: center;
@@ -313,7 +325,7 @@
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 36px;
         line-height: 39px;
-        color: var(--p-color-style);
+        color: var(--color-black);
         padding: 24px;
     }
 
@@ -420,7 +432,7 @@
         max-height: 1.5em;
         font-size: 1.25em;
         line-height: 1.5em;
-        color: var(--p-color-style);
+        color: var(--color-black);
         padding: 1.5em 0 1.5em;
         margin: 0 1.0625em;
         display: block;
@@ -474,7 +486,7 @@
         text-align: center;
         padding-top: 48px;
         padding-bottom: 1.5em;
-        color: var(--p-color-style)
+        color: var(--color-black)
     }
 
     .allContent {

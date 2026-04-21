@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/ordinateur.css">
-    <link rel="stylesheet" href="./CSS/tablette.css">
-    <link rel="stylesheet" href="./CSS/portable.css">
 
     <script defer src="./JS/script.js"></script>
 
@@ -84,7 +81,9 @@
             <img class="header__image"
                  src="images/image_GSM/book_phone_1600.jpg"
                  srcset="images/image_pc/citrouille_pc_320.jpg 320w, images/image_pc/citrouille_pc_768.jpg 768w, images/image_pc/citrouille_pc_1600.jpg 1600w"
-                 alt="Livre posé sur une table avec des citrouilles">
+                 alt="Livre posé sur une table avec des citrouilles"
+                 width="1600"
+                 height="1601">
         </div>
     </div>
 
@@ -148,55 +147,59 @@
     </section>
 
     <section class="presentation">
-        <div class="pc">
-            <img class="phone" src="images/image_GSM/book_phone_1600.jpg"
-                 srcset="images/image_GSM/book_phone_320.jpg 320w,
-                            images/image_GSM/book_phone_768.jpg 768w,
-                            images/image_GSM/book_phone_1600.jpg 1600w"
-                 sizes="(max-width: 768px) 100vw, 600px"
-                 width="1600"
-                 height="1601"
-                 alt="Livre posé dans un jardin enneigé avec une écharpe autour du cou">
-            <img class="tablette" src="images/image_GSM/book_phone_1600.jpg"
-                 srcset="images/image_GSM/book_phone_320.jpg 320w,
-                            images/image_GSM/book_phone_768.jpg 768w,
-                            images/image_GSM/book_phone_1600.jpg 1600w"
-                 sizes="(max-width: 768px) 100vw, 600px"
-                 width="1600"
-                 height="1601"
-                 alt="Livre posé dans un jardin enneigé avec une écharpe autour du cou">
+        <div class="presentation__container">
             <div>
-                <h3 role="heading" aria-level="3">Ce qu’il aime faire de son temps libre
-                    ? </h3>
-                <p>Que la Montagne est Belle adore raconter des histoires ! Le plus souvent, ce sont des récits qui font
-                    frissonner : des histoires qui nous plongent dans des univers à la fois effrayants, oppressants et
-                    étrangement magnifiques. Chaque récit nous enveloppe d’une atmosphère mystérieuse, où la peur se
+                <img class="presentation__image"
+                     src="images/image_GSM/book_phone_1600.jpg"
+                     srcset="images/image_GSM/book_phone_320.jpg 320w,
+                            images/image_GSM/book_phone_768.jpg 768w,
+                            images/image_GSM/book_phone_1600.jpg 1600w"
+                     sizes="(max-width: 768px) 100vw, 600px"
+                     width="1600"
+                     height="1601"
+                     alt="Livre posé dans un jardin enneigé avec une écharpe autour du cou">
+            </div>
+
+            <div class="presentation__content">
+                <h3 class="presentation__title" role="heading" aria-level="3">Ce qu’il aime faire de son temps libre ? </h3>
+                <p class="presentation__text">
+                    Que la Montagne est Belle adore raconter des histoires ! Le plus souvent, ce sont des récits qui
+                    font frissonner : des histoires qui nous plongent dans des univers à la fois effrayants, oppressants
+                    et étrangement magnifiques. Chaque récit nous enveloppe d’une atmosphère mystérieuse, où la peur se
                     mêle à la fascination, et où chaque détail semble chargé d’une beauté sombre qui captive autant
-                    qu’elle inquiète.</p>
-                <a>En savoir plus !
-                    <img src="images/icone/arrow-gold-2.png" alt="Une flèche qui pointe vers la droite">
-                </a>
+                    qu’elle inquiète.
+                </p>
+
+                <a class="buttons">En savoir plus !</a>
             </div>
         </div>
     </section>
 
     <section class="presentation">
-        <div class="pc">
-            <img class="phone" src="images/image_GSM/1768996763085.jpg" alt="Livre posé devant un sapin de Noël">
-            <img class="tablette" src="images/image_tablette/1769004431576.jpg"
-                 alt="Livre posé devant un sapin de Noël">
-            <div>
-                <h3 role="heading" aria-level="3">Depuis combien de temps es ce que je le connais ?</h3>
-                <p>Cela fait maintenant deux ans que je l’ai rencontré, et je le vois presque tous les jours. La
+        <div class="presentation__container">
+           <div>
+               <img class="presentation__image"
+                    src="images/image_GSM/sapin_1600.jpg"
+                    srcset="images/image_GSM/sapin_320.jpg 320w,
+                            images/image_GSM/sapin_768.jpg 768w,
+                            images/image_GSM/sapin_1600.jpg 1600w"
+                    sizes="(max-width: 768px) 100vw, 600px"
+                    width="1600"
+                    height="1599"
+                    alt="Livre posé devant un sapin de Noël">
+
+           </div>
+            <div class="presentation__content">
+                <h3 class="presentation__title" role="heading" aria-level="3">Depuis combien de temps es ce que je le connais ?</h3>
+                <p class="presentation__text">Cela fait maintenant deux ans que je l’ai rencontré, et je le vois presque tous les jours. La
                     première fois, c’était dans une petite librairie de Liège. Il était devant le rayon des thrillers,
                     concentré, en train de chercher de l’inspiration pour une nouvelle histoire. Je me souviens qu’il
                     fronçait légèrement les sourcils en lisant les résumés, vraiment absorbé par ce qu’il faisait.
                     Depuis, on se croise régulièrement. On ne parle pas beaucoup : en général, on s’échange simplement
                     un “bonjour”. C’est bref, c’est simple, mais ça suffit à me mettre de bonne humeur. C’est un peu
                     étrange, mais cette petite habitude est devenue rassurante pour moi. Et moi, ça me suffit.</p>
-                <a>En savoir plus !
-                    <img src="images/icone/arrow-gold-2.png" alt="Une flèche qui pointe vers la droite">
-                </a>
+
+                <a class="buttons">En savoir plus !</a>
             </div>
         </div>
     </section>
