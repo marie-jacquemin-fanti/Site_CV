@@ -1,12 +1,6 @@
 :root {
-    /*Color font*/
-    --h2-color-style: #DC9D23;
-    --p-color-style: #333333;
-    --white-color-style: #ffffff;
-
-    /*Font*/
     --font-family-lato: "Lato", Helvetica, Arial, Roboto, "Open Sans";
-    --font-family-marcellus: "Marcellus", Helvetica, Arial, Roboto, "True type";
+    --font-family-marcellus: "Marcellus", Helvetica, Arial, Roboto;
 }
 
 /*@font-face {*/
@@ -14,3 +8,34 @@
 /*    src: url("fonts/Marcellus/Marcellus-Regular.ttf") format("truetype");*/
 /*}*/
 
+@font-face {
+    src: url('../fonts/Marcellus/Marcellus-Regular.ttf') format('TrueType');
+    font-family: 'Marcellus';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url('../fonts/Lato/Lato-Bold.ttf') format('TrueType');
+    font-family: 'Lato';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url('../fonts/Lato/Lato-BoldItalic.ttf') format('TrueType');
+    font-family: 'Lato';
+    font-display: swap;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url('../fonts/Lato/Lato-Regular.ttf') format('TrueType');
+    font-family: 'Lato';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}

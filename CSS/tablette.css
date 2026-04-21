@@ -1,5 +1,5 @@
 /*Tablette*/
-@media screen and (max-width: 1024px) and (min-width: 600px) {
+@media screen and (max-width: 1023px) and (min-width: 600px) {
     body {
         font-family: var(--font-family-lato), sans-serif;
     }
@@ -12,65 +12,74 @@
     }
 
     h2 {
-        font-family: var(--font-family-marcellus), sans-serif;
+        font-family: var(--font-family-marcellus);
         color: var(--h2-color-style);
         text-align: center;
     }
 
     h3 {
         font-family: var(--font-family-marcellus), sans-serif;
-        color: var(--p-color-style);
+        color: var(--color-black);
     }
 
-    button {
-        font-family: var(--font-family-marcellus), sans-serif;
-        border-radius: 30px;
-        border: 1px #DC9D23 solid;
-        background-color: white;
-        padding: 7px 0 8px 14px;
-        margin: 0 130px 24px 32px;
-        font-size: 16px;
-        color: var(--p-color-style);
-        display: flex;
 
-    }
 
     /*
         /*-------------Boutton-------------*/
-        svg.svgButton {
-            margin-right: 0.75em;
-            margin-left: 0.3125em;
-        }
+    .buttons {
+        font-family: var(--font-family-marcellus), sans-serif;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 1.875rem;
+        border: 1px solid var(--button-color);
+        background-color: #fff;
+        font-size: 16px;
+        color: var(--color-black);
+        max-width: fit-content;
+        margin: 0 0 0.625rem 2rem;
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+    .buttons::after {
+        content: "";
+        display: inline-block;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-right: 0.125rem solid currentColor;
+        border-bottom: 0.125rem solid currentColor;
+        transform: rotate(-45deg);
+        margin-left: 0.5rem;
+        color: var(--button-color);
+    }
+    p {
+        text-align: left;
+        font-family: var(--font-family-marcellus), sans-serif;
+        padding: 0 24px 16px 24px;
+    }
 
-        p {
-            color: var(--p-color-style);
-            text-align: left;
-            font-family: var(--font-family-marcellus), sans-serif;
-            padding: 0 1.5em 1em 1.5em;
-        }
 
-
-        /*-------------En tête-------------*/
+    /*-------------En tête-------------*/
     .header__image {
         max-width: 100%;
         height: auto;
     }
 
-        .svg-entete {
-            position: absolute;
-            inset: 0;
-            z-index: 2;
-        }
+    .svg-entete {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+    }
 
-        .deux-div {
-            position: relative;
-            height: 100%;
-        }
+    .deux-div {
+        position: relative;
+        height: 100%;
+    }
 
-        .order1 {
-            margin: 10px 26px 0;
-        }
-    /*-------------Main Section Titre-------------*/
+    .order1 {
+        margin: 10px 26px 0;
+    }
+
+    /*------------- Section title -------------*/
     .section__title {
         max-width: 80%;
         margin: 0 auto 12.5rem auto;
@@ -91,88 +100,90 @@
         text-align: center;
     }
 
-    /*-------------Section Presentation 1 et 2-------------*/
-    section.presentation {
-        padding: 8px;
-        margin: 136px 155px 0 155px;
+    /*-------------Ce qu’il aime faire de son temps libre ? -------------*/
+    .presentation__container {
+        padding: 0.5rem 0.5rem 0 0.5rem;
+        border-radius: 1.5rem;
+        border: 1px #d9d9d9 solid;
+        max-width: 70%;
+        margin: 0 auto 3.313rem auto;
+    }
+    .presentation__title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.938rem;
+        line-height: 2.125rem;
+        padding: 2.938rem 0 1.75rem 2.063rem;
+    }
+    .presentation__text {
+        font-family: var(--font-family-lato), sans-serif;
+        font-size: 1.063rem;
+        line-height: 1.563rem;
+    }
+    .presentation__image {
+        max-width: 100%;
+        aspect-ratio: 1 / 1;
+        border-radius: 1.25rem;
+        height: auto;
+    }
+
+    /*-------------div carrousel-------------*/
+    #carrousel {
+        padding: 8px 8px 0 8px;
+        margin: 20.5px;
         border: 1px #d9d9d9 solid;
         border-radius: 24px;
         max-width: inherit;
     }
-    section.presentation > div {
-        display: flex;
-    }
-    section.presentation img {
-        max-height: 482px;
-        border-radius: 16px;
-        height: auto;
-    }
-    img.phone {
-        display: none;
-    }
-    section.presentation p {
+
+    #carrousel p {
         font-family: 'Lato';
         font-size: 16px;
-        color: var(--p-color-style);
+        color: var(--color-black);
         line-height: 24px;
         text-align: left;
-        padding: 0 24px 16px 33px;
+        padding: 0 24px 16px 24px;
     }
-    /*-------------div carrousel-------------*/
-    #carrousel {
-         padding: 8px 8px 0 8px;
-         margin: 20.5px;
-         border: 1px #d9d9d9 solid;
-         border-radius: 24px;
-         max-width: inherit;
-     }
 
-     #carrousel p {
-         font-family: 'Lato';
-         font-size: 16px;
-         color: var(--p-color-style);
-         line-height: 24px;
-         text-align: left;
-         padding: 0 24px 16px 24px;
-     }
+    button.carrousel {
+        font-family: Marcellus;
+        border-radius: 30px;
+        border: 1px #DC9D23 solid;
+        background-color: white;
+        padding: 7px 31px 8px 16px;
+        margin: 0 127px 24px 32px;
+        font-size: 16px;
+        color: #333333;
 
-     button.carrousel {
-         font-family: Marcellus;
-         border-radius: 30px;
-         border: 1px #DC9D23 solid;
-         background-color: white;
-         padding: 7px 31px 8px 16px;
-         margin: 0 127px 24px 32px;
-         font-size: 16px;
-         color: #333333;
+    }
 
-     }
     /*-------------div carrousel ma version-------------*/
-        #carrousel_maVersion {
-            padding: 8px 8px 0 8px;
-            margin: 20.5px;
-            border: 1px #d9d9d9 solid;
-            border-radius: 24px;
-            max-width: inherit;
-        }
-        #carrousel_maVersion p {
-            font-family: 'Lato';
-            font-size: 16px;
-            color: var(--p-color-style);
-            line-height: 24px;
-            text-align: left;
-            padding: 0 24px 16px 24px;
-        }
-        button.carrousel{
-            font-family: Marcellus;
-            border-radius: 30px;
-            border: 1px #DC9D23 solid;
-            background-color: white;
-            padding: 7px 31px 8px 16px;
-            margin: 0 127px 24px 32px;
-            font-size: 16px;
-            color: #333333;
-        }
+    #carrousel_maVersion {
+        padding: 8px 8px 0 8px;
+        margin: 20.5px;
+        border: 1px #d9d9d9 solid;
+        border-radius: 24px;
+        max-width: inherit;
+    }
+
+    #carrousel_maVersion p {
+        font-family: 'Lato';
+        font-size: 16px;
+        color: var(--color-black);
+        line-height: 24px;
+        text-align: left;
+        padding: 0 24px 16px 24px;
+    }
+
+    button.carrousel {
+        font-family: Marcellus;
+        border-radius: 30px;
+        border: 1px #DC9D23 solid;
+        background-color: white;
+        padding: 7px 31px 8px 16px;
+        margin: 0 127px 24px 32px;
+        font-size: 16px;
+        color: #333333;
+    }
 }
 
 
