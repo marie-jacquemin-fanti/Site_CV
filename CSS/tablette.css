@@ -51,11 +51,6 @@
         margin-left: 0.5rem;
         color: var(--button-color);
     }
-    p {
-        text-align: left;
-        font-family: var(--font-family-marcellus), sans-serif;
-        padding: 0 24px 16px 24px;
-    }
 
 
     /*-------------En tête-------------*/
@@ -118,6 +113,8 @@
         font-family: var(--font-family-lato), sans-serif;
         font-size: 1.063rem;
         line-height: 1.563rem;
+        padding: 0 2.125rem 1.625rem 2.063rem;
+
     }
     .presentation__image {
         max-width: 100%;
