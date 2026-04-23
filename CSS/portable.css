@@ -186,7 +186,7 @@
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 1.938rem;
         line-height: 2.125rem;
-        padding: 4.625rem 0 1.375rem 3.563rem;
+        padding: 1.5rem;
     }
 
     .presentation__text {
@@ -222,6 +222,16 @@
         border: 0.0625em #d9d9d9 solid;
         border-radius: 1.5em;
     }
+
+    /*------------- Comment tout à commencer et ce qu’il ma apporter dans la vie ? -------------*/
+    .presentation__content{
+        margin: 0 1.688rem 1.5rem;
+    }
+
+
+
+
+
     /*#carousel_maVersion p {*/
     /*    font-size: 1em;*/
     /*    line-height: 1.5em;*/

@@ -45,6 +45,7 @@
         transition: all 0.2s ease;
         cursor: pointer;
     }
+
     .buttons::after {
         content: "";
         display: inline-block;
@@ -56,6 +57,7 @@
         margin-left: 0.5rem;
         color: var(--button-color);
     }
+
     p {
         text-align: left;
         font-family: var(--font-family-marcellus), sans-serif;
@@ -217,7 +219,7 @@
 
     .presentation__image {
         border-radius: 1.25rem;
-        aspect-ratio: 1 / 1;
+        aspect-ratio: 1/1;
         max-width: 100%;
         height: auto;
         object-fit: contain;
@@ -242,19 +244,10 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    /*-------------section comment ça à commencer-------------*/
+    /*------------- Comment tout à commencer et ce qu’il ma apporter dans la vie ? -------------*/
+    .presentation__content{
+        margin: 0 10.813rem 9.563rem;
+    }
     p.p14 {
         font-size: 14px;
         line-height: 21px;
