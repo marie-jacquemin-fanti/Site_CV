@@ -143,6 +143,11 @@
         border: 0.0625rem solid #d9d9d9;
         border-radius: 1.5rem;
     }
+
+    /*------------- Comment tout à commencer et ce qu’il ma apporter dans la vie ? -------------*/
+    .presentation__content{
+        margin: 0 4.563rem 3.313rem;
+    }
 }
 
 
