@@ -145,6 +145,33 @@
     .presentation__content{
         margin: 0 4.563rem 3.313rem;
     }
+
+    /* --------------------------- Footer --------------------------- */
+    footer {
+        background-color: #f2f2f2;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile__content {
+        padding: 0 0.875rem ;
+        margin: 10.375rem 0 3.75rem 0;
+    }
+
+    .profile__title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.563rem;
+        line-height: 1.875rem;
+    }
+
+    .profile__item {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+    }
 }
 
 
