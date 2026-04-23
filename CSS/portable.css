@@ -205,6 +205,7 @@
         border: 0.0625em #d9d9d9 solid;
         border-radius: 1.5em;
     }
+
     /*#carousel p {*/
     /*    font-size: 1em;*/
     /*    line-height: 1.5em;*/
@@ -219,213 +220,35 @@
     }
 
     /*------------- Comment tout à commencer et ce qu’il ma apporter dans la vie ? -------------*/
-    .presentation__content{
+    .presentation__content {
         margin: 0 1.688rem 1.5rem;
     }
-
-
-
-
-
-    /*#carousel_maVersion p {*/
-    /*    font-size: 1em;*/
-    /*    line-height: 1.5em;*/
-    /*    padding: 0 1.5em 1em 1.5em;*/
-    /*}*/
-    /*button.carousel {*/
-    /*    padding: 7px 14px 8px 24px;*/
-    /*}*/
-    /*button.carousel > img {*/
-    /*    padding-left: 5px;*/
-    /*}*/
-    /*-------------section comment ça à commencer-------------*/
-    /*p.p14 {*/
-    /*    font-size: 0.875em;*/
-    /*    line-height: 1.3125em;*/
-    /*    padding: 0 1.5em 1em 1.5em;*/
-    /*}*/
-    /*h2.someWords {*/
-    /*    font-family: var(--font-family-marcellus), sans-serif;*/
-    /*    font-size: 2.25em;*/
-    /*    color: var(--p-color-style);*/
-    /*    padding: 1.5em;*/
-    /*}*/
-    /*h3.theWords {*/
-    /*    font-family: var(--font-family-marcellus), sans-serif;*/
-    /*    font-size: 48px;*/
-    /*    line-height: 48px;*/
-    /*    letter-spacing: -0.70px;*/
-    /*    color: var(--h2-color-style);*/
-    /*    text-align: center;*/
-    /*    padding: 0 0 11px 0;*/
-    /*}*/
-    /*h3.theWordsh3 {*/
-    /*    font-family: var(--font-family-marcellus), sans-serif;*/
-    /*    font-size: 36px;*/
-    /*    color: var(--p-color-style);*/
-    /*    padding: 24px;*/
-    /*    line-height: 39px;*/
-    /*    text-align: center;*/
-    /*}*/
-    /*h3.someWords {*/
-    /*    font-family: var(--font-family-marcellus), sans-serif;*/
-    /*    font-size: 36px;*/
-    /*    line-height: 39px;*/
-    /*    color: var(--p-color-style);*/
-    /*    padding: 24px;*/
-    /*}*/
-    /*p.theWords {*/
-    /*    font-size: 0.875em;*/
-    /*    line-height: 1.3125em;*/
-    /*    text-align: center;*/
-    /*    padding: 0 0.875em 1.5em 0.875em;*/
-    /*    border-bottom: solid 0.0625em #d9d9d9;*/
-    /*    margin: 0 0.625em 0.625em 0.625em;*/
-    /*}*/
-    /*p.lastP {*/
-    /*    border-bottom: none;*/
-    /*}*/
-    /*-------------Section Quelque photo-------------*/
-    /*img.someImg {*/
-    /*    !*max-height: 227px;*!*/
-    /*    border-radius: 1em;*/
-    /*    height: auto;*/
-    /*}*/
-    /*div.someImg {*/
-    /*    display: flex;*/
-    /*    overflow: auto;*/
-    /*    column-gap: 14px;*/
-    /*    margin: 0 27px;*/
-    /*}*/
-    /*h3.h3-QuelquesPetitesChosesSurLui {*/
-    /*    font-size: 36px;*/
-    /*    line-height: 40px;*/
-    /*}*/
-    /*p.quelquesPetitesChosesSurLui {*/
-    /*    font-family: var(--font-family-lato), sans-serif;*/
-    /*    font-size: 14px;*/
-    /*    line-height: 21px;*/
-    /*}*/
     /* --------------------------- Footer --------------------------- */
-    /*    footer {*/
-    /*        background-color: #f2f2f2;*/
-    /*    }*/
-    /*    .footer__social-items {*/
-    /*        display: flex;*/
-    /*        justify-content: center;*/
-    /*    }*/
-    /*    .footer__social-item {*/
-    /*        padding: 0 0.5em 0.5em;*/
-    /*    }*/
-    /*    .footer__social-title {*/
-    /*        text-align: center;*/
-    /*        font-size: 1.25em;*/
-    /*        line-height: 1.5em;*/
-    /*    }*/
-    /*    .display-1-1, .display-2-2{*/
-    /*        display: flex;*/
-    /*        justify-content: center;*/
-    /*    }*/
-    /*    .display-1-1 p, .display-2-2 p{*/
-    /*        font-family: var(--font-family-lato), sans-serif;*/
-    /*        font-size: 10px;*/
-    /*        line-height: 17px;*/
-    /*        padding: 48px 94px 0 0;*/
-    /*        color: #777777;*/
-    /*    }*/
-    /*    .display-1-1 a, .display-2-2 a{*/
-    /*        font-family: var(--font-family-marcellus), sans-serif;*/
-    /*        font-size: 18px;*/
-    /*        line-height: 21px;*/
-    /*        color: #333333;*/
-    /*        text-decoration: none;*/
-    /*        pointer-events: none*/
-    /*    }*/
-    /*.display-2-2{*/
-    /*    padding-bottom: 40px;*/
-    /*    border-bottom: solid 0.0625em #d9d9d9;*/
-    /*}*/
-    /*    .footer__info-title {*/
-    /*        font-family: var(--font-family-marcellus), sans-serif;*/
-    /*        font-size: 1.25em;*/
-    /*        line-height: 1.5em;*/
-    /*        text-align: center;*/
-    /*        padding-top: 48px;*/
-    /*        padding-bottom: 1.5em;*/
-    /*        color: var(--p-color-style)*/
-    /*    }*/
-    /*    li.adresse, li.phone, li.email {*/
-    /*        font-family: var(--font-family-marcellus), sans-serif;*/
-    /*        font-size: 1.125em;*/
-    /*        line-height: 1.5625em;*/
-    /*        text-align: center;*/
-    /*        color: #808080;*/
-    /*        text-decoration: none;*/
-    /*    }*/
-    /*    li a.information {*/
-    /*        font-family: var(--font-family-marcellus), sans-serif;*/
-    /*        text-decoration: none;*/
-    /*        !*max-height: 1.5em;*!*/
-    /*        font-size: 1.25em;*/
-    /*        line-height: 1.5em;*/
-    /*        color: var(--p-color-style);*/
-    /*        padding: 1.5em 0 1.5em;*/
-    /*        margin: 0 1.0625em;*/
-    /*        display: block;*/
-    /*        border-bottom: solid 0.0625em #d9d9d9;*/
-    /*    }*/
-    /*    .h3-rencontre {*/
-    /*        font-style: normal;*/
-    /*        font-size: 36px;*/
-    /*        line-height: 40px;*/
-    /*    }*/
-    /*    .p-rencontre-1 {*/
-    /*        font-family: var(--font-family-marcellus), sans-serif;*/
-    /*        font-size: 20px;*/
-    /*        line-height: 24px;*/
-    /*        padding: 0 24px;*/
-    /*    }*/
-    /*    .p-rencontre-2 {*/
-    /*        font-size: 16px;*/
-    /*        line-height: 24px;*/
-    /*    }*/
-    /*    .footer {*/
-    /*        padding: 24px 24px 71px;*/
-    /*    }*/
-    /*    .footer__items{*/
-    /*        border-top: solid 1px #d9d9d9;*/
-    /*        padding-top: 24px;*/
-    /*    }*/
-    /*    .footer__item {*/
-    /*        font-family: var(--font-family-lato), sans-serif;*/
-    /*        font-size: 13px;*/
-    /*        line-height: 21px;*/
-    /*        text-align: center;*/
-    /*        padding: 8px 0;*/
-    /*        color: #808080;*/
-    /*    }*/
-    /*    .footer__copyright {*/
-    /*        font-family: var(--font-family-marcellus), sans-serif;*/
-    /*        font-size: 20px;*/
-    /*        line-height: 24px;*/
-    /*        text-align: center;*/
-    /*        color: #808080;*/
-    /*        border-bottom: solid 1px #d9d9d9;*/
-    /*        padding-bottom: 24px;*/
-    /*    }*/
-    /*    .dlApplication {*/
-    /*        display: flex;*/
-    /*        justify-content: center;*/
-    /*    }*/
-    /*    .footer__app-item {*/
-    /*        padding: 8px;*/
-    /*    }*/
-    /*    .address li {*/
-    /*        text-align: center;*/
-    /*        color: #808080;*/
-    /*    }*/
-    /*    ul.address:last-child {*/
-    /*        padding-bottom: 24px;*/
-    /*    }*/
+    footer {
+        background-color: #f2f2f2;
+    }
 
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .profile__content {
+        padding:1.5rem;
+        border-bottom: 1px var(--grey-color-D9) solid;
+    }
+
+    .profile__title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.563rem;
+        line-height: 1.875rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .profile__item {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+    }
 }

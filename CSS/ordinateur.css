@@ -46,7 +46,7 @@
         cursor: pointer;
     }
 
-    .buttons::after {
+    .buttons::after, .information::after {
         content: "";
         display: inline-block;
         width: 0.5rem;
@@ -56,6 +56,18 @@
         transform: rotate(-45deg);
         margin-left: 0.5rem;
         color: var(--button-color);
+    }
+
+    .information::after {
+        content: "";
+        display: inline-block;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-right: 0.125rem solid currentColor;
+        border-bottom: 0.125rem solid currentColor;
+        transform: rotate(-45deg);
+        margin-left: 0.5rem;
+        color: var(--color-black);
     }
 
 
@@ -240,9 +252,10 @@
 
 
     /*------------- Comment tout à commencer et ce qu’il ma apporter dans la vie ? -------------*/
-    .presentation__content{
+    .presentation__content {
         margin: 0 10.813rem 9.563rem;
     }
+
     p.p14 {
         font-size: 14px;
         line-height: 21px;
@@ -338,6 +351,29 @@
     footer {
         background-color: #f2f2f2;
     }
+
+    .profile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile__content {
+        padding: 0 3.875rem ;
+        margin: 10.375rem 0 3.75rem 0;
+    }
+
+    .profile__title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.563rem;
+        line-height: 1.875rem;
+    }
+
+    .profile__item {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+    }
+
 
     .socialMedias {
         display: flex;
