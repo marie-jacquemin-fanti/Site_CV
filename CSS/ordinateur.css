@@ -41,7 +41,7 @@
         font-size: 1rem;
         color: var(--color-black);
         max-width: fit-content;
-        margin: 0 0 1.5rem 2rem;
+        margin: 0 0 1.5rem 3rem;
         transition: all 0.2s ease;
         cursor: pointer;
     }
@@ -372,23 +372,6 @@
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 0.75rem;
         line-height: 1.25rem;
-    }
-
-
-    .socialMedias {
-        display: flex;
-        justify-content: center;
-
-    }
-
-    p.socialMedia {
-        padding: 0 0.5em 0.5em;
-    }
-
-    h3.socialMedia {
-        text-align: center;
-        font-size: 1.25em;
-        line-height: 1.5em;
     }
 
     .display-1-1, .display-2-2 {
