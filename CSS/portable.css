@@ -251,4 +251,35 @@
         font-size: 0.75rem;
         line-height: 1.25rem;
     }
+
+    /* --------------------------- Quelque photos --------------------------- */
+    .gallery {
+        max-width: 50rem;
+        margin: 0 auto;
+    }
+
+    .gallery__title {
+        text-align: center;
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.938rem;
+        line-height: 2.125rem;
+        padding: 1.5rem;
+    }
+
+    .gallery__items {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem 5.625rem;
+    }
+
+    .gallery__item {
+        flex: 1;
+    }
+
+    .gallery__image {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+    }
 }

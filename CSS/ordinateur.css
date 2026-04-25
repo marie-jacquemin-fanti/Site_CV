@@ -19,11 +19,6 @@
         text-align: center;
     }
 
-    h3 {
-        font-family: var(--font-family-marcellus), sans-serif;
-        color: var(--color-black);
-    }
-
     .presentation__container {
         display: flex;
         flex-direction: row-reverse;
@@ -256,22 +251,42 @@
         margin: 0 10.813rem 9.563rem;
     }
 
-    p.p14 {
-        font-size: 14px;
-        line-height: 21px;
-        padding: 0 24px 16px 24px;
+    /* --------------------------- Quelque photos --------------------------- */
+    .gallery {
+        max-width: 75rem;
+        margin: 0 auto;
     }
+
+    .gallery__title {
+        text-align: center;
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 2.5rem;
+        line-height: 2.725rem;
+        padding: 4.625rem 0 2.375rem 3.125rem;
+    }
+
+    .gallery__items {
+        display: flex;
+        gap: 2rem;
+        padding: 1rem 5.625rem;
+    }
+
+    .gallery__item {
+        flex: 1;
+    }
+
+    .gallery__image {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+    }
+
+
+
 
     section.someWords {
         margin: 0 316px;
         padding: 57px 173px 153px;
-    }
-
-    h2.someWords {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 36px;
-        color: var(--color-black);
-        padding: 24px;
     }
 
     h3.theWords {
@@ -358,7 +373,7 @@
     }
 
     .profile__content {
-        padding: 0 3.875rem ;
+        padding: 0 3.875rem;
         margin: 10.375rem 0 3.75rem 0;
     }
 
