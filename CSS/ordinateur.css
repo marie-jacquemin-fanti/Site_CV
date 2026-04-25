@@ -282,8 +282,6 @@
     }
 
 
-
-
     section.someWords {
         margin: 0 316px;
         padding: 57px 173px 153px;
@@ -504,35 +502,38 @@
         text-align: center;
     }
 
-    p.droit {
-        font-family: var(--font-family-lato), sans-serif;
-        font-size: 13px;
-        line-height: 21px;
-        text-align: center;
-        padding: 8px 33px;
-        color: #808080;
-        column-gap: 10px;
-    }
 
-    .divAuthorDroit {
-        display: flex;
-        border-top: solid 1px #d9d9d9;
-        padding-top: 24px;
-        justify-content: center;
-    }
 
     ul.address:last-child {
         padding-bottom: 24px;
     }
+/* --------------------------- copyright --------------------------- */
+    .copyright {
+        padding-bottom: 4.125rem;
+        border-top: solid 1px var(--grey-color-D9);
 
-    .droit.copyright {
+    }
+
+    .copyright__elements{
+        display: flex;
+        justify-content: center;
+    }
+
+    .copyright__element {
         font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
+        font-size: 0.813rem;
+        line-height: 1.313rem;
+        padding: 2.938rem 1rem 0 0;
+        color: var(--grey-color-80);
 
-        color: #808080;
-        border-bottom: solid 1px #d9d9d9;
-        padding-bottom: 24px;
+    }
+
+    .copyright__author {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.375rem;
+        color: var(--grey-color-80);
+        text-align: center;
+        padding: 1.5rem 0 2.938rem 0;
+        border-bottom: solid 1px var(--grey-color-D9);
     }
 }

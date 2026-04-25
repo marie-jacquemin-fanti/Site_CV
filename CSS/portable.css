@@ -205,11 +205,6 @@
         border: 0.0625em #d9d9d9 solid;
         border-radius: 1.5em;
     }
-
-    /*#carousel p {*/
-    /*    font-size: 1em;*/
-    /*    line-height: 1.5em;*/
-    /*}*/
     /*-------------div carousel ma version-------------*/
     #carousel_maVersion {
         max-width: 85%;
@@ -281,5 +276,34 @@
         width: 100%;
         height: auto;
         border-radius: 1rem;
+    }
+
+    /* --------------------------- copyright --------------------------- */
+    .copyright {
+        padding-bottom: 4.125rem;
+        border-top: solid 1px var(--grey-color-D9);
+    }
+
+    .copyright__elements {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copyright__element {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 0.813rem;
+        line-height: 1.938rem;
+        padding: 0.938rem 1rem 0 0;
+        color: var(--grey-color-80);
+        text-align: center;
+    }
+
+    .copyright__author {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.25rem;
+        color: var(--grey-color-80);
+        text-align: center;
+        padding: 1.5rem 0 2.938rem 0;
+        border-bottom: solid 1px var(--grey-color-D9);
     }
 }
