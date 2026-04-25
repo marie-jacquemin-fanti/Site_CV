@@ -23,7 +23,6 @@
     }
 
 
-
     /*
         /*-------------Boutton-------------*/
     .buttons {
@@ -40,6 +39,7 @@
         transition: all 0.2s ease;
         cursor: pointer;
     }
+
     .buttons::after {
         content: "";
         display: inline-block;
@@ -103,12 +103,14 @@
         max-width: 70%;
         margin: 0 auto 3.313rem auto;
     }
+
     .presentation__title {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 1.938rem;
         line-height: 2.125rem;
         padding: 2.938rem 0 1.75rem 2.063rem;
     }
+
     .presentation__text {
         font-family: var(--font-family-lato), sans-serif;
         font-size: 1.063rem;
@@ -116,6 +118,7 @@
         padding: 0 2.125rem 1.625rem 2.063rem;
 
     }
+
     .presentation__image {
         max-width: 100%;
         aspect-ratio: 1 / 1;
@@ -142,7 +145,7 @@
     }
 
     /*------------- Comment tout à commencer et ce qu’il ma apporter dans la vie ? -------------*/
-    .presentation__content{
+    .presentation__content {
         margin: 0 4.563rem 3.313rem;
     }
 
@@ -157,7 +160,7 @@
     }
 
     .profile__content {
-        padding: 0 0.875rem ;
+        padding: 0 0.875rem;
         margin: 10.375rem 0 3.75rem 0;
     }
 
@@ -202,6 +205,35 @@
         width: 100%;
         height: auto;
         border-radius: 1rem;
+    }
+
+    /* --------------------------- copyright --------------------------- */
+    .copyright {
+        padding-bottom: 4.125rem;
+        border-top: solid 1px var(--grey-color-D9);
+    }
+
+    .copyright__elements {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copyright__element {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 0.813rem;
+        line-height: 1.938rem;
+        padding: 2.938rem 1rem 0 0;
+        color: var(--grey-color-80);
+
+    }
+
+    .copyright__author {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.563rem;
+        color: var(--grey-color-80);
+        text-align: center;
+        padding: 1.5rem 0 2.938rem 0;
+        border-bottom: solid 1px var(--grey-color-D9);
     }
 }
 
