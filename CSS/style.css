@@ -18,6 +18,18 @@
     white-space: nowrap;
 }
 
+.buttons::after {
+    content: "";
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-right: 0.125rem solid currentColor;
+    border-bottom: 0.125rem solid currentColor;
+    transform: rotate(-45deg);
+    margin-left: 0.5rem;
+    color: var(--button-color);
+}
+
 
 
 
