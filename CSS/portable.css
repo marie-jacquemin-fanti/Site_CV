@@ -27,101 +27,8 @@
         cursor: pointer;
     }
 
-    /*-------------En tête-------------*/
-    .header__image {
-        max-width: 100%;
-        height: auto;
-    }
-
-
-    .svg-entete {
-        position: absolute;
-        inset: 0;
-        z-index: 2;
-    }
-
-    .deux-div {
-        position: relative;
-        height: 100%;
-    }
-
-    .order1 {
-        margin: 10px 26px 0;
-    }
-
-
-    /*!*-------------en tête button lien-------------*!*/
-    /*section.links {*/
-    /*    margin: 1.5em 1.5em 4.125em;*/
-    /*    filter: drop-shadow(0em 1.875em 2.5em rgba(217, 217, 217, 0.25));*/
-    /*    position: absolute;*/
-    /*    bottom: -9rem;*/
-    /*    z-index: 2;*/
-    /*}*/
-    /*.q {*/
-    /*    display: flex;*/
-    /*    justify-content: center;*/
-    /*}*/
-    /*div.q > img {*/
-    /*    padding-bottom: 16px;*/
-    /*}*/
-    /*main {*/
-    /*    padding-top: 300px;*/
-    /*}*/
-    /*h3.link-1, h3.link-2 {*/
-    /*    font-family: var(--font-family-lato), sans-serif;*/
-    /*    font-weight: 700;*/
-    /*    font-size: 0.6875em;*/
-    /*    line-height: 1em;*/
-    /*    color: var(--p-color-style);*/
-    /*    padding-bottom: 0.25em;*/
-    /*}*/
-    /*img.link-1, img.link-2 {*/
-    /*    background-color: #d9d9d9;*/
-    /*    width: 3.75em;*/
-    /*    height: 3.75em;*/
-    /*    border-radius: 1.875em;*/
-    /*    margin: 0.5em 0 1.125em 0.75em;*/
-    /*}*/
-    /*div.link-1, div.link-2 {*/
-    /*    display: flex;*/
-    /*}*/
-    /*p.link-1, p.link-2 {*/
-    /*    font-family: var(--font-family-marcellus), sans-serif;*/
-    /*    font-size: 1.1875em;*/
-    /*    line-height: 1.25em;*/
-    /*    color: #DC9D23;*/
-    /*}*/
-    /*.link-1 {*/
-    /*    background-color: #ffffff;*/
-    /*    border-radius: 1em 1em 0 0;*/
-    /*}*/
-    /*.link-2 {*/
-    /*    background-color: #ffffff;*/
-    /*}*/
-    /*.link-3 {*/
-    /*    background-color: #262626;*/
-    /*    border-radius: 0 0 1em 1em;*/
-    /*}*/
-    /*h3.link-3 {*/
-    /*    font-family: var(--font-family-marcellus), sans-serif;*/
-    /*    font-size: 1.5em;*/
-    /*    line-height: 2em;*/
-    /*    color: var(--h2-color-style);*/
-    /*    padding: 15px 76px 0 76px;*/
-    /*}*/
-    /*p.link-3 {*/
-    /*    font-family: var(--font-family-lato), sans-serif;*/
-    /*    font-weight: 700;*/
-    /*    line-height: 23px;*/
-    /*    font-size: 1.0625em;*/
-    /*    color: var(--white-color-style);*/
-    /*    text-align: center;*/
-    /*}*/
-    /*div.link-3 {*/
-    /*    padding: 0;*/
-    /*}*/
-    /*------------- Section titre -------------*/
+    /*------------- Main -------------*/
+    /*-------------Titre -------------*/
     .section__title {
         max-width: 85%;
         margin: 0 auto 12.5rem auto;
@@ -218,7 +125,7 @@
     }
 
     /*-------------div carousel-------------*/
-    #carousel {
+    .section__carousel {
         max-width: 85%;
         margin: 0 auto 3.313rem auto;
         padding: 0.5em 0.5em 0 0.5em;
@@ -226,7 +133,7 @@
         border-radius: 1.5em;
     }
     /*-------------div carousel ma version-------------*/
-    #carousel_maVersion {
+    .section__carousel__maVersion {
         max-width: 85%;
         margin: 0 auto 3.313rem auto;
         padding: 0.5em 0.5em 0 0.5em;
@@ -237,34 +144,6 @@
     /*------------- Comment tout à commencer et ce qu’il ma apporter dans la vie ? -------------*/
     .presentation__content {
         margin: 0 1.688rem 1.5rem;
-    }
-    /* --------------------------- Footer --------------------------- */
-    footer {
-        background-color: #f2f2f2;
-    }
-
-    .profile {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .profile__content {
-        padding:1.5rem;
-        border-bottom: 1px var(--grey-color-D9) solid;
-    }
-
-    .profile__title {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 1.563rem;
-        line-height: 1.875rem;
-        padding-bottom: 1.5rem;
-    }
-
-    .profile__item {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 0.75rem;
-        line-height: 1.25rem;
     }
 
     /*------------- En quelque mots -------------*/
@@ -332,6 +211,36 @@
         height: auto;
         border-radius: 1rem;
     }
+    /* --------------------------- Footer --------------------------- */
+    footer {
+        background-color: #f2f2f2;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .profile__content {
+        padding:1.5rem;
+        border-bottom: 1px var(--grey-color-D9) solid;
+    }
+
+    .profile__title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.563rem;
+        line-height: 1.875rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .profile__item {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+    }
+
+
     /* --------------------------- contact --------------------------- */
         .information__group{
         display: flex;

@@ -9,12 +9,6 @@
         justify-content: center;
     }
 
-    .presentation__container {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-
     /*-------------Boutton-------------*/
     .buttons {
         font-family: var(--font-family-marcellus), sans-serif;
@@ -37,7 +31,6 @@
         max-width: 100%;
         height: auto;
     }
-
 
     .svg-entete {
         position: absolute;
@@ -140,7 +133,8 @@
         padding: 0;
     }
 
-    /*-------------Section titre -------------*/
+    /*------------- Main -------------*/
+    /*-------------Titre -------------*/
     .section__title {
         max-width: 70%;
         margin: 0 auto 12.5rem auto;
@@ -166,7 +160,10 @@
     }
 
     /*------------- Ce qu’il aime faire de son temps libre ? et Depuis combien de temps es ce que je le connais ? -------------*/
+
     .presentation__container {
+        display: flex;
+        flex-direction: row-reverse;
         padding: 0.5rem 0.5rem 0 0.5rem;
         border-radius: 1.5rem;
         border: 1px #d9d9d9 solid;
@@ -197,7 +194,7 @@
     }
 
     /*-------------div carousel-------------*/
-    #carousel {
+    .section__carousel {
         padding: 0.5rem 0.5rem 0 0.5rem;
         max-width: 80%;
         margin: 0 auto 3.313rem auto;
@@ -206,7 +203,7 @@
     }
 
     /*-------------div carousel ma version-------------*/
-    #carousel_maVersion {
+    .section__carousel__maVersion {
         padding: 0.5rem 0.5rem 0 0.5rem;
         max-width: 80%;
         margin: 0 auto 3.313rem auto;
@@ -218,10 +215,6 @@
     /*------------- Comment tout à commencer et ce qu’il ma apporter dans la vie ? -------------*/
     .presentation__content {
         margin: 0 10.813rem 9.563rem;
-    }
-
-    .border {
-        border-right: solid 1px #d9d9d9;
     }
 
     /*------------- En quelque mots -------------*/
@@ -292,20 +285,6 @@
         border-radius: 1rem;
     }
 
-
-    /*-------------Section Quelque photo-------------*/
-    img.someImg {
-        max-height: 333px;
-        border-radius: 16px;
-        height: auto;
-    }
-
-    div.someImg {
-        display: flex;
-        overflow: auto;
-    }
-
-
     /* --------------------------- Footer --------------------------- */
     footer {
         background-color: #f2f2f2;
@@ -332,95 +311,13 @@
         font-size: 0.75rem;
         line-height: 1.25rem;
     }
-
-    .display-1-1, .display-2-2 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .display-1-1 p, .display-2-2 p {
-        font-family: var(--font-family-lato), sans-serif;
-        font-size: 10px;
-        line-height: 17px;
-        padding: 48px 94px 0 0;
-        color: #777777;
-    }
-
-
-    .display-2-2 {
-        padding-bottom: 40px;
-        border-bottom: solid 0.0625em #d9d9d9;
-    }
-
-
-    li.adresse, li.phone, li.email {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 1.125em;
-        line-height: 1.5625em;
-        text-align: center;
-        color: #808080;
-        text-decoration: none;
-
-    }
-
-    li a.information {
-        font-family: var(--font-family-marcellus), sans-serif;
-        text-decoration: none;
-        max-height: 1.5em;
-        font-size: 1.25em;
-        line-height: 1.5em;
-        color: var(--color-black);
-        padding: 1.5em 0 1.5em;
-        margin: 0 1.0625em;
-        display: block;
-        border-bottom: solid 0.0625em #d9d9d9;
-
-    }
-
-    .h3-rencontre {
-        font-style: normal;
-        font-size: 36px;
-        line-height: 40px;
-
-    }
-
-    .p-rencontre-1 {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 20px;
-        line-height: 24px;
-        padding: 0 24px;
-    }
-
-    .p-rencontre-2 {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-
-    .authorDroit {
-        padding: 24px 24px 71px;
-    }
-
-
-    .dlApplication {
-        display: flex;
-        justify-content: center;
-    }
-
-    .appStore, .googlePlay {
-        padding: 8px;
-    }
-
-    .address li {
-        text-align: center;
-        color: #808080;
-    }
-
     /* --------------------------- en quelque mots --------------------------- */
     .about__section {
         display: flex;
         justify-content: center;
         gap: 5.5rem;
+        border: 1px solid var(--grey-color-D9);
+        padding: 2.875rem 0;
     }
 
     .about__section__grid {
