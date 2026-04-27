@@ -11,17 +11,6 @@
 
     }
 
-    h2 {
-        font-family: var(--font-family-marcellus), sans-serif;
-        color: var(--h2-color-style);
-        text-align: center;
-    }
-
-    h3 {
-        font-family: var(--font-family-lato), sans-serif;
-        color: #333333;
-    }
-
     /*-------------Boutton-------------*/
     .buttons {
         font-family: var(--font-family-marcellus), sans-serif;
@@ -30,26 +19,13 @@
         border-radius: 1.875rem;
         border: 1px solid var(--button-color);
         background-color: #fff;
-        font-size: 16px;
+        font-size: 0.875rem;
         color: var(--color-black);
         max-width: fit-content;
         margin: 0 0 1.5rem 1.5rem;
         transition: all 0.2s ease;
         cursor: pointer;
     }
-
-    .buttons::after {
-        content: "";
-        display: inline-block;
-        width: 0.5rem;
-        height: 0.5rem;
-        border-right: 0.125rem solid currentColor;
-        border-bottom: 0.125rem solid currentColor;
-        transform: rotate(-45deg);
-        margin-left: 0.5rem;
-        color: var(--button-color);
-    }
-
 
     /*-------------En tête-------------*/
     .header__image {
@@ -155,9 +131,12 @@
     }
 
     .section__title-title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        color: var(--h2-color-style);
         font-size: 1.875rem;
         line-height: 2.063rem;
         letter-spacing: -0.045rem;
+        text-align: center;
     }
 
     .section__title-p {
@@ -277,18 +256,39 @@
         height: auto;
         border-radius: 1rem;
     }
+    /* --------------------------- contact --------------------------- */
+        .information__group{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 1.438rem;
+    }
 
+    .information__group--email, .information__group--address{
+        padding-top: 0;
+    }
+
+    .information__group--email{
+        padding-bottom: 2.5rem;
+    }
+
+    .information__item, .information__link {
+        font-family: var(--font-family-marcellus), sans-serif;
+        color: var(--grey-color-80);
+        text-decoration: none;
+    }
     /* --------------------------- social media --------------------------- */
     .social, .application{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .social__title, .application__title{
+    .social__title, .application__title, .information__title{
         font-family: var(--font-family-marcellus), sans-serif;
         line-height: 1.5rem;
         font-size: 1.25rem;
         padding-bottom:1.5rem;
+        text-align: center;
     }
     .social__items, .application__items {
         display: flex;

@@ -382,7 +382,9 @@
         <p class="presentation__text">Je ne vous en voudrais pas de me le laisser, bien sûr.
         </p>
         <div>
-            <p class="presentation__text">Mais si jamais vous voulez quand même apprendre à le connaître vous le pouvez, je pense que vous serez agréablement surpris en apprenant à le connaître ! Venez et faites sa connaissance.</p>
+            <p class="presentation__text">Mais si jamais vous voulez quand même apprendre à le connaître vous le pouvez,
+                je pense que vous serez agréablement surpris en apprenant à le connaître ! Venez et faites sa
+                connaissance.</p>
             <a class="buttons">En savoir plus !</a>
 
         </div>
@@ -437,35 +439,54 @@
             <li><a href="#"><p>POUR LE</p> comportement</a></li>
         </ul>
     </nav>
-
-    <!--TODO : Demander aide pour BEM-->
-    <div class="allContent">
-        <div class="footer__info">
+    <!-- --------------------------- contact et information --------------------------- -->
+    <div class="informationAndApplication">
+        <div class="information">
             <section itemscope itemtype="https://schema.org/Person">
-                <h2 role="heading" aria-level="2" class="footer__info-title">Informations</h2>
+                <h2 class="information__title">Informations</h2>
 
-                <article itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                    <h3 role="heading" aria-level="3" class="sr-only">Adresse</h3>
-                    <ul class="address">
-                        <li itemprop="address">Rue du petit chat</li>
-                        <li itemprop="address">46872 Arbre</li>
-                        <li itemprop="address">France</li>
-                    </ul>
-                </article>
+                <!-- Adresse -->
+                <div class="information__group information__group--address"
+                     itemprop="address"
+                     itemscope
+                     itemtype="https://schema.org/PostalAddress">
 
-                <article>
-                    <h3 role="heading" aria-level="3" class="sr-only">Teléphone</h3>
-                    <ul>
-                        <li itemprop="telephone" class="phone">+33 6 78 29 65 37</li>
-                    </ul>
-                </article>
+                    <h3 class="sr-only">Adresse</h3>
 
-                <article>
-                    <h3 role="heading" aria-level="3" class="sr-only">Email</h3>
-                    <ul>
-                        <li itemprop="email" class="email">quelamonatgneesbelle@gmail.com</li>
+                    <ul class="information__list">
+                        <li class="information__item" itemprop="streetAddress">
+                            Rue du petit chat
+                        </li>
+                        <li class="information__item">
+                            <span itemprop="postalCode">46872</span>
+                            <span itemprop="addressLocality">Arbre</span>
+                        </li>
+                        <li class="information__item" itemprop="addressCountry">
+                            France
+                        </li>
                     </ul>
-                </article>
+                </div>
+
+                <!-- Téléphone -->
+                <div class="information__group information__group--phone">
+                    <h3 class="sr-only">Téléphone</h3>
+                    <a href="tel:+33678296537"
+                       class="information__link information__link--phone"
+                       itemprop="telephone"
+                       aria-label="Appeler le numéro +33 6 78 29 65 37">
+                        +33 6 78 29 65 37
+                    </a>
+                </div>
+
+                <!-- Email -->
+                <div class="information__group information__group--email">
+                    <h3 class="sr-only">Email</h3>
+                    <a href="mailto:exemple@gmail.com"
+                       class="information__link information__link--email"
+                       itemprop="email">
+                        quelamonatgneesbelle@gmail.com
+                    </a>
+                </div>
             </section>
         </div>
         <!-- --------------------------- social media --------------------------- -->
@@ -475,12 +496,13 @@
                 <article class="application__items">
                     <div class="application__item">
                         <a href="https://apps.apple.com/be/app/pairi-daiza/id1100730159?l=fr-FR">
-                            <img class="application__image" src="images/icone/app store.png" alt="">
+                            <img class="application__image" src="images/icone/app store.png" alt="App store">
                         </a>
                     </div>
                     <div class="application__item">
                         <a href="https://play.google.com/store/apps/details?id=eu.pairidaiza.app&hl=fr">
-                            <img class="application__image"src="images/icone/Google_Play_Store_badge_EN.png" alt="">
+                            <img class="application__image" src="images/icone/Google_Play_Store_badge_EN.png"
+                                 alt="Google play store">
                         </a>
                     </div>
                 </article>
@@ -489,22 +511,20 @@
             <div class="social">
                 <h3 role="heading" aria-level="3" class="social__title">Réseau Sociaux du Site Originel</h3>
                 <div class="social__items">
-                        <a class="social__item" href="https://www.facebook.com/JardinDesMondes/">
-                            <img class="social__item__image" src="images/icone/facebook.png" alt="facebook">
-                        </a>
-
-                        <a class="social__item" href="https://www.instagram.com/pairidaizaofficial">
-                            <img class="social__item__image" src="images/icone/instagram.png" alt="instagram">
-                        </a>
-
-                        <a class="social__item"
-                                href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F1787793"><img class="social__item__image"
-                                src="images/icone/linkedin.png" alt="linkedin">
-                        </a>
-
-                        <a class="social__item" href="https://www.youtube.com/channel/UCos9QVdxjj5SWIO9dbg9ARg">
-                            <img class="social__item__image" src="images/icone/youtube.png" alt="youtube">
-                        </a>
+                    <a class="social__item" href="https://www.facebook.com/JardinDesMondes/">
+                        <img class="social__item__image" src="images/icone/facebook.png" alt="facebook">
+                    </a>
+                    <a class="social__item" href="https://www.instagram.com/pairidaizaofficial">
+                        <img class="social__item__image" src="images/icone/instagram.png" alt="instagram">
+                    </a>
+                    <a class="social__item"
+                       href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F1787793"><img
+                            class="social__item__image"
+                            src="images/icone/linkedin.png" alt="linkedin">
+                    </a>
+                    <a class="social__item" href="https://www.youtube.com/channel/UCos9QVdxjj5SWIO9dbg9ARg">
+                        <img class="social__item__image" src="images/icone/youtube.png" alt="youtube">
+                    </a>
                 </div>
             </div>
         </div>
