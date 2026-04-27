@@ -11,8 +11,6 @@
 
     }
 
-
-    /*
         /*-------------Boutton-------------*/
     .buttons {
         font-family: var(--font-family-marcellus), sans-serif;
@@ -51,7 +49,8 @@
         margin: 10px 26px 0;
     }
 
-    /*------------- Section title -------------*/
+    /*------------- Main -------------*/
+    /*-------------Titre -------------*/
     .section__title {
         max-width: 80%;
         margin: 0 auto 12.5rem auto;
@@ -107,7 +106,7 @@
     }
 
     /*-------------div carousel-------------*/
-    #carousel {
+    .section__carousel {
         max-width: 70%;
         margin: 0 auto 3.313rem auto;
         padding: 0.5rem 0.5rem 0 0.5rem;
@@ -116,7 +115,7 @@
     }
 
     /*-------------div carousel ma version-------------*/
-    #carousel_maVersion {
+    .section__carousel__maVersion {
         max-width: 70%;
         margin: 0 auto 3.313rem auto;
         padding: 0.5rem 0.5rem 0 0.5rem;
@@ -132,14 +131,14 @@
     /*------------- En quelque mots -------------*/
     .someWords__section__title{
         text-align: center;
-        padding-bottom: 2.188rem;
+        padding-bottom: 2.063rem;
     }
 
     .someWords__grid {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 2rem;
+        gap: 2.063rem;
     }
 
     .someWords__grid__item {
