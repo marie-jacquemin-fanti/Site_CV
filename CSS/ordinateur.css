@@ -9,10 +9,6 @@
         justify-content: center;
     }
 
-    .hidden {
-        display: none;
-    }
-
     .presentation__container {
         display: flex;
         flex-direction: row-reverse;
@@ -178,7 +174,7 @@
         margin: 0 auto 3.313rem auto;
     }
 
-    .presentation__title {
+    .presentation__title, .someWords__section__title {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 2.5rem;
         line-height: 2.725rem;
@@ -224,6 +220,48 @@
         margin: 0 10.813rem 9.563rem;
     }
 
+    .border {
+        border-right: solid 1px #d9d9d9;
+    }
+
+    /*------------- En quelque mots -------------*/
+   .someWords__section__title{
+       text-align: center;
+       padding-bottom: 2.188rem;
+   }
+
+    .someWords__grid {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .someWords__grid__item {
+        display: contents;
+    }
+
+    .someWords__item__title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 3rem;
+        line-height: 3rem;
+        letter-spacing: -0.70px;
+        color: var(--h2-color-style);
+        padding: 0 1.438rem 0.688rem 1.438rem;
+    }
+
+    .someWords__item__text {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 14px 24px 14px;
+        margin: 0 10px 10px 10px;
+    }
+
+    .someWords__item__border{
+        border-right: 3px solid var(--grey-color-D9);
+    }
+
     /* --------------------------- Quelque photos --------------------------- */
     .gallery {
         max-width: 75rem;
@@ -254,71 +292,6 @@
         border-radius: 1rem;
     }
 
-
-    section.someWords {
-        margin: 0 316px;
-        padding: 57px 173px 153px;
-    }
-
-    h3.theWords {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 48px;
-        line-height: 48px;
-        letter-spacing: -0.70px;
-        color: var(--h2-color-style);
-        text-align: center;
-        padding: 0 0 11px 0;
-    }
-
-    h3.theWordsh3 {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 36px;
-        color: var(--color-black);
-        padding: 24px;
-        line-height: 39px;
-        text-align: center;
-    }
-
-    h3.border-l {
-        padding-left: 23px;
-    }
-
-    h3.border-r {
-        padding-right: 23px;
-    }
-
-    h3.someWords {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 36px;
-        line-height: 39px;
-        color: var(--color-black);
-        padding: 24px;
-    }
-
-    p.theWords {
-        font-size: 16px;
-        line-height: 25px;
-        text-align: center;
-        padding: 0 14px 24px 14px;
-        margin: 0 10px 10px 10px;
-    }
-
-    .border {
-        border-right: solid 1px #d9d9d9;
-    }
-
-    div.display-1 {
-        padding-right: 88px;
-    }
-
-    .tropLoin {
-        margin: 0 279px;
-    }
-
-    div.display-1, div.display-2, div.display {
-        display: flex;
-        justify-content: center;
-    }
 
     /*-------------Section Quelque photo-------------*/
     img.someImg {
@@ -372,7 +345,6 @@
         padding: 48px 94px 0 0;
         color: #777777;
     }
-
 
 
     .display-2-2 {
@@ -445,13 +417,13 @@
     }
 
     /* --------------------------- en quelque mots --------------------------- */
-    .about__section{
+    .about__section {
         display: flex;
         justify-content: center;
         gap: 5.5rem;
     }
 
-    .about__section__grid{
+    .about__section__grid {
         display: flex;
         font-size: 18px;
         line-height: 21px;
@@ -462,13 +434,13 @@
 
     }
 
-    .about__section__label{
+    .about__section__label {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 0.625rem;
         line-height: 1rem;
     }
 
-    .about__section__text{
+    .about__section__text {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 1.563rem;
         line-height: 1.938rem;
@@ -482,14 +454,14 @@
         padding: 4.313rem 0;
     }
 
-    .information__group{
+    .information__group {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-top: 1.438rem;
     }
 
-    .information__group--email, .information__group--address{
+    .information__group--email, .information__group--address {
         padding-top: 0;
     }
 

@@ -196,7 +196,7 @@
         margin: 0 auto 3.313rem auto;
     }
 
-    .presentation__title {
+    .presentation__title, .someWords__section__title {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 1.938rem;
         line-height: 2.125rem;
@@ -265,6 +265,41 @@
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 0.75rem;
         line-height: 1.25rem;
+    }
+
+    /*------------- En quelque mots -------------*/
+    .someWords__section__title{
+        text-align: center;
+        padding-bottom: 2.188rem;
+    }
+
+    .someWords__grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .someWords__grid__item {
+        display: contents;
+    }
+
+    .someWords__item__title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 3rem;
+        line-height: 3rem;
+        letter-spacing: -0.70px;
+        color: var(--h2-color-style);
+        padding: 0 1.438rem 0.688rem 1.438rem;
+        text-align: center  ;
+    }
+
+    .someWords__item__text {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 14px 24px 14px;
+        margin: 0 10px 10px 10px;
     }
 
     /* --------------------------- Quelque photos --------------------------- */
