@@ -373,14 +373,7 @@
         color: #777777;
     }
 
-    .display-1-1 a, .display-2-2 a {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 18px;
-        line-height: 21px;
-        color: #333333;
-        text-decoration: none;
-        pointer-events: none
-    }
+
 
     .display-2-2 {
         padding-bottom: 40px;
@@ -451,6 +444,35 @@
         color: #808080;
     }
 
+    /* --------------------------- en quelque mots --------------------------- */
+    .about__section{
+        display: flex;
+        justify-content: center;
+        gap: 5.5rem;
+    }
+
+    .about__section__grid{
+        display: flex;
+        font-size: 18px;
+        line-height: 21px;
+        color: #333333;
+        text-decoration: none;
+        pointer-events: none;
+        gap: 5.5rem;
+
+    }
+
+    .about__section__label{
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 0.625rem;
+        line-height: 1rem;
+    }
+
+    .about__section__text{
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.563rem;
+        line-height: 1.938rem;
+    }
 
     /* --------------------------- contact et information --------------------------- */
     .informationAndApplication {

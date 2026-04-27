@@ -186,6 +186,38 @@
         height: auto;
         border-radius: 1rem;
     }
+
+    /* --------------------------- en quelque mots --------------------------- */
+    .about__section{
+        display: flex;
+        justify-content: center;
+        gap: 2.188rem;
+    }
+
+    .about__section__grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2.188rem;
+        font-size: 18px;
+        line-height: 21px;
+        color: #333333;
+        text-decoration: none;
+        pointer-events: none
+    }
+
+    .about__section__label{
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 0.625rem;
+        line-height: 1rem;
+    }
+
+    .about__section__text{
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.563rem;
+        line-height: 1.938rem;
+    }
+
     /* --------------------------- contact et information --------------------------- */
     .informationAndApplication {
         display: flex;

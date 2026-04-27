@@ -146,6 +146,47 @@
         text-align: center;
     }
 
+    /* --------------------------- en quelque mots --------------------------- */
+    .about__section{
+        display: flex;
+        justify-content: center;
+    }
+    .about__section__item {
+        text-align: center;
+    }
+
+    .about__section__grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3.25rem;
+        font-size: 18px;
+        line-height: 21px;
+        color: #333333;
+        text-decoration: none;
+        pointer-events: none
+    }
+
+    .about__section__label--first{
+        padding-top: 3rem;
+    }
+
+    .about__section__text--last{
+        padding-bottom: 5rem;
+    }
+
+    .about__section__label{
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 0.625rem;
+        line-height: 1rem;
+    }
+
+    .about__section__text{
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1.563rem;
+        line-height: 1.938rem;
+    }
+
     /*-------------Ce qu’il aime faire de son temps libre ?-------------*/
     .presentation {
         padding: 0.688rem 0.688rem 0 0.688rem;
