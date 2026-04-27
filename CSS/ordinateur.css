@@ -503,18 +503,38 @@
     }
 
 
-
     ul.address:last-child {
         padding-bottom: 24px;
     }
-/* --------------------------- copyright --------------------------- */
+
+    /* --------------------------- social media --------------------------- */
+    .social, .application{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social__title, .application__title{
+        font-family: var(--font-family-marcellus), sans-serif;
+        line-height: 1.938rem;
+        font-size: 1.625rem;
+        padding-bottom:1.5rem;
+    }
+    .social__items, .application__items {
+        display: flex;
+    }
+
+    .social__item__image, .application__image {
+        padding: 0 0.5rem 2.5rem;
+    }
+
+    /* --------------------------- copyright --------------------------- */
     .copyright {
         padding-bottom: 4.125rem;
         border-top: solid 1px var(--grey-color-D9);
 
     }
 
-    .copyright__elements{
+    .copyright__elements {
         display: flex;
         justify-content: center;
     }
