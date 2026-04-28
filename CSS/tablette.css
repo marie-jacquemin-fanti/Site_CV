@@ -11,7 +11,7 @@
 
     }
 
-        /*-------------Boutton-------------*/
+    /*-------------Boutton-------------*/
     .buttons {
         font-family: var(--font-family-marcellus), sans-serif;
         display: inline-block;
@@ -40,13 +40,70 @@
         z-index: 2;
     }
 
-    .deux-div {
+    .header__actions {
         position: relative;
         height: 100%;
     }
 
-    .order1 {
-        margin: 10px 26px 0;
+    /*------------- Barre de navigation -------------*/
+    .navigation-barre {
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem;
+        padding: 1rem;
+        filter: drop-shadow(0 1.5rem 2rem rgba(217, 217, 217, 0.25));
+
+    }
+
+    .navigation-barre__item {
+        display: flex;
+        align-items: center;
+        background-color: var(--white-color-style);
+        padding: 0.75rem 1.813rem 0.75rem 1.438rem;
+        border-radius: 1rem;
+        min-width: 25%;
+
+    }
+
+    .navigation-barre__item--last {
+        background-color: var(--color-black);
+        color: var(--white-color-style);
+        flex-direction: column;
+    }
+
+    .navigation-barre__image {
+        width: 3.75rem;
+        height: 3.75rem;
+        border-radius: 50%;
+    }
+
+    .navigation-barre__title {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        margin: 0;
+        padding: 0 0 0.5rem 3.125rem;
+    }
+
+    .navigation-barre__text {
+        font-family: var(--font-family-lato), sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.4;
+        margin: 0.25rem 0;
+        text-align: center;
+    }
+
+    .navigation-barre__link {
+        font-family: var(--font-family-marcellus), sans-serif;
+        font-size: 1rem;
+        color: var(--h2-color-style);
+        text-decoration: none;
+        padding-left: 3.125rem;
+    }
+
+    .last {
+        padding-left: 0;
     }
 
     /*------------- Main -------------*/
@@ -129,7 +186,7 @@
     }
 
     /*------------- En quelque mots -------------*/
-    .someWords__section__title{
+    .someWords__section__title {
         text-align: center;
         padding-bottom: 2.063rem;
     }
@@ -152,7 +209,7 @@
         letter-spacing: -0.70px;
         color: var(--h2-color-style);
         padding: 0 1.438rem 0.688rem 1.438rem;
-        text-align: center  ;
+        text-align: center;
     }
 
     .someWords__item__text {
@@ -193,6 +250,7 @@
         height: auto;
         border-radius: 1rem;
     }
+
     /* --------------------------- Footer --------------------------- */
     footer {
         background-color: #f2f2f2;
@@ -221,13 +279,13 @@
     }
 
     /* --------------------------- en quelque mots --------------------------- */
-    .about__section{
+    .about__section {
         display: flex;
         justify-content: center;
         gap: 2.188rem;
     }
 
-    .about__section__grid{
+    .about__section__grid {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -239,13 +297,13 @@
         pointer-events: none
     }
 
-    .about__section__label{
+    .about__section__label {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 0.625rem;
         line-height: 1rem;
     }
 
-    .about__section__text{
+    .about__section__text {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 1.563rem;
         line-height: 1.938rem;
@@ -259,14 +317,14 @@
         padding: 4.313rem 0;
     }
 
-    .information__group{
+    .information__group {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-top: 1.375rem;
     }
 
-    .information__group--email, .information__group--address{
+    .information__group--email, .information__group--address {
         padding-top: 0;
     }
 
@@ -275,19 +333,22 @@
         color: var(--grey-color-80);
         text-decoration: none;
     }
+
     /* --------------------------- social media --------------------------- */
-    .social, .application{
+    .social, .application {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .social__title, .application__title, .information__title{
+
+    .social__title, .application__title, .information__title {
         font-family: var(--font-family-marcellus), sans-serif;
         line-height: 1.625rem;
         font-size: 1.375rem;
-        padding-bottom:1.5rem;
+        padding-bottom: 1.5rem;
         text-align: center;
     }
+
     .social__items, .application__items {
         display: flex;
     }

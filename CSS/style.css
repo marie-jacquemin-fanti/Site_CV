@@ -18,7 +18,7 @@
     white-space: nowrap;
 }
 
-.buttons::after {
+.buttons::after, .navigationBarre__link::after {
     content: "";
     display: inline-block;
     width: 0.5rem;
