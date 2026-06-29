@@ -30,6 +30,8 @@
     color: var(--button-color);
 }
 
-
+body{
+    background-color: black;
+}
 
 

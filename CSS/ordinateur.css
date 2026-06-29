@@ -9,6 +9,74 @@
         justify-content: center;
     }
 
+    .header {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        padding: 0 6rem;
+        gap: 1rem 5rem;
+    }
+
+    .header__nav {
+        justify-self: start;
+    }
+
+    .header__nav__list {
+        display: flex;
+        gap: 1rem;
+    }
+    .header__nav__item{
+        min-width: 7rem;
+    }
+
+    .header__nav__item__link {
+        font-family: var(--font-family-lato), sans-serif;
+        line-height: 1.65;
+        list-style-type: none;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--white-color-style);
+    }
+
+    .header__nav__item__link:hover {
+        color: var(--h2-color-style);
+    }
+
+    .header__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .header__logo__pic {
+        height: 100%;
+        max-width: 100%;
+        display: block;
+        flex-shrink: 0;
+    }
+
+    .header__logo__pairi {
+        display: flex;
+        align-items: center;
+        color: var(--white-color-style);
+    }
+
+    .header__logo__pairi:first-child {
+        justify-content: flex-end;
+    }
+
+    .header__logo__pairi:last-child {
+        justify-content: flex-start;
+    }
+
+    .header__triggers {
+        display: flex;
+        justify-self: end;
+    }
+
     /*-------------Boutton-------------*/
     .buttons {
         font-family: var(--font-family-marcellus), sans-serif;
@@ -58,7 +126,7 @@
         background-color: var(--white-color-style);
         padding: 0.75rem 1.813rem 0.75rem 1.438rem;
         border-radius: 1rem;
-        min-width:25%;
+        min-width: 25%;
 
     }
 
@@ -79,7 +147,7 @@
         font-size: 0.75rem;
         line-height: 1rem;
         margin: 0;
-        padding:0 0 0.5rem 3.125rem;
+        padding: 0 0 0.5rem 3.125rem;
     }
 
     .navigation-barre__text {
@@ -99,9 +167,10 @@
         padding-left: 3.125rem;
     }
 
-    .last{
-        padding-left:0;
+    .last {
+        padding-left: 0;
     }
+
     /*------------- Main -------------*/
     /*-------------Titre -------------*/
     .section__title {
@@ -389,4 +458,5 @@
         padding: 1.5rem 0 2.938rem 0;
         border-bottom: solid 1px var(--grey-color-D9);
     }
+
 }
