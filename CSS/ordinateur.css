@@ -110,6 +110,10 @@
         text-decoration: none;
     }
 
+    .buttons:hover {
+        color: var(--h2-color-style);
+        box-shadow: 0 10px 20px #3333331a;
+    }
 
     .svg-entete {
         position: absolute;
@@ -145,7 +149,7 @@
         display: flex;
         align-items: center;
         background-color: var(--white-color-style);
-        padding: 2rem 1.813rem 2rem 1.438rem;
+        padding: 1rem 1.813rem 2rem 1.438rem;
         flex: 2;
         transition: padding 0.3s ease;
     }
@@ -169,7 +173,7 @@
         width: 5.5rem;
         height: 5.5rem;
         border-radius: 50%;
-        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
         transition: width 0.3s ease, height 0.3s ease;
     }
 
@@ -243,9 +247,9 @@
     /*------------- Main -------------*/
     /*-------------Titre -------------*/
     .section__title {
-        max-width: 70%;
-        margin: 12.5rem auto;
-        padding: 2.188rem;
+        max-width: 55%;
+        margin: 12rem auto 10rem;
+        padding: 2.5rem;
         border: 1px #d9d9d9 solid;
         border-radius: 1.5rem;
     }
@@ -262,47 +266,66 @@
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 1.563rem;
         line-height: 1.875em;
-        padding-top: 1rem;
         text-align: center;
     }
 
     /*------------- Ce qu’il aime faire de son temps libre ? et Depuis combien de temps es ce que je le connais ? -------------*/
     .presentation__container {
         display: flex;
-        flex-direction: row-reverse;
-        padding: 0.5rem 0.5rem 0 0.5rem;
+        padding: 0.5rem;
         border-radius: 1.5rem;
         border: 1px #d9d9d9 solid;
-        max-width: 80%;
-        margin: 0 auto 3.313rem auto;
+        max-width: 65%;
+        margin: 0 auto 5rem auto;
+    }
+    .presentation:nth-of-type(odd) .presentation__container {
+        flex-direction: row-reverse;
+    }
+    .presentation__container > div {
+        width: 50%;
     }
 
+    .presentation__container > div:has(.presentation__image) {
+        display: flex;
+    }
     .presentation__title, .someWords__section__title {
         font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 2.5rem;
-        line-height: 2.725rem;
-        padding: 4.625rem 0 1.375rem 3.125rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+    }
+    .presentation__title-solo{
+        font-family: var(--font-family-marcellus), sans-serif;
+        line-height: 3.5rem;
+        padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+        font-size: 3rem;
     }
 
     .presentation__text {
         font-family: var(--font-family-lato), sans-serif;
         font-size: 1.125rem;
         line-height: 1.744rem;
-        padding: 0 5.625rem 1.25rem 3.125rem;
+        padding: 0 2.5rem 1.5rem;
+    }
+    .presentation__text-solo {
+        font-family: var(--font-family-lato), sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        font-weight: 300;
+        padding: 0 2.5rem 1.5rem;
     }
 
     .presentation__image {
         border-radius: 1.25rem;
-        aspect-ratio: 1/1;
-        max-width: 100%;
+        width: 100%;
         height: auto;
-        object-fit: contain;
+        object-fit: cover;
     }
 
     /*-------------div carousel-------------*/
     .section__carousel {
         padding: 0.5rem 0.5rem 0 0.5rem;
-        max-width: 80%;
+        max-width: 65%;
         margin: 0 auto 3.313rem auto;
         border: 0.0625rem solid #d9d9d9;
         border-radius: 1.5rem;
@@ -311,7 +334,7 @@
     /*-------------div carousel ma version-------------*/
     .section__carousel__maVersion {
         padding: 0.5rem 0.5rem 0 0.5rem;
-        max-width: 80%;
+        max-width: 65%;
         margin: 0 auto 3.313rem auto;
         border: 0.0625rem solid #d9d9d9;
         border-radius: 1.5rem;
@@ -320,7 +343,7 @@
 
     /*------------- Comment tout à commencer et ce qu’il ma apporter dans la vie ? -------------*/
     .presentation__content {
-        margin: 0 10.813rem 9.563rem;
+        margin: 0 22rem 1.5rem;
     }
 
     /*------------- En quelque mots -------------*/
