@@ -21,60 +21,66 @@
 
 <body>
 <header>
-    <div class="header">
-        <h1 class="header__title sr-only">Reproduction du site Pairi Daiza avec comme objet principal un livre</h1>
-        <nav class="header__nav">
-            <!--TODO : Ajouter des encres nomée pour plus de logique-->
-            <ul class="header__nav__list">
-                <li class="header__nav__item">
-                    <a href="#presentation" class="header__nav__item__link">Présentation</a>
+    <div id="page-top-sentinel">
+        <div class="header">
+            <h1 class="header__title sr-only">Reproduction du site Pairi Daiza avec comme objet principal un livre</h1>
+            <nav class="header__nav">
+                <!--TODO : Ajouter des encres nomée pour plus de logique-->
+                <ul class="header__nav__list">
+                    <li class="header__nav__item">
+                        <a href="#presentation" class="header__nav__item__link">Présentation</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#section__carousel" class="header__nav__item__link">Avant/Après</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#someWords__section" class="header__nav__item__link">Quelques mots</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#gallery" class="header__nav__item__link">Galerie</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__logo">
+                <p class="header__logo__pairi">MONTAGNE</p>
+                <svg width="123" height="123" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     class="header__logo__pic">
+                    <path d="M52.4184 26.343C52.6306 26.3686 52.838 26.4002 53.0392 26.4363C54.9139 26.7721 56 28.5681 56 30.4726V50.2849C56 53.3102 53.3337 55.6347 50.3173 55.4035C49.1142 55.3114 47.8967 55.2461 46.8621 55.2461C43.3479 55.2461 38 55.9997 38 55.9997C38 55.9997 32.4682 55.2461 28.954 55.2461C27.969 55.2461 26.8327 55.3053 25.7073 55.3905C22.6817 55.6196 20 53.2935 20 50.2592V30.617C20 28.6382 21.1621 26.7825 23.1035 26.3994C23.3755 26.3457 23.654 26.2999 23.9339 26.2661M38 55.9997V51.4717M38 22.0866C38 22.0866 33.7291 21.333 30.967 21.333C30.0924 21.333 29.0665 21.4086 28.0729 21.5118C25.6685 21.7617 23.9339 23.8488 23.9339 26.2661L23.7944 45.388C23.7714 48.5387 26.6384 50.8588 29.7869 50.7387C30.0303 50.7294 30.269 50.7243 30.5 50.7243C33.3114 50.7243 38 51.4717 38 51.4717M38 51.4717C38 51.4717 42.4438 50.7243 45.2552 50.7243C45.5763 50.7243 45.9153 50.7351 46.2639 50.7542C49.3957 50.9256 52.2694 48.6445 52.2904 45.5081L52.4184 26.343M38 51.4717V22.0866M52.4184 26.343V26.2996C52.4184 23.8654 50.6662 21.7677 48.2448 21.5189C47.2048 21.412 46.1258 21.333 45.2092 21.333C42.3786 21.333 38 22.0866 38 22.0866"
+                          stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="38" cy="38" r="37" stroke="white" stroke-width="1"/>
+                </svg>
+                <p class="header__logo__pairi">BELLE</p>
+            </div>
+            <ul class="header__triggers">
+                <li class="search header__triggers__item">
+                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_2042_68)">
+                            <path d="M10.8743 19.3337C12.9926 19.3337 14.9241 18.5494 16.4079 17.2632L24.166 25.0213L25.0203 24.167L17.2622 16.4089C18.5485 14.9251 19.3327 12.9935 19.3327 10.8753C19.3327 6.20391 15.5458 2.41699 10.8743 2.41699C6.20293 2.41699 2.41602 6.20391 2.41602 10.8753C2.41602 15.5467 6.20293 19.3337 10.8743 19.3337ZM10.8743 3.62533C14.8721 3.62533 18.1243 6.87755 18.1243 10.8753C18.1243 14.8731 14.8721 18.1253 10.8743 18.1253C6.87658 18.1253 3.62435 14.8731 3.62435 10.8753C3.62435 6.87755 6.87658 3.62533 10.8743 3.62533Z"
+                                  fill="white"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_2042_68">
+                                <rect width="29" height="29" fill="white"></rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
                 </li>
-                <li class="header__nav__item">
-                    <a href="#section__carousel" class="header__nav__item__link">Avant/Après</a>
-                </li>
-                <li class="header__nav__item">
-                    <a href="#someWords__section" class="header__nav__item__link">Quelques mots</a>
-                </li>
-                <li class="header__nav__item">
-                    <a href="#gallery" class="header__nav__item__link">Gallery</a>
+                <li>
+                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_2042_59)">
+                            <path d="M17.5753 14.9516C19.6965 13.8412 21.1465 11.6233 21.1465 9.06283C21.1465 5.39251 18.171 2.41699 14.5007 2.41699C10.8303 2.41699 7.85482 5.39251 7.85482 9.06283C7.85482 11.6233 9.30482 13.8412 11.426 14.9516C6.58003 16.3672 3.02148 21.0308 3.02148 26.5837H25.9798C25.9798 21.0308 22.4213 16.3672 17.5753 14.9516ZM9.06315 9.06283C9.06315 6.06435 11.5022 3.62533 14.5007 3.62533C17.4991 3.62533 19.9382 6.06435 19.9382 9.06283C19.9382 12.0613 17.4991 14.5003 14.5007 14.5003C11.5022 14.5003 9.06315 12.0613 9.06315 9.06283ZM14.5007 15.7087C19.778 15.7087 24.1389 19.9457 24.7087 25.3753H4.29265C4.86238 19.9457 9.22326 15.7087 14.5007 15.7087Z"
+                                  fill="white"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_2042_59">
+                                <rect width="29" height="29" fill="white"></rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
                 </li>
             </ul>
-        </nav>
-
-        <div class="header__logo">
-            <p class="header__logo__pairi">MONTAGNE</p>
-            <svg width="123" height="123" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg" class="header__logo__pic">
-                <path d="M52.4184 26.343C52.6306 26.3686 52.838 26.4002 53.0392 26.4363C54.9139 26.7721 56 28.5681 56 30.4726V50.2849C56 53.3102 53.3337 55.6347 50.3173 55.4035C49.1142 55.3114 47.8967 55.2461 46.8621 55.2461C43.3479 55.2461 38 55.9997 38 55.9997C38 55.9997 32.4682 55.2461 28.954 55.2461C27.969 55.2461 26.8327 55.3053 25.7073 55.3905C22.6817 55.6196 20 53.2935 20 50.2592V30.617C20 28.6382 21.1621 26.7825 23.1035 26.3994C23.3755 26.3457 23.654 26.2999 23.9339 26.2661M38 55.9997V51.4717M38 22.0866C38 22.0866 33.7291 21.333 30.967 21.333C30.0924 21.333 29.0665 21.4086 28.0729 21.5118C25.6685 21.7617 23.9339 23.8488 23.9339 26.2661L23.7944 45.388C23.7714 48.5387 26.6384 50.8588 29.7869 50.7387C30.0303 50.7294 30.269 50.7243 30.5 50.7243C33.3114 50.7243 38 51.4717 38 51.4717M38 51.4717C38 51.4717 42.4438 50.7243 45.2552 50.7243C45.5763 50.7243 45.9153 50.7351 46.2639 50.7542C49.3957 50.9256 52.2694 48.6445 52.2904 45.5081L52.4184 26.343M38 51.4717V22.0866M52.4184 26.343V26.2996C52.4184 23.8654 50.6662 21.7677 48.2448 21.5189C47.2048 21.412 46.1258 21.333 45.2092 21.333C42.3786 21.333 38 22.0866 38 22.0866" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="38" cy="38" r="37" stroke="white" stroke-width="1"/>
-            </svg>
-            <p class="header__logo__pairi">BELLE</p>
         </div>
-        <ul class="header__triggers">
-            <li class="search header__triggers__item">
-                <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_2042_68)">
-                        <path d="M10.8743 19.3337C12.9926 19.3337 14.9241 18.5494 16.4079 17.2632L24.166 25.0213L25.0203 24.167L17.2622 16.4089C18.5485 14.9251 19.3327 12.9935 19.3327 10.8753C19.3327 6.20391 15.5458 2.41699 10.8743 2.41699C6.20293 2.41699 2.41602 6.20391 2.41602 10.8753C2.41602 15.5467 6.20293 19.3337 10.8743 19.3337ZM10.8743 3.62533C14.8721 3.62533 18.1243 6.87755 18.1243 10.8753C18.1243 14.8731 14.8721 18.1253 10.8743 18.1253C6.87658 18.1253 3.62435 14.8731 3.62435 10.8753C3.62435 6.87755 6.87658 3.62533 10.8743 3.62533Z" fill="white"></path>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_2042_68">
-                            <rect width="29" height="29" fill="white"></rect>
-                        </clipPath>
-                    </defs>
-                </svg>
-            </li>
-            <li>
-                <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_2042_59)">
-                        <path d="M17.5753 14.9516C19.6965 13.8412 21.1465 11.6233 21.1465 9.06283C21.1465 5.39251 18.171 2.41699 14.5007 2.41699C10.8303 2.41699 7.85482 5.39251 7.85482 9.06283C7.85482 11.6233 9.30482 13.8412 11.426 14.9516C6.58003 16.3672 3.02148 21.0308 3.02148 26.5837H25.9798C25.9798 21.0308 22.4213 16.3672 17.5753 14.9516ZM9.06315 9.06283C9.06315 6.06435 11.5022 3.62533 14.5007 3.62533C17.4991 3.62533 19.9382 6.06435 19.9382 9.06283C19.9382 12.0613 17.4991 14.5003 14.5007 14.5003C11.5022 14.5003 9.06315 12.0613 9.06315 9.06283ZM14.5007 15.7087C19.778 15.7087 24.1389 19.9457 24.7087 25.3753H4.29265C4.86238 19.9457 9.22326 15.7087 14.5007 15.7087Z" fill="white"></path>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_2042_59">
-                            <rect width="29" height="29" fill="white"></rect>
-                        </clipPath>
-                    </defs>
-                </svg>
-            </li>
-        </ul>
     </div>
     <div class="header__image__contenant">
         <img class="header__image"
@@ -88,55 +94,62 @@
 </header>
 
 
+<!-- Barre de navigation -->
+<div class="navigation-barre-sticky">
+    <section class="navigation-barre">
+        <h2 class="navigation-barre__heading sr-only">Un peu sur nous</h2>
 
-
-    <!-- Barre de navigation -->
-    <div class="navigation-barre-sticky">
-        <section class="navigation-barre">
-            <h2 class="navigation-barre__heading sr-only">Un peu sur nous</h2>
-
-            <article class="navigation-barre__item">
-                <img class="navigation-barre__image"
-                     src="images/image_GSM/sapin_1600.jpg"
-                     srcset="
+        <article class="navigation-barre__item">
+            <img class="navigation-barre__image"
+                 src="images/image_GSM/sapin_1600.jpg"
+                 srcset="
                 images/image_GSM/sapin_320.jpg 320w,
                 images/image_GSM/sapin_768.jpg 768w,
                 images/image_GSM/sapin_1600.jpg 1600w"
-                     sizes="(max-width: 768px) 100vw, 600px"
-                     width="1600"
-                     height="1599"
-                     alt="Livre posé devant un sapin de Noël">
+                 sizes="(max-width: 768px) 100vw, 600px"
+                 width="1600"
+                 height="1599"
+                 alt="Livre posé devant un sapin de Noël">
 
+            <div class="navigation-barre__content">
                 <div>
                     <h3 class="navigation-barre__title">Où est-ce que je l’ai rencontré ?</h3>
                     <a href="#" class="navigation-barre__link">Voir l’endroit !</a>
                 </div>
-            </article>
+                <span class="navigation-barre__icon"></span>
+            </div>
+        </article>
 
-            <article class="navigation-barre__item">
-                <img class="navigation-barre__image"
-                     src="images/image_GSM/citrouille_1600.jpg"
-                     srcset="
+        <article class="navigation-barre__item">
+            <img class="navigation-barre__image"
+                 src="images/image_GSM/citrouille_1600.jpg"
+                 srcset="
                 images/image_GSM/citrouille_320.jpg 320w,
                 images/image_GSM/citrouille_768.jpg 768w,
                 images/image_GSM/citrouille_1600.jpg 1600w"
-                     sizes="(max-width: 768px) 100vw, 600px"
-                     width="1600"
-                     height="1599"
-                     alt="Livre posé sur une table avec des citrouilles">
+                 sizes="(max-width: 768px) 100vw, 600px"
+                 width="1600"
+                 height="1599"
+                 alt="Livre posé sur une table avec des citrouilles">
 
+            <div class="navigation-barre__content">
                 <div>
                     <h3 class="navigation-barre__title">Combien ai-je dépensé avec lui ?</h3>
                     <a href="#" class="navigation-barre__link">Regardez le prix !</a>
                 </div>
-            </article>
+                <span class="navigation-barre__icon"></span>
+            </div>
+        </article>
 
-            <article class="navigation-barre__item navigation-barre__item--last">
+        <article class="navigation-barre__item navigation-barre__item--last">
+            <div class="navigation-barre__content-last">
                 <h3 class="navigation-barre__link last">Nos aventures</h3>
                 <p class="navigation-barre__text">Les lieux visités ensemble</p>
-            </article>
-        </section>
-    </div>
+            </div>
+            <span class="navigation-barre__icon-last"></span>
+        </article>
+    </section>
+</div>
 
 <!-- Main -->
 <!-- Titre -->
@@ -280,7 +293,8 @@
     <section class="presentation__content">
         <h3 class="presentation__title-solo">Comment tout à commencer et ce qu’il ma apporter
             dans la vie ?</h3>
-        <p class="presentation__text-solo">Souvent, quand je ne sais pas quoi faire, je m’ennuie, et j’ai vraiment du mal à
+        <p class="presentation__text-solo">Souvent, quand je ne sais pas quoi faire, je m’ennuie, et j’ai vraiment du
+            mal à
             choisir quoi
             faire. Mais
             lui, il m’a attirée directement. Il m’a donné envie de passer du temps avec lui sans que ça devienne
@@ -303,11 +317,11 @@
         <h2 class="someWords__section__title">En quelques mots</h2>
         <div class="someWords__grid">
             <div class="someWords__grid__item">
-                <div class="someWords__item__border">
-                    <h3 class="someWords__item__title">Caractaire</h3>
+                <div class="someWords__item__border-solo1">
+                    <h3 class="someWords__item__title">Caractère</h3>
                     <p class="someWords__item__text">Téméraire</p>
                 </div>
-                <div>
+                <div class="someWords__item__border">
                     <h3 class="someWords__item__title">Physique</h3>
                     <p class="someWords__item__text">Grand</p>
                 </div>
@@ -316,7 +330,7 @@
                     <h3 class="someWords__item__title">Mentalité</h3>
                     <p class="someWords__item__text">Solitaire</p>
                 </div>
-                <div>
+                <div class="someWords__item__border-solo2">
                     <h3 class="someWords__item__title">Comportement</h3>
                     <p class="someWords__item__text">Taquin</p>
                 </div>
@@ -328,7 +342,7 @@
         <h3 class="gallery__title">Quelques photos</h3>
         <!--TODO : Ici je doit faire le suivie de curseur en JS, donc les ilmages sont navigable seulement au clic-->
         <div class="gallery__items">
-            <div class="gallery_item">
+            <div class="gallery__item gallery__item--landscape">
                 <img class="gallery__image"
                      src="images/image_GSM/sapin_1600.jpg"
                      srcset="images/image_GSM/sapin_320.jpg 320w,
@@ -338,8 +352,9 @@
                      width="1600"
                      height="1599"
                      alt="Livre posé devant un sapin de Noël">
+                <h3 class="gallery__item__title">Un sapin hivernal</h3>
             </div>
-            <div class="gallery_item">
+            <div class="gallery__item gallery__item--portrait">
                 <img class="gallery__image"
                      src="images/image_GSM/citrouille_1600.jpg"
                      srcset="images/image_GSM/citrouille_320.jpg 320w,
@@ -349,8 +364,58 @@
                      width="1600"
                      height="1599"
                      alt="Livre posé sur une table avec des citrouilles">
+                <h3 class="gallery__item__title">Une citrouille d'automne</h3>
+            </div>
+            <div class="gallery__item gallery__item--landscape">
+                <img class="gallery__image"
+                     src="images/image_GSM/sapin_1600.jpg"
+                     srcset="images/image_GSM/sapin_320.jpg 320w,
+                            images/image_GSM/sapin_768.jpg 768w,
+                            images/image_GSM/sapin_1600.jpg 1600w"
+                     sizes="(max-width: 768px) 100vw, 600px"
+                     width="1600"
+                     height="1599"
+                     alt="Livre posé devant un sapin de Noël">
+                <h3 class="gallery__item__title">Un sapin hivernal</h3>
+            </div>
+            <div class="gallery__item gallery__item--portrait">
+                <img class="gallery__image"
+                     src="images/image_GSM/citrouille_1600.jpg"
+                     srcset="images/image_GSM/citrouille_320.jpg 320w,
+                            images/image_GSM/citrouille_768.jpg 768w,
+                            images/image_GSM/citrouille_1600.jpg 1600w"
+                     sizes="(max-width: 768px) 100vw, 600px"
+                     width="1600"
+                     height="1599"
+                     alt="Livre posé sur une table avec des citrouilles">
+                <h3 class="gallery__item__title">Une citrouille d'automne</h3>
+            </div>
+            <div class="gallery__item gallery__item--landscape">
+                <img class="gallery__image"
+                     src="images/image_GSM/sapin_1600.jpg"
+                     srcset="images/image_GSM/sapin_320.jpg 320w,
+                            images/image_GSM/sapin_768.jpg 768w,
+                            images/image_GSM/sapin_1600.jpg 1600w"
+                     sizes="(max-width: 768px) 100vw, 600px"
+                     width="1600"
+                     height="1599"
+                     alt="Livre posé devant un sapin de Noël">
+                <h3 class="gallery__item__title">Un sapin hivernal</h3>
+            </div>
+            <div class="gallery__item gallery__item--portrait">
+                <img class="gallery__image"
+                     src="images/image_GSM/citrouille_1600.jpg"
+                     srcset="images/image_GSM/citrouille_320.jpg 320w,
+                            images/image_GSM/citrouille_768.jpg 768w,
+                            images/image_GSM/citrouille_1600.jpg 1600w"
+                     sizes="(max-width: 768px) 100vw, 600px"
+                     width="1600"
+                     height="1599"
+                     alt="Livre posé sur une table avec des citrouilles">
+                <h3 class="gallery__item__title">Une citrouille d'automne</h3>
             </div>
         </div>
+        <div class="gallery__dots"></div>
     </section>
 
     <section class="presentation__content">
@@ -398,32 +463,32 @@
         <h2 class="sr-only">En savoir plus sur lui ?</h2>
         <!--TODO : Un menu déroulant-->
         <div class="profile__content">
-            <h3 class="profile__title">A PROPOS DE LUI</h3>
+            <h3 class="profile__title">À propos de lui</h3>
             <p class="profile__item">CONVICTION</p>
             <p class="profile__item">PASSION</p>
             <p class="profile__item">AMBITION</p>
             <p class="profile__item">FAQ</p>
         </div>
         <div class="profile__content">
-            <h3 class="profile__title">SES EXPÉRIENCE</h3>
-            <p class="profile__item"> COMPETANCE </p>
+            <h3 class="profile__title">Ses expériences</h3>
+            <p class="profile__item"> COMPÉTENCE </p>
             <p class="profile__item"> TRAVAIL </p>
             <p class="profile__item"> POSTE </p>
             <p class="profile__item"> ECOLE </p>
             <p class="profile__item"> VOYAGE </p>
         </div>
         <div class="profile__content">
-            <h3 class="profile__title">CE QU’IL AIME</h3>
+            <h3 class="profile__title">Ce qu'il aime</h3>
             <p class="profile__item">LECTURE</p>
             <p class="profile__item">JEUX</p>
             <p class="profile__item">NOURRITURE</p>
             <p class="profile__item">FILM</p>
-            <p class="profile__item">PASSE TEMPS</p>
+            <p class="profile__item">PASSE-TEMPS</p>
         </div>
         <div class="profile__content">
-            <h3 class="profile__title">SES ENVIES</h3>
+            <h3 class="profile__title">Ses envies</h3>
             <p class="profile__item">VOYAGE</p>
-            <p class="profile__item">ACTIVITE</p>
+            <p class="profile__item">ACTIVITÉ</p>
             <p class="profile__item">POUR PLUS TARD</p>
         </div>
     </section>
@@ -433,7 +498,7 @@
         <div class="about__section__grid">
             <div class="about__section__item">
                 <p class="about__section__label about__section__label--first">POUR LE</p>
-                <p class="about__section__text">caractaire</p>
+                <p class="about__section__text">caractère</p>
             </div>
             <div class="about__section__item">
                 <p class="about__section__label">POUR LE</p>
@@ -496,7 +561,7 @@
                     <a href="mailto:exemple@gmail.com"
                        class="information__link information__link--email"
                        itemprop="email">
-                        quelamonatgneesbelle@gmail.com
+                        quelamontagneestbelle@gmail.com
                     </a>
                 </div>
             </section>
@@ -504,25 +569,25 @@
         <!-- social media -->
         <div>
             <section class="application">
-                <h3 class="application__title">Application du site originel</h3>
+                <h3 class="application__title">Applications du site originel</h3>
                 <article class="application__items">
                     <h4 class="sr-only">Applications</h4>
                     <div class="application__item">
                         <a href="https://apps.apple.com/be/app/pairi-daiza/id1100730159?l=fr-FR">
-                            <img class="application__image" src="images/icone/app%20store.png" alt="App%store">
+                            <img class="application__image" src="images/icone/app%20store.png" alt="App Store">
                         </a>
                     </div>
                     <div class="application__item">
                         <a href="https://play.google.com/store/apps/details?id=eu.pairidaiza.app&hl=fr">
                             <img class="application__image" src="images/icone/Google_Play_Store_badge_EN.png"
-                                 alt="Google%play%store">
+                                 alt="Google Play Store">
                         </a>
                     </div>
                 </article>
             </section>
 
             <div class="social">
-                <h3 class="social__title">Réseau Sociaux du Site Originel</h3>
+                <h3 class="social__title">Réseaux sociaux du site originel</h3>
                 <div class="social__items">
                     <a class="social__item" href="https://www.facebook.com/JardinDesMondes/">
                         <img class="social__item__image" src="images/icone/facebook.png" alt="facebook">
@@ -545,7 +610,7 @@
     <!-- copyright -->
     <div class="copyright">
         <div class="copyright__elements">
-            <p class="copyright__element">Règleament d'ordre intérieur</p>
+            <p class="copyright__element">Règlement d'ordre intérieur</p>
             <p class="copyright__element">Politique générale de protection des données personnelles</p>
             <p class="copyright__element">Politique de cookies</p>
         </div>

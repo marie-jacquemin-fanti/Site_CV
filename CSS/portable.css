@@ -1,17 +1,5 @@
 @media screen and (max-width: 600px) and (min-width: 320px) {
-
-    body {
-        font-family: var(--font-family-lato), sans-serif;
-    }
-
-    main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    /*-------------Boutton-------------*/
+        /*-------------Boutton-------------*/
     .buttons {
         font-family: var(--font-family-marcellus), sans-serif;
         display: inline-block;
@@ -106,9 +94,9 @@
     /*------------- Main -------------*/
     /*-------------Titre -------------*/
     .section__title {
-        max-width: 85%;
-        margin: 0 auto 12.5rem auto;
-        padding: 1.438rem;
+        max-width: 100%;
+        margin-bottom: 12.5rem;
+        padding: 1.438rem 3rem  ;
         border: 1px #d9d9d9 solid;
         border-radius: 1.5rem;
     }
@@ -116,15 +104,16 @@
     .section__title-title {
         font-family: var(--font-family-marcellus), sans-serif;
         color: var(--h2-color-style);
-        font-size: 1.875rem;
+        font-size: 2.3rem;
         line-height: 2.063rem;
         letter-spacing: -0.045rem;
         text-align: center;
+        padding-bottom: 1rem;
     }
 
     .section__title-p {
         font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 1.063rem;
+        font-size: 1.25rem;
         line-height: 1.25rem;
         text-align: center;
     }
