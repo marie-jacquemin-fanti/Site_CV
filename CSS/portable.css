@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) and (min-width: 320px) {
-        /*-------------Boutton-------------*/
+    /*-------------Boutton-------------*/
     .buttons {
         font-family: var(--font-family-marcellus), sans-serif;
         display: inline-block;
@@ -307,7 +307,7 @@
 
 
     /* --------------------------- contact --------------------------- */
-        .information__group{
+    .information__group{
         display: flex;
         flex-direction: column;
         text-align: center;
