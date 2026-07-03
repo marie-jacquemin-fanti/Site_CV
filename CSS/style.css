@@ -80,10 +80,31 @@
 body {
     position: relative;
     font-family: var(--font-family-lato), sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.buttons {
+    font-family: var(--font-family-marcellus), sans-serif;
+    display: inline-block;
+    padding: 0.8rem 0.9rem;
+    border-radius: 1.875rem;
+    border: 1px solid var(--button-color);
+    background-color: #fff;
+    font-size: 0.875rem;
+    color: var(--color-black);
+    max-width: fit-content;
+    margin: 0 0 0.625rem 2rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
 
+.buttons:hover {
+    color: var(--h2-color-style);
+    box-shadow: 0 10px 20px #3333331a;
+}

@@ -1,25 +1,5 @@
 /*Tablette*/
 @media screen and (max-width: 1024px) and (min-width: 600px) {
-
-    /*-------------Boutton-------------*/
-    .buttons {
-        font-family: var(--font-family-marcellus), sans-serif;
-        display: inline-block;
-        padding: 0.5rem 1rem;
-        border-radius: 1.875rem;
-        border: 1px solid var(--button-color);
-        background-color: #fff;
-        font-size: 0.875rem;
-        color: var(--color-black);
-        max-width: fit-content;
-        margin: 0 0 0.625rem 2rem;
-        transition: all 0.2s ease;
-        cursor: pointer;
-    }
-
-
-
-
     /*------------- Main -------------*/
     /*-------------Titre -------------*/
     .section__title {
@@ -72,25 +52,25 @@
         height: auto;
         object-fit: cover;
     }
-    
+
     .presentation__title, .someWords__section__title {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 1.938rem;
         line-height: 2.125rem;
-        padding: 2.938rem 0 1.75rem 2.063rem;
+        padding: 2.5rem 2.5rem 1.5rem 2.5rem;
     }
 
     .presentation__text {
         font-family: var(--font-family-lato), sans-serif;
         font-size: 1.063rem;
         line-height: 1.563rem;
-        padding: 0 2.125rem 1.625rem 2.063rem;
+        padding: 0 2.5rem 1.5rem;
 
     }
 
     /*-------------div carousel-------------*/
     .section__carousel {
-        max-width: 70%;
+        max-width: 65%;
         margin: 0 auto 3.313rem auto;
         padding: 0.5rem 0.5rem 0 0.5rem;
         border: 0.0625rem solid #d9d9d9;
@@ -99,7 +79,7 @@
 
     /*-------------div carousel ma version-------------*/
     .section__carousel__maVersion {
-        max-width: 70%;
+        max-width: 65%;
         margin: 0 auto 3.313rem auto;
         padding: 0.5rem 0.5rem 0 0.5rem;
         border: 0.0625rem solid #d9d9d9;
