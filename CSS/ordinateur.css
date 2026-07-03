@@ -1,29 +1,4 @@
 @media screen and (min-width: 1024px) {
-
-
-    /*-------------Boutton-------------*/
-    .buttons {
-        font-family: var(--font-family-marcellus), sans-serif;
-        display: inline-block;
-        padding: 0.7rem 1rem;
-        border-radius: 1.875rem;
-        border: 1px solid var(--button-color);
-        background-color: #fff;
-        font-size: 1rem;
-        color: var(--color-black);
-        max-width: fit-content;
-        margin: 0 0 1.5rem 2.5rem;
-        transition: all 0.2s ease;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-    .buttons:hover {
-        color: var(--h2-color-style);
-        box-shadow: 0 10px 20px #3333331a;
-    }
-
-
     /*------------- Main -------------*/
     /*-------------Titre -------------*/
     .section__title {
