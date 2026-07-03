@@ -1,68 +1,6 @@
 /*Tablette*/
 @media screen and (max-width: 1024px) and (min-width: 600px) {
-    .header {
-        position: absolute;
-        grid-template-columns: 1fr 1fr;
-        padding: 1rem 6rem 0;
-        gap: 29rem;
-        z-index: 1;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 
-    .header__nav {
-        display: none;
-    }
-    .header:has(.header__nav[style*="display: none"]) {
-        grid-template-columns: 1fr 1fr;
-    }
-    .header__logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .header__logo__pic {
-        height: 100%;
-        max-width: 100%;
-        display: block;
-        flex-shrink: 0;
-    }
-
-    .header__logo__pairi {
-        display: flex;
-        align-items: center;
-        color: var(--white-color-style);
-    }
-
-    .header__logo__pairi:first-child {
-        justify-content: flex-end;
-    }
-
-    .header__logo__pairi:last-child {
-        justify-content: flex-start;
-    }
-
-    .header__triggers {
-        display: flex;
-        justify-self: end;
-        gap: 1rem;
-    }
-
-    .header__image__contenant {
-        position: relative;
-        background-color: var(--color-black);
-    }
-
-    .header__image {
-        max-width: 100%;
-        width: 100%;
-        height: 94vh;
-        opacity: 70%;
-        object-fit: cover;
-    }
     /*-------------Boutton-------------*/
     .buttons {
         font-family: var(--font-family-marcellus), sans-serif;
@@ -80,136 +18,12 @@
     }
 
 
-    /*-------------En tête-------------*/
-    .header__image {
-        max-width: 100%;
-        height: auto;
-    }
 
-    .svg-entete {
-        position: absolute;
-        inset: 0;
-        z-index: 2;
-    }
-
-    .header__actions {
-        position: relative;
-        height: 100%;
-    }
-
-    /*------------- Barre de navigation -------------*/
-    .navigation-barre {
-        display: flex;
-        justify-content: center;
-        margin: 1.5rem;
-        padding: 1rem;
-        filter: drop-shadow(0 1.5rem 2rem rgba(217, 217, 217, 0.25));
-
-    }
-
-    .navigation-barre__item {
-        display: flex;
-        align-items: center;
-        background-color: var(--white-color-style);
-        padding: 0.75rem 1.813rem 0.75rem 1.438rem;
-        border-radius: 1rem;
-        min-width: 25%;
-
-    }
-
-    .navigation-barre__item--last {
-        background-color: var(--color-black);
-        color: var(--white-color-style);
-        flex-direction: column;
-    }
-
-    .navigation-barre__image {
-        width: 3.75rem;
-        height: 3.75rem;
-        border-radius: 50%;
-    }
-
-    .navigation-barre__title {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 0.75rem;
-        line-height: 1rem;
-        margin: 0;
-        padding: 0 0 0.5rem 3.125rem;
-    }
-
-    .navigation-barre__text {
-        font-family: var(--font-family-lato), sans-serif;
-        font-weight: 700;
-        font-size: 1rem;
-        line-height: 1.4;
-        margin: 0.25rem 0;
-        text-align: center;
-    }
-
-    .navigation-barre__link {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 1rem;
-        color: var(--h2-color-style);
-        text-decoration: none;
-        padding-left: 3.125rem;
-    }
-
-    .last {
-        padding-left: 0;
-    }
-
-    .is-fixed .navigation-barre__content--last {
-        flex: 1;
-        background-color: var(--color-black);
-        color: var(--white-color-style);
-        justify-content: space-between
-    }
-
-    .navigation-barre-sticky.is-fixed {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        box-shadow: 0 -30px 30px rgba(153, 153, 153, 0.25);
-    }
-
-    .is-fixed .navigation-barre {
-        width: 100%;
-        left: 0;
-        transform: none;
-    }
-
-    .is-fixed .navigation-barre__item {
-        display: flex;
-        align-items: center;
-        background-color: var(--white-color-style);
-        padding: 0.9rem 1.813rem 0.9rem 1.438rem;
-        flex: 1;
-    }
-
-    .is-fixed .navigation-barre__item--last {
-        background-color: var(--color-black);
-        color: var(--white-color-style);
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .is-fixed .navigation-barre__image {
-        width: 2.5rem;
-        height: 2.5rem;
-        border-radius: 50%;
-        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
-    }
-
-    .is-fixed .navigation-barre__item:last-child {
-        border-radius: 0;
-    }
 
     /*------------- Main -------------*/
     /*-------------Titre -------------*/
     .section__title {
-        margin: 12rem 4rem 10rem 4rem;
+        margin: 11rem 4rem 9rem 4rem;
         padding: 2.5rem;
         border: 1px #d9d9d9 solid;
         border-radius: 1.5rem;
@@ -230,17 +44,35 @@
         text-align: center;
     }
 
-    /*-------------Ce qu’il aime faire de son temps libre ? et Depuis combien de temps es ce que je le connais ? -------------*/
+    /*------------- Ce qu’il aime faire de son temps libre ? et Depuis combien de temps es ce que je le connais ? -------------*/
     .presentation__container {
         display: flex;
         padding: 0.5rem;
         border-radius: 1.5rem;
         border: 1px #d9d9d9 solid;
-        max-width: 68%;
+        max-width: 65%;
         margin: 0 auto 5rem auto;
-
     }
 
+    .presentation:nth-of-type(odd) .presentation__container {
+        flex-direction: row-reverse;
+    }
+
+    .presentation__container > div {
+        width: 50%;
+    }
+
+    .presentation__container > div:has(.presentation__image) {
+        display: flex;
+    }
+
+    .presentation__image {
+        border-radius: 1.25rem;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
     .presentation__title, .someWords__section__title {
         font-family: var(--font-family-marcellus), sans-serif;
         font-size: 1.938rem;
@@ -254,13 +86,6 @@
         line-height: 1.563rem;
         padding: 0 2.125rem 1.625rem 2.063rem;
 
-    }
-
-    .presentation__image {
-        max-width: 100%;
-        aspect-ratio: 1 / 1;
-        border-radius: 1.25rem;
-        height: auto;
     }
 
     /*-------------div carousel-------------*/
@@ -352,138 +177,5 @@
         border-radius: 1rem;
     }
 
-    /* --------------------------- Footer --------------------------- */
-    footer {
-        background-color: #f2f2f2;
-    }
 
-    .profile {
-        display: flex;
-        justify-content: center;
-    }
-
-    .profile__content {
-        padding: 0 0.875rem;
-        margin: 10.375rem 0 3.75rem 0;
-    }
-
-    .profile__title {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 1.563rem;
-        line-height: 1.875rem;
-    }
-
-    .profile__item {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 0.75rem;
-        line-height: 1.25rem;
-    }
-
-    /* --------------------------- en quelque mots --------------------------- */
-    .about__section {
-        display: flex;
-        justify-content: center;
-        gap: 2.188rem;
-    }
-
-    .about__section__grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 2.188rem;
-        font-size: 18px;
-        line-height: 21px;
-        color: #333333;
-        text-decoration: none;
-        pointer-events: none
-    }
-
-    .about__section__label {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 0.625rem;
-        line-height: 1rem;
-    }
-
-    .about__section__text {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 1.563rem;
-        line-height: 1.938rem;
-    }
-
-    /* --------------------------- contact et information --------------------------- */
-    .informationAndApplication {
-        display: flex;
-        justify-content: center;
-        column-gap: 1.75rem;
-        padding: 4.313rem 0;
-    }
-
-    .information__group {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-top: 1.375rem;
-    }
-
-    .information__group--email, .information__group--address {
-        padding-top: 0;
-    }
-
-    .information__item, .information__link {
-        font-family: var(--font-family-marcellus), sans-serif;
-        color: var(--grey-color-80);
-        text-decoration: none;
-    }
-
-    /* --------------------------- social media --------------------------- */
-    .social, .application {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .social__title, .application__title, .information__title {
-        font-family: var(--font-family-marcellus), sans-serif;
-        line-height: 1.625rem;
-        font-size: 1.375rem;
-        padding-bottom: 1.5rem;
-        text-align: center;
-    }
-
-    .social__items, .application__items {
-        display: flex;
-    }
-
-    .social__item__image, .application__image {
-        padding: 0 0.5rem 2.5rem;
-    }
-
-    /* --------------------------- copyright --------------------------- */
-    .copyright {
-        padding-bottom: 4.125rem;
-        border-top: solid 1px var(--grey-color-D9);
-    }
-
-    .copyright__elements {
-        display: flex;
-        justify-content: center;
-    }
-
-    .copyright__element {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 0.813rem;
-        line-height: 1.938rem;
-        padding: 2.938rem 1rem 0 0;
-        color: var(--grey-color-80);
-
-    }
-
-    .copyright__author {
-        font-family: var(--font-family-marcellus), sans-serif;
-        font-size: 1.563rem;
-        color: var(--grey-color-80);
-        text-align: center;
-        padding: 1.5rem 0 2.938rem 0;
-        border-bottom: solid 1px var(--grey-color-D9);
-    }
 }
