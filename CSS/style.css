@@ -4,6 +4,9 @@
 @import "ordinateur.css";
 @import "carousel.css";
 @import "varriable.css";
+@import "stickyFooter.css";
+@import "header.css";
+@import "footer.css";
 
 .sr-only {
     border: 0;
@@ -36,6 +39,7 @@
     justify-content: center;
     width: 1.2rem;
     height: 1.2rem;
+    flex-shrink: 0;
     border-radius: 50%;
     border: 1px solid var(--grey-color-D9);
     margin-left: 2rem;
@@ -81,6 +85,5 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
